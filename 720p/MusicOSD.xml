@@ -293,6 +293,7 @@
 					<width>52</width>
 					<texturefocus>osd/osd_button_vis_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_vis_nf.png</texturenofocus>
+					<enable>Visualisation.HasPresets</enable>
 					<onclick>ActivateWindow(visualisationpresetlist)</onclick>
 				</control>
 				<control type="button" id="14">
