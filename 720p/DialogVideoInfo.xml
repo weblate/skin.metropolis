@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="2003">
 	<onload condition="System.HasAddon(script.videoextras)">RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
+	<onload condition="Skin.HasSetting(NextAired) + !SubString(Window(Videos).Property(CinemaExperienceRunning),True) + Container.Content(tvshows)">RunScript(script.tv.show.next.aired,backend=True)</onload>
 	<defaultcontrol always="true">7003</defaultcontrol>
 	<controls>
 		<control type="button" id="7050">
@@ -134,7 +135,7 @@
 				<label>$INFO[ListItem.mpaa]</label>
 				<visible>Container.Content(movies) + !IsEmpty(ListItem.mpaa) + !Skin.HasSetting(ShowVideoPath)</visible>
 			</control>
-
+			<!-- Video Path -->
 			<control type="fadelabel">
 				<posx>-8</posx>
 				<posy>489</posy>
@@ -159,6 +160,18 @@
 				<textcolor>MPAADescription</textcolor>
 				<label>$INFO[ListItem.FilenameAndPath]</label>
 				<visible>SubString(ListItem.FilenameAndPath," ") + [Container.Content(movies) | Container.Content(videos) | Container.Content(episodes) | Container.Content(MusicVideos)] + Skin.HasSetting(ShowVideoPath)</visible>
+			</control>
+			<!-- TV Show Next Aired info -->
+			<control type="label">
+				<posx>-8</posx>
+				<posy>489</posy>
+				<width>515</width>
+				<height>60</height>
+				<align>center</align>
+				<font>METF_InfoText</font>
+				<textcolor>TextNF</textcolor>
+				<label>[COLOR=MediaDetailsInfo]$LOCALIZE[31427]:[/COLOR] $INFO[Window(Home).Property(NextAired.NextTitle),,[CR]]$INFO[Window(Home).Property(NextAired.AirTime),, - ]$INFO[Window(Home).Property(NextAired.NextDate)]</label>
+				<visible>Container.Content(TVShows) + !IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 			</control>
 			<control type="group">
 				<posx>550</posx>
