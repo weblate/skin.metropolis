@@ -1172,3 +1172,7 @@ msgstr ""
 msgctxt "#31731"
 msgid "Reset ALL shortcuts back to default.  This will revert any changes to the main menu or submenus and cannot be undone."
 msgstr ""
+
+msgctxt "#31732"
+msgid "Are you sure you really want to remove the Settings shortcut?"
+msgstr ""

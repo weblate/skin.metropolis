@@ -106,7 +106,8 @@
 	<widgetPlaylists>True</widgetPlaylists>
 
 	<!-- Settings -->
-	<forcesettings>true</forcesettings>
+	<warn heading="750" message="31732">ActivateWindow(Settings)</warn>
+	<forcesettings>false</forcesettings>
 
 	<!-- Default widgets -->
 	<widgetdefault defaultID="movies">LDPRecentlyAddedMovies</widgetdefault>
