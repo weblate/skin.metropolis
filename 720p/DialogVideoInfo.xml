@@ -542,18 +542,8 @@
 				<include>Animation_ButtonFocus</include>
 				<visible>System.HasAddon(script.artwork.downloader) + [Container.Content(movies) | Container.Content(tvshows)]</visible>
 			</control>
-			<!-- TV Tunes -->
-			<control type="button" id="21">
-				<include>VideoInfoButton</include>
-				<texturenofocus>buttons/button_tvtunes.png</texturenofocus>
-				<texturefocus>buttons/button_tvtunesFO.png</texturefocus>
-				<visible>Skin.HasSetting(TvTunes) + System.HasAddon(script.tvtunes) + [Container.Content(TVShows) | Container.Content(movies) | Container.Content(musicvideos)]</visible>
-				<include>Animation_ButtonFocus</include>
-				<label>$LOCALIZE[31956]</label>
-				<onclick>RunScript(script.tvtunes,mode=solo)</onclick>
-			</control>
 			<!-- Video Extras -->
-			<control type="button" id="22">
+			<control type="button" id="21">
 				<description>Extras</description>
 				<include>VideoInfoButton</include>
 				<texturenofocus>buttons/button_videoextras.png</texturenofocus>
@@ -596,16 +586,10 @@
 				<visible>ControlGroup(7003).HasFocus(20)</visible>
 			</control>
 			<control type="label">
-				<description>Tv Tunes Downloader</description>
-				<include>VideoInfoButtonLabel</include>
-				<label>$LOCALIZE[31127]</label>
-				<visible>ControlGroup(7003).HasFocus(21)</visible>
-			</control>
-			<control type="label">
 				<description>Video Extras</description>
 				<include>VideoInfoButtonLabel</include>
 				<label>$INFO[System.AddonTitle(script.videoextras)]</label>
-				<visible>ControlGroup(7003).HasFocus(22)</visible>
+				<visible>ControlGroup(7003).HasFocus(21)</visible>
 			</control>
 			<control type="label">
 				<description>Trailer</description>

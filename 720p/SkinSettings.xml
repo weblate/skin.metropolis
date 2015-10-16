@@ -640,7 +640,7 @@
 					</control>
 					<control type="image" id="711">
 						<include>Settings_Line</include>
-						<visible>System.HasAddon(script.tv.show.next.aired) | System.HasAddon(script.tvtunes)</visible>
+						<visible>System.HasAddon(script.tv.show.next.aired)</visible>
 					</control>
 					<control type="radiobutton" id="712">
 						<include>SettingsLabel</include>
@@ -649,17 +649,10 @@
 						<selected>Skin.HasSetting(NextAired)</selected>
 						<visible>System.HasAddon(script.tv.show.next.aired)</visible>
 					</control>
-					<control type="radiobutton" id="713">
-						<include>SettingsLabel</include>
-						<label>$LOCALIZE[31437]</label>
-						<onclick>Skin.ToggleSetting(TvTunes)</onclick>
-						<selected>Skin.HasSetting(TvTunes)</selected>
-						<visible>System.HasAddon(script.tvtunes)</visible>
-					</control>
-					<control type="image" id="714">
+					<control type="image" id="713">
 						<include>Settings_Line</include>
 					</control>
-					<control type="radiobutton" id="715">
+					<control type="radiobutton" id="714">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31710]</label>
 						<onclick>Skin.ToggleSetting(UseExtendedWeather)</onclick>
