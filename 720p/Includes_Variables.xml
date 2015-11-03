@@ -133,20 +133,20 @@
 
 	<variable name="GlobalWidgetLabel">
 		<!-- fixing the service.library.data.provider content labels-->
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedMovies)">$INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedMovies)">$INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomMovies)">$INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedEpisodes)">$INFO[ListItem.TVshowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode] - $INFO[ListItem.Title]</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedEpisodes)">$INFO[ListItem.TVshowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode] - $INFO[ListItem.Title]</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomEpisodes)">$INFO[ListItem.TVshowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode] - $INFO[ListItem.Title]</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedMovies)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedMovies)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomMovies)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedEpisodes)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedEpisodes)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomEpisodes)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecentlyAddedAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRecommendedAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomAlbums)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomSongs)">$INFO[ListItem.Artist] - $INFO[ListItem.Title]</value>
 
 		<!-- fixing the playlists content labels-->
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Playlist) + IsEmpty(Container(8000).ListItem.TVshowTitle)">$INFO[ListItem.Title] ($INFO[ListItem.Year])</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Playlist) + !IsEmpty(Container(8000).ListItem.TVshowTitle)">$INFO[ListItem.TVshowTitle] - $INFO[ListItem.Season]x$INFO[ListItem.Episode] - $INFO[ListItem.Title]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Playlist) + IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.Title]$INFO[ListItem.Year, (,)]</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Playlist) + !StringCompare(ListItem.Title,ListItem.TVShowTitle) + !IsEmpty(Container(8000).ListItem.TVShowTitle)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 
