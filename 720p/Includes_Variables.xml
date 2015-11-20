@@ -80,7 +80,7 @@
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryRecentlyAddedEpisodes)">videodb://recentlyaddedepisodes/</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryRecentlyAddedMusicVideos)">videodb://recentlyaddedmusicvideos/</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryRecentlyAddedAlbums)">musicdb://recentlyaddedalbums/</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryRecentlyPlayedAlbums )">musicdb://recentlyplayedalbums/ </value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryRecentlyPlayedAlbums)">musicdb://recentlyplayedalbums/</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryAddons)">addons://sources/executable/</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LibraryFavourites)">favourites://</value>
 
