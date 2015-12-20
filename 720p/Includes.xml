@@ -1193,18 +1193,49 @@
 		<wrapmultiline>true</wrapmultiline>
 	</include>
 	<include name="SettingsLabelLeft">
-		<height>38</height>
 		<width>380</width>
+		<height>38</height>
 		<align>right</align>
 		<aligny>center</aligny>
 		<textoffsetx>20</textoffsetx>
+		<radiowidth>55</radiowidth>
+		<radioheight>55</radioheight>
+		<textureradiofocus>button_radioF.png</textureradiofocus>
+		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureup>ArrowUpNF.png</textureup>
+		<texturedown>ArrowDownNF.png</texturedown>
+		<textureupfocus>ArrowUpFo.png</textureupfocus>
+		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
 		<font>METF_TitleTextMedium</font>
 		<textcolor>SettingsDetail</textcolor>
-		<disabledcolor>TextDisabled</disabledcolor>
 		<focusedcolor>DialogTextFO</focusedcolor>
-		<texturefocus>ButtonFo.png</texturefocus>
 		<selectedcolor>TextFO</selectedcolor>
+		<texturefocus>ButtonFo.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
+		<disabledcolor>TextDisabled</disabledcolor>
+		<pulseonselect>false</pulseonselect>
+	</include>
+	<include name="SettingsLabelLeftIcon">
+		<width>380</width>
+		<height>38</height>
+		<align>right</align>
+		<aligny>center</aligny>
+		<textoffsetx>58</textoffsetx>
+		<radiowidth>55</radiowidth>
+		<radioheight>55</radioheight>
+		<textureradiofocus>button_radioF.png</textureradiofocus>
+		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureup>ArrowUpNF.png</textureup>
+		<texturedown>ArrowDownNF.png</texturedown>
+		<textureupfocus>ArrowUpFo.png</textureupfocus>
+		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		<font>METF_TitleTextMedium</font>
+		<textcolor>SettingsDetail</textcolor>
+		<focusedcolor>DialogTextFO</focusedcolor>
+		<selectedcolor>TextFO</selectedcolor>
+		<texturefocus>ButtonFo.png</texturefocus>
+		<texturenofocus>-</texturenofocus>
+		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="SettingsLabel">

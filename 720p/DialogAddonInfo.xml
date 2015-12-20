@@ -140,7 +140,7 @@
 					<posx>0</posx>
 					<posy>76</posy>
 					<label>24022</label>
-					<onup>12</onup>
+					<onup>13</onup>
 					<ondown>7</ondown>
 					<onleft>Dialog.Close(addoninformation)</onleft>
 					<onright>Dialog.Close(addoninformation)</onright>
@@ -196,6 +196,17 @@
 					<posy>266</posy>
 					<label>518</label>
 					<onup>10</onup>
+					<ondown>13</ondown>
+					<onleft>Dialog.Close(addoninformation)</onleft>
+					<onright>Dialog.Close(addoninformation)</onright>
+				</control>
+				<control type="radiobutton" id="13">
+					<description>Auto-Update Addon button</description>
+					<include>SettingsLabelLeftIcon</include>
+					<posx>0</posx>
+					<posy>304</posy>
+					<label>21340</label>
+					<onup>12</onup>
 					<ondown>6</ondown>
 					<onleft>Dialog.Close(addoninformation)</onleft>
 					<onright>Dialog.Close(addoninformation)</onright>
