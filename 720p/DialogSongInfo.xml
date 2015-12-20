@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="135">
-	<defaultcontrol>10</defaultcontrol>
+	<defaultcontrol>7</defaultcontrol>
 	<controls>
 		<control type="group">
 			<include>Animation_FadedByMenu</include>
@@ -134,37 +134,17 @@
 				<onup>1</onup>
 				<ondown>1</ondown>
 				<orientation>vertical</orientation>
-				<control type="button" id="10">
-					<description>Yes</description>
-					<posy>0</posy>
-					<include>SettingsLabelLeft</include>
-					<label>$LOCALIZE[186]</label>
-				</control>
-				<control type="button" id="11">
-					<description>No</description>
-					<posy>38</posy>
-					<include>SettingsLabelLeft</include>
-					<label>$LOCALIZE[222]</label>
-				</control>
 				<control type="button" id="13">
 					<description>Get Thumb</description>
 					<posy>76</posy>
 					<include>SettingsLabelLeft</include>
 					<label>$LOCALIZE[13405]</label>
 				</control>
-				<control type="button" id="15">
-					<description>Increase Rating</description>
+				<control type="button" id="7">
+					<description>Set rating</description>
 					<posy>114</posy>
 					<include>SettingsLabelLeft</include>
-					<label>$LOCALIZE[31012]</label>
-					<onclick>IncreaseRating</onclick>
-				</control>
-				<control type="button" id="14">
-					<description>Decrease Rating</description>
-					<posy>114</posy>
-					<include>SettingsLabelLeft</include>
-					<label>$LOCALIZE[31021]</label>
-					<onclick>DecreaseRating</onclick>
+					<label>$LOCALIZE[38023]</label>
 				</control>
 			</control>
 		</control>

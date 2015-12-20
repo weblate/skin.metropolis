@@ -486,9 +486,9 @@
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>
 			<include>Animation_OpenCloseFade</include>
-			<posx>352</posx>
+			<posx>334</posx>
 			<posy>555</posy>
-			<width>515</width>
+			<width>552</width>
 			<height>70</height>
 			<itemgap>10</itemgap>
 			<align>center</align>
@@ -561,6 +561,13 @@
 				<texturefocus>buttons/button_refreshFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
 			</control>
+			<!-- User ratings -->
+			<control type="button" id="7">
+				<description>Set rating</description>
+				<include>VideoInfoButton</include>
+				<texturenofocus>buttons/button_thumb.png</texturenofocus>
+				<texturefocus>buttons/button_thumbFO.png</texturefocus>
+			</control>
 		</control>
 		<!-- Control Button Text -->
 		<control type="group">
@@ -608,6 +615,12 @@
 				<include>VideoInfoButtonLabel</include>
 				<label>$LOCALIZE[184]</label>
 				<visible>ControlGroup(7003).HasFocus(6)</visible>
+			</control>
+			<control type="label">
+				<description>Set rating</description>
+				<include>VideoInfoButtonLabel</include>
+				<label>$LOCALIZE[38023]</label>
+				<visible>ControlGroup(7003).HasFocus(7)</visible>
 			</control>
 		</control>
 		<control type="group">
