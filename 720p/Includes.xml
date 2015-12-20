@@ -225,7 +225,7 @@
 			<control type="label">
 				<label>$LOCALIZE[2]</label>
 				<include>Global_HeadingSectionVars</include>
-				<visible>[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !SubString(Container.FolderPath,addons) + !SubString(Container.FolderPath,plugin)</visible>
+				<visible>[Window.IsActive(music)] + !SubString(Container.FolderPath,addons) + !SubString(Container.FolderPath,plugin)</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[2] $LOCALIZE[559]</label>
@@ -245,7 +245,7 @@
 			<control type="label">
 				<label>$LOCALIZE[1038]</label>
 				<include>Global_HeadingSectionVars</include>
-				<visible>[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + [SubString(Container.FolderPath,addons) | SubString(Container.FolderPath,plugin)]</visible>
+				<visible>[Window.IsActive(music)] + [SubString(Container.FolderPath,addons) | SubString(Container.FolderPath,plugin)]</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[1039]</label>
@@ -299,7 +299,7 @@
 			<control type="label">
 				<label>$INFO[ListItem.Artist,, - ]$INFO[ListItem.Album,, - ]$INFO[Container.NumItems,, $LOCALIZE[31281]]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>!substring(ListItem.Label,*) + Window.IsActive(musiclibrary) + Control.IsVisible(50)</visible>
+				<visible>!substring(ListItem.Label,*) + Window.IsActive(music) + Control.IsVisible(50)</visible>
 			</control>
 			<control type="label" id="52">
 				<description>Build Version</description>
@@ -1291,7 +1291,7 @@
 		       <pulseonselect>false</pulseonselect>
 		       <onclick>right</onclick>
 		       <onclick>$VAR[GoPlaylist]</onclick>
-		       <visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !StringCompare(Playlist.Length(music),0)]</visible>
+		       <visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(music)] + !StringCompare(Playlist.Length(music),0)]</visible>
 		       <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist)</visible>
 	       </control>
 	       <control type="button" id="611">
