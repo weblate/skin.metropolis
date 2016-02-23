@@ -1089,25 +1089,6 @@
 			<texture>debuggrid.png</texture>
 		</control>
 	</include>
-	<include name="Debug">
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>20</height>
-			<texture border="2">black.png</texture>
-		</control>
-		<control type="label">
-			<posx>4</posx>
-			<posy>0</posy>
-			<width>1280</width>
-			<height>18</height>
-			<aligny>center</aligny>
-			<font>METF_DialogSmall</font>
-			<textcolor>FFFFFFFF</textcolor>
-			<label>$INFO[Window.Property(xmlfile)] / $INFO[System.Screenresolution] / $LOCALIZE[158] - $INFO[System.FreeMemory]$INFO[System.CurrentWindow / ]$INFO[System.CurrentControl, / ]</label>
-		</control>
-	</include>
 
 	<!-- Settings Headings -->
 	<include name="Setting_Heading">

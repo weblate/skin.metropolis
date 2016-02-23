@@ -201,6 +201,5 @@
 			</control>
 		</control>
 		<include>Global_MediaOverlay</include>
-		<include condition="Skin.HasSetting(DebugMode)">Debug</include>
 	</controls>
 </window>

@@ -27,9 +27,5 @@
 			<texture>PointerClick.png</texture>
 		</control>
 		<include>Object_DebugGrid</include>
-		<control type="group">
-			<include>Debug</include>
-			<visible>Skin.HasSetting(DebugMode)</visible>
-		</control>
 	</controls>
 </window>

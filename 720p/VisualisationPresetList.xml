@@ -80,7 +80,6 @@
 					</control>
 				</focusedlayout>
 			</control>
-			<include condition="Skin.HasSetting(DebugMode)">Debug</include>
 		</control>
 	</controls>
 </window>

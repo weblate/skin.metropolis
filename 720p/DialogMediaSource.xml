@@ -187,7 +187,6 @@
 					<ondown>11</ondown>
 				</control>
 			</control>
-			<include condition="Skin.HasSetting(DebugMode)">Debug</include>
 		</control>
 	</controls>
 </window>

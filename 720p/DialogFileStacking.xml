@@ -106,7 +106,6 @@
 				</focusedlayout>
 			</control>
 			<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>
-			<include condition="Skin.HasSetting(DebugMode)">Debug</include>
 		</control>
 	</controls>
 </window>

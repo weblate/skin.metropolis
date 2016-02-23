@@ -87,6 +87,5 @@
 				</control>
 			</control>
 		</control>
-		<include condition="Skin.HasSetting(DebugMode)">Debug</include>
 	</controls>
 </window>
