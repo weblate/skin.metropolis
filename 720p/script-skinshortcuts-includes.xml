@@ -326,7 +326,7 @@
 			<property name="id">$NUM[1]</property>
 			<label>$ADDON[script.skinshortcuts 32033]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>DefaultDVDFull.png</icon>
 			<thumb />
 			<property name="labelID">32033</property>
 			<property name="defaultID">32033</property>
@@ -1771,7 +1771,7 @@
 			<property name="id">$NUM[1]</property>
 			<label>$ADDON[script.skinshortcuts 32033]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>DefaultDVDFull.png</icon>
 			<thumb />
 			<property name="labelID">32033</property>
 			<property name="defaultID">32033</property>
@@ -1788,7 +1788,7 @@
 			<property name="id">$NUM[1]</property>
 			<label>$ADDON[script.skinshortcuts 32033]</label>
 			<label2>$ADDON[script.skinshortcuts 32034]</label2>
-			<icon>DefaultShortcut.png</icon>
+			<icon>DefaultDVDFull.png</icon>
 			<thumb />
 			<property name="labelID">32033</property>
 			<property name="defaultID">32033</property>
