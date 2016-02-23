@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="4">
 	<defaultcontrol always="true">60</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
 	<controls>
 		<include>Global_Background</include>
 		<control type="label">

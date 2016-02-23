@@ -25,13 +25,15 @@
 					<bordersize>6</bordersize>
 					<visible>Player.HasAudio</visible>
 				</control>
+				<!-- Video overlay for screens other than Default Home Screen -->
 				<control type="videowindow" id="1">
 					<description>Video Preview</description>
 					<posy>13</posy>
 					<width>220</width>
 					<height>124</height>
-					<visible>Player.HasVideo + ![Window.IsActive(selectdialog)] + ![Window.IsActive(home) + Skin.HasSetting(home1)]</visible>
+					<visible>Player.HasVideo + !Window.IsActive(selectdialog) + [!Skin.HasSetting(home1) | ![Window.IsActive(home) + ![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]]]</visible>
 				</control>
+				<!-- Default Home Screen video overlay is in Includes_Home1.xml -->
 			</control>
 			<control type="group" id="9905">
 				<posx>30</posx>

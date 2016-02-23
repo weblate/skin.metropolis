@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="1114">
 	<defaultcontrol always="true">451</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="button" id="451">
 			<posx>-20</posx>

@@ -67,7 +67,7 @@
 				<fadetime>500</fadetime>
 				<imagepath background="true">$VAR[HomeBackground]</imagepath>
 				<aspectratio>scale</aspectratio>
-				<visible>!Window.IsActive(videooverlay)</visible>
+				<visible>!Player.HasVideo</visible>
 				<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
 			</control>
 			<control type="multiimage">
@@ -80,7 +80,7 @@
 				<fadetime>500</fadetime>
 				<imagepath background="true">$VAR[HomeBackground]</imagepath>
 				<aspectratio>stretch</aspectratio>
-				<visible>!Window.IsActive(videooverlay)</visible>
+				<visible>!Player.HasVideo</visible>
 				<visible allowhiddenfocus="true">Skin.HasSetting(HomeStretchBackgrounds)</visible>
 			</control>
 			<control type="videowindow">
