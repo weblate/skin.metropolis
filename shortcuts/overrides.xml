@@ -38,14 +38,14 @@
 	<widget type="music" label="$ADDON[service.library.data.provider 32015]">LDPRandomSongs</widget>-->
 
 	<!-- Extended Info Script -->
-	<widget type="video" label="Rotten Tomatoes (In Theaters)">InTheatersMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (In Theaters)">InTheaterMovies</widget>
 	<widget type="video" label="Rotten Tomatoes (Coming Soon)">ComingSoonMovies</widget>
-	<widget type="video" label="Rotten Tomatoes (Opening)">Opening</widget>
-	<widget type="video" label="Rotten Tomatoes (Box Office)">BoxOffice</widget>
-	<widget type="video" label="Rotten Tomatoes (Top 10 Rentals)">Top10Rentals</widget>
-	<widget type="video" label="Rotten Tomatoes (Current DVD Releases)">CurrentDVDs</widget>
-	<widget type="video" label="Rotten Tomatoes (New DVD Releases)">NewDVDs</widget>
-	<widget type="video" label="Rotten Tomatoes (Upcoming DVD Releases)">UpcomingDVDs</widget>
+	<widget type="video" label="Rotten Tomatoes (Opening)">OpeningMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (Box Office)">BoxOfficeMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (Top 10 Rentals)">TopRentalMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (Current DVD Releases)">CurrentDVDMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (New DVD Releases)">NewDVDMovies</widget>
+	<widget type="video" label="Rotten Tomatoes (Upcoming DVD Releases)">UpcomingDVDMovies</widget>
 	<widget type="video" label="The MovieDB (In Cinemas)">InCinemasMovies</widget>
 	<widget type="video" label="The MovieDB (Upcoming Movies)">UpcomingMovies</widget>
 	<widget type="video" label="The MovieDB (Popular Movies)">PopularMovies</widget>
@@ -56,19 +56,19 @@
 	<widget type="video" label="The MovieDB (Airing Today TV Shows)">AiringTodayTVShows</widget>
 	<widget type="video" label="Trakt.tv (Trending Movies)">TrendingMovies</widget>
 	<widget type="video" label="Trakt.tv (Trending TV Shows)">TrendingTVShows</widget>
-	<widget type="video" label="Trakt.tv (Airing TV Shows)">AiringShows</widget>
-	<widget type="video" label="Trakt.tv (Premiere TV Shows)">PremiereShows</widget>
+	<widget type="video" label="Trakt.tv (Airing TV Shows)">AiringEpisodes</widget>
+	<widget type="video" label="Trakt.tv (Premiere TV Shows)">PremiereEpisodes</widget>
 	<widget type="pictures" label="Random XKCD Comics">XKCD</widget>
 	<widget type="pictures" label="Random Cyanide and Happiness Comics">Cyanide</widget>
 	<!-- XXX: localized strings that don't seem to work everywhere -->
-	<!--<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32042])">InTheatersMovies</widget>
+	<!--<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32042])">InTheaterMovies</widget>
 	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32043])">ComingSoonMovies</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32048])">Opening</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32055])">BoxOffice</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32056])">Top10Rentals</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32049])">CurrentDVDs</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32053])">NewDVDs</widget>
-	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32054])">UpcomingDVDs</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32048])">OpeningMovies</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32055])">BoxOfficeMovies</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32056])">TopRentalMoviess</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32049])">CurrentDVDMovies</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32053])">NewDVDMovies</widget>
+	<widget type="video" label="Rotton Tomatoes ($ADDON[script.extendedinfo 32054])">UpcomingDVDMovies</widget>
 	<widget type="video" label="The MovieDB ($ADDON[script.extendedinfo 32042])">InCinemasMovies</widget>
 	<widget type="video" label="The MovieDB ($ADDON[script.extendedinfo 32043])">UpcomingMovies</widget>
 	<widget type="video" label="The MovieDB ($ADDON[script.extendedinfo 32044])">PopularMovies</widget>
@@ -79,8 +79,8 @@
 	<widget type="video" label="The MovieDB ($ADDON[script.extendedinfo 32038])">AiringTodayTVShows</widget>
 	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32047])">TrendingMovies</widget>
 	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32032])">TrendingTVShows</widget>
-	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32028])">AiringShows</widget>
-	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32029])">PremiereShows</widget>
+	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32028])">AiringEpisodes</widget>
+	<widget type="video" label="Trakt.tv ($ADDON[script.extendedinfo 32029])">PremiereEpisodes</widget>
 	<widget type="pictures" label="XKCD">XKCD</widget>
 	<widget type="pictures" label="Cyanide and Happiness">Cyanide</widget>-->
 

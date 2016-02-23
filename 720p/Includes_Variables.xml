@@ -98,14 +98,14 @@
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),LDPRandomSongs)">plugin://service.library.data.provider?type=randomsongs&amp;reload=$INFO[Window.Property(randomsongs)]</value>
 
 		<!-- script.extendedinfo content -->
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),InTheatersMovies)">plugin://script.extendedinfo?info=intheaters</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),ComingSoonMovies)">plugin://script.extendedinfo?info=comingsoon</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Opening)">plugin://script.extendedinfo?info=opening</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),BoxOffice)">plugin://script.extendedinfo?info=boxoffice</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Top10Rentals)">plugin://script.extendedinfo?info=toprentals</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),CurrentDVDs)">plugin://script.extendedinfo?info=currentdvdreleases</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),NewDVDs)">plugin://script.extendedinfo?info=newdvdreleases</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),UpcomingDVDs)">plugin://script.extendedinfo?info=upcomingdvds</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),InTheatersMovies)">plugin://script.extendedinfo?info=intheatermovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),ComingSoonMovies)">plugin://script.extendedinfo?info=comingsoonmovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Opening)">plugin://script.extendedinfo?info=openingmovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),BoxOffice)">plugin://script.extendedinfo?info=boxofficemovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Top10Rentals)">plugin://script.extendedinfo?info=toprentalmovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),CurrentDVDs)">plugin://script.extendedinfo?info=currentdvdmovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),NewDVDs)">plugin://script.extendedinfo?info=newdvdmovies</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),UpcomingDVDs)">plugin://script.extendedinfo?info=upcomingdvdmovies</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),InCinemasMovies)">plugin://script.extendedinfo?info=incinemas</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),UpcomingMovies)">plugin://script.extendedinfo?info=upcoming</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),PopularMovies)">plugin://script.extendedinfo?info=popularmovies</value>
@@ -116,8 +116,8 @@
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),AiringTodayTVShows)">plugin://script.extendedinfo?info=airingtodaytvshows</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),TrendingMovies)">plugin://script.extendedinfo?info=trendingmovies</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),TrendingTVShows)">plugin://script.extendedinfo?info=trendingshows</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),AiringShows)">plugin://script.extendedinfo?info=airingshows</value>
-		<value condition="StringCompare(Container(9000).ListItem.Property(widget),PremiereShows)">plugin://script.extendedinfo?info=premiereshows</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),AiringShows)">plugin://script.extendedinfo?info=airingepisodes</value>
+		<value condition="StringCompare(Container(9000).ListItem.Property(widget),PremiereShows)">plugin://script.extendedinfo?info=premiereepisodes</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),XKCD)">plugin://script.extendedinfo?info=xkcd</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(widget),Cyanide)">plugin://script.extendedinfo?info=cyanide</value>
 		<value>$INFO[Container(9000).ListItem.Property(widgetPlaylist)]</value>
