@@ -1851,7 +1851,7 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(60) | Container.Scrolling">Conditional</animation>
 		</control>
 	</include>
-	<include name="ScrollBar_Vertical">		
+	<include name="ScrollBar_Vertical">
 		<!-- Scroll Bar -->
 		<control type="scrollbar" id="61">
 			<include>Animation_OpenCloseFade</include>
