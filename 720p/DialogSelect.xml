@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window type="dialog">
+<window>
 	<defaultcontrol always="true">3</defaultcontrol>
 	<zorder>2</zorder>
 	<controls>
 		<include>Animation_OpenCloseFade</include>
 		<include>Global_Background</include>
 		<control type="group">
-			<posy>-65</posy>
 			<include>Animation_CommonFade</include>
-			<visible>!Window.IsActive(okdialog)</visible>
+			<posx>0</posx>
+			<posy>25</posy>
 			<control type="label" id="2">
 				<description>Heading</description>
 				<posx>360</posx>
@@ -46,7 +46,7 @@
 				<posy>215</posy>
 				<width>840</width>
 				<height>380</height>
-				<onleft>5</onleft>
+				<onleft>7</onleft>
 				<onright>60</onright>
 				<onup>3</onup>
 				<ondown>3</ondown>
@@ -94,7 +94,7 @@
 				<posy>206</posy>
 				<width>840</width>
 				<height>388</height>
-				<onleft>5</onleft>
+				<onleft>7</onleft>
 				<onright>61</onright>
 				<onup>6</onup>
 				<ondown>6</ondown>
@@ -144,7 +144,7 @@
 						<aligny>center</aligny>
 						<texture>ButtonFo.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(6)">Conditional</animation>
-						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Property(Addon.Summary))">Conditional</animation>
+						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
 					<control type="label">
 						<posx>195</posx>
@@ -157,7 +157,7 @@
 						<aligny>center</aligny>
 						<focusedcolor>ButtonText</focusedcolor>
 						<label>$INFO[ListItem.Label] ($INFO[ListItem.Label2])</label>
-						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Property(Addon.Summary))">Conditional</animation>
+						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
 					<control type="textbox">
 						<posx>195</posx>
@@ -168,7 +168,7 @@
 						<font>METF_ContextValue</font>
 						<align>left</align>
 						<focusedcolor>ButtonText</focusedcolor>
-						<label>$INFO[ListItem.Property(Addon.Summary)]</label>
+						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</focusedlayout>
 			</control>
@@ -176,7 +176,6 @@
 
 		<!-- Scroll Bars -->
 		<control type="scrollbar" id="60">
-			<include>Animation_FadedByMenu</include>
 			<posx>1270</posx>
 			<posy>136</posy>
 			<width>18</width>
@@ -191,7 +190,6 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(60)">Conditional</animation>
 		</control>
 		<control type="scrollbar" id="61">
-			<include>Animation_FadedByMenu</include>
 			<posx>1270</posx>
 			<posy>112</posy>
 			<width>18</width>
@@ -212,10 +210,21 @@
 			<posx>0</posx>
 			<posy>196</posy>
 			<include>SettingsLabelLeft</include>
-			<onleft>3</onleft>
+			<onleft>noop</onleft>
 			<onright>3</onright>
-			<onup>3</onup>
-			<ondown>3</ondown>
+			<onup>noop</onup>
+			<ondown>noop</ondown>
+		</control>
+		<control type="button" id="7">
+			<description>Cancel button</description>
+			<posx>0</posx>
+			<posy>206</posy>
+			<include>SettingsLabelLeft</include>
+			<onleft>noop</onleft>
+			<onright>3</onright>
+			<onup>7</onup>
+			<ondown>7</ondown>
+			<label>-</label>
 		</control>
 		<include>Global_ContextFilter</include>
 		<include>Global_Weather</include>

@@ -4,7 +4,7 @@
 	<controls>
 		<include>Global_Background</include>
 		<control type="group">
-			<animation type="Conditional" condition="Window.IsActive(locksettings) | Window.IsActive(yesnodialog)">
+			<animation type="Conditional" condition="Window.IsActive(confirmdialog)">
 				<effect type="zoom" time="600" center="640,360" start="100" end="50" tween="cubic" easing="inout" />
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
