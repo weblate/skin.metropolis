@@ -1588,11 +1588,11 @@
 				<!-- Default Thumbnail -->
 				<control type="image">
 					<description>Default Thumbnail</description>
-					<posx>25</posx>
-					<posy>564</posy>
-					<width>250</width>
-					<height>140</height>
-					<aspectratio align="right" aligny="center">keep</aspectratio>
+					<posx>35</posx>
+					<posy>383</posy>
+					<width>218</width>
+					<height>310</height>
+					<aspectratio align="right" aligny="bottom">keep</aspectratio>
 					<bordertexture border="6">frames/thumb_border.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
