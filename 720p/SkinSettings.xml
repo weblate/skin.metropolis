@@ -150,22 +150,31 @@
 					<control type="radiobutton" id="105">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31447]</label>
-						<onclick>Skin.ToggleSetting(WeatherIcons2)</onclick>
-						<selected>Skin.HasSetting(WeatherIcons2)</selected>
+						<onclick condition="System.HasAddon(resource.images.weathericons.3d-coloured)">Skin.SetString(WeatherIcons,resource://resource.images.weathericons.3d-coloured)</onclick>
+						<onclick condition="!System.HasAddon(resource.images.weathericons.3d-coloured)">RunPlugin(plugin://resource.images.weathericons.3d-coloured)</onclick>
+						<selected>SubString(Skin.String(WeatherIcons),resource://resource.images.weathericons.3d-coloured)</selected>
+						<visible>!SubString(Skin.String(WeatherIcons),resource://resource.images.weathericons.3d-coloured)</visible>
 					</control>
 					<control type="radiobutton" id="106">
+						<label>$LOCALIZE[31447]</label>
+						<include>SettingsLabel</include>
+						<onclick>Skin.SetString(WeatherIcons,resource://resource.images.weathericons.outline)</onclick>
+						<selected>SubString(Skin.String(WeatherIcons),resource://resource.images.weathericons.3d-coloured)</selected>
+						<visible>SubString(Skin.String(WeatherIcons),resource://resource.images.weathericons.3d-coloured)</visible>
+					</control>
+					<control type="radiobutton" id="107">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31056]</label>
 						<onclick>Skin.ToggleSetting(MediaOverlay)</onclick>
 						<selected>Skin.HasSetting(MediaOverlay)</selected>
 					</control>
-					<control type="radiobutton" id="107">
+					<control type="radiobutton" id="108">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31005]</label>
 						<onclick>Skin.ToggleSetting(AutoScroll)</onclick>
 						<selected>Skin.HasSetting(AutoScroll)</selected>
 					</control>
-					<control type="radiobutton" id="108">
+					<control type="radiobutton" id="109">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31006]</label>
 						<onclick>Skin.ToggleSetting(AutoScrollFast)</onclick>
@@ -173,25 +182,25 @@
 						<selected>Skin.HasSetting(AutoScrollFast)</selected>
 						<visible>Skin.HasSetting(AutoScroll)</visible>
 					</control>
-					<control type="radiobutton" id="109">
+					<control type="radiobutton" id="110">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31336]</label>
 						<onclick>Skin.ToggleSetting(ViewLockdown)</onclick>
 						<selected>Skin.HasSetting(ViewLockdown)</selected>
 					</control>
-					<control type="radiobutton" id="110">
+					<control type="radiobutton" id="111">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31338]</label>
 						<onclick>Skin.ToggleSetting(SimpleMediaFilter)</onclick>
 						<selected>Skin.HasSetting(SimpleMediaFilter)</selected>
 					</control>
-					<control type="radiobutton" id="111">
+					<control type="radiobutton" id="112">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[21398]</label>
 						<onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
 						<selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
 					</control>
-					<control type="button" id="112">
+					<control type="button" id="113">
 						<include>SettingsLabel</include>
 						<width>370</width>
 						<label>$LOCALIZE[15311]</label>

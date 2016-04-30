@@ -15,11 +15,11 @@
 			<visible>Skin.HasSetting(VisBgFanart) | IsEmpty(Control.GetLabel(6950))</visible>
 		</control>
 		<control type="multiimage" id="6950">
-			<include>Global_Background_Fanart_Common</include>
+			<include>MusicVis_Background</include>
 			<timeperimage>6000</timeperimage>
 			<randomize>true</randomize>
 			<loop>yes</loop>
-			<imagepath background="true" diffuse="diffuse_fanart.png">$INFO[Window(Home).Property(SkinHelper.Player.Music.ExtraFanArt)]</imagepath>
+			<imagepath background="true" fallback="home_art/music.jpg">$INFO[Window(Home).Property(SkinHelper.Player.Music.ExtraFanArt)]</imagepath>
 			<visible>Skin.HasSetting(VisBgExtraFanart) + Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.Player.Music.ExtraFanArt))</visible>
 		</control>
 		<control type="visualisation" id="2">
@@ -284,7 +284,7 @@
 					<width>60</width>
 					<height>30</height>
 					<aspectratio>keep</aspectratio>
-					<texture>$INFO[MusicPlayer.Property(Album_Label),flags/RecordLabels/,.png]</texture>
+					<texture>resource://resource.images.recordlabels.white/$INFO[MusicPlayer.Property(Album_Label)].png</texture>
 				</control>
 				<control type="image">
 					<posx>148</posx>
