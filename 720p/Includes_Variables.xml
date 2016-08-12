@@ -69,6 +69,13 @@
 		<value condition="Window.IsActive(pictures) + IsEmpty(ListItem.Art(fanart)) + [StringCompare(ListItem.FileExtension,png) | StringCompare(ListItem.FileExtension,jpg) | StringCompare(ListItem.FileExtension,jpeg) | StringCompare(ListItem.FileExtension,bmp) | StringCompare(ListItem.FileExtension,gif) | StringCompare(ListItem.FileExtension,ico) | StringCompare(ListItem.FileExtension,tif) | StringCompare(ListItem.FileExtension,tiff) | StringCompare(ListItem.FileExtension,tga) | StringCompare(ListItem.FileExtension,pcx) | StringCompare(ListItem.FileExtension,cbz) | StringCompare(ListItem.FileExtension,zip) | StringCompare(ListItem.FileExtension,cbr) | StringCompare(ListItem.FileExtension,rar) | StringCompare(ListItem.FileExtension,m3u)]">$INFO[listitem.filenameandpath]</value>
 		<value>$INFO[ListItem.Art(fanart)]</value>
 	</variable>
+	<variable name="GlobalExtraFanart">
+		<value condition="!System.IdleTime(2)">-</value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath))">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.Music.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.Music.ExtraFanArt)]</value>
+		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.PVR.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.PVR.ExtraFanArt)]</value>
+		<value>-</value>
+	</variable>
 	<variable name="GlobalFanartDiffuse">
 		<value condition="Skin.HasSetting(GlobalFanartLight)">FanartDiffuseLight</value>
 		<value>FanartDiffuse</value>

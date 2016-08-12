@@ -609,8 +609,8 @@
 					<control type="radiobutton" id="707">
 						<include>SettingsLabel</include>
 						<label>$LOCALIZE[31332]</label>
-						<onclick>Skin.ToggleSetting(Enable_ExtraFanart)</onclick>
-						<selected>Skin.HasSetting(Enable_ExtraFanart)</selected>
+						<onclick>Skin.ToggleSetting(SkinHelper.EnableExtraFanart)</onclick>
+						<selected>Skin.HasSetting(SkinHelper.EnableExtraFanart)</selected>
 					</control>
 					<control type="image" id="708">
 						<include>Settings_Line</include>
