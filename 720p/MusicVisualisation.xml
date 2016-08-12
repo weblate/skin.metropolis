@@ -12,13 +12,15 @@
 		<control type="image">
 			<include>MusicVis_Background</include>
 			<texture background="true" fallback="home_art/music.jpg">$INFO[Player.Art(fanart)]</texture>
-			<visible>Skin.HasSetting(VisBgFanart)</visible>
+			<visible>Skin.HasSetting(VisBgFanart) | IsEmpty(Control.GetLabel(6950))</visible>
 		</control>
-		<control type="multiimage">
-			<include>MusicVis_Background</include>
-			<imagepath background="true">$INFO[Player.FolderPath,,../extrafanart/]</imagepath>
+		<control type="multiimage" id="6950">
+			<include>Global_Background_Fanart_Common</include>
+			<timeperimage>6000</timeperimage>
 			<randomize>true</randomize>
-			<visible>Skin.HasSetting(VisBgExtraFanart)</visible>
+			<loop>yes</loop>
+			<imagepath background="true" diffuse="diffuse_fanart.png">$INFO[Window(Home).Property(SkinHelper.Player.Music.ExtraFanArt)]</imagepath>
+			<visible>Skin.HasSetting(VisBgExtraFanart) + Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.Player.Music.ExtraFanArt))</visible>
 		</control>
 		<control type="visualisation" id="2">
 			<description>visualisation</description>
