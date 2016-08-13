@@ -90,11 +90,11 @@
 		<!-- Extra Fanart -->
 		<control type="multiimage" id="6999">
 			<include>Global_Background_Fanart_Common</include>
-			<timeperimage>6000</timeperimage>
+			<imagepath background="true" diffuse="diffuse_fanart.png">$VAR[GlobalExtraFanart]</imagepath>
+			<timeperimage>5000</timeperimage>
 			<randomize>true</randomize>
 			<loop>yes</loop>
-			<imagepath background="true" diffuse="diffuse_fanart.png">$VAR[GlobalExtraFanart]</imagepath>
-			<visible>!Skin.HasSetting(HideVideoFanart) + Skin.HasSetting(SkinHelper.EnableExtraFanart)</visible>
+			<visible>Skin.HasSetting(SkinHelper.EnableExtraFanart) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(musicvideos) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
 		</control>
 	</include>
 	<include name="Global_ContextFilter">
@@ -1493,7 +1493,7 @@
 					<height>302</height>
 					<texture background="true">$INFO[Player.Art(tvshow.poster)]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
+					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
 					<description>TV Show Thumbnail Frame</description>
@@ -1502,7 +1502,7 @@
 					<width>253</width>
 					<height>343</height>
 					<texture>frames/ClassicFrame_PosterSmall.png</texture>
-					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
+					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
 					<description>TV Show Clear Art/Logo</description>
@@ -1523,7 +1523,7 @@
 					<height>302</height>
 					<texture background="true">$INFO[VideoPlayer.Cover]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default)</visible>
+					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 				<control type="image">
 					<description>Movie Poster Frame</description>
@@ -1532,7 +1532,7 @@
 					<width>253</width>
 					<height>343</height>
 					<texture>frames/ClassicFrame_PosterSmall.png</texture>
-					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default)</visible>
+					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 				<!-- Music Video Thumbnail -->
 				<control type="image">
@@ -1545,7 +1545,7 @@
 					<bordertexture border="6">frames/thumb_border.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
-					<visible>VideoPlayer.Content(MusicVideos) + !SubString(VideoPlayer.Cover,default)</visible>
+					<visible>VideoPlayer.Content(MusicVideos) + !SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 				<!-- LiveTV Channel Icon -->
 				<control type="image">
@@ -1572,7 +1572,7 @@
 					<bordertexture border="6">frames/thumb_border.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
-					<visible>!SubString(VideoPlayer.Cover,default)</visible>
+					<visible>!SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 			</control>
 		</control>

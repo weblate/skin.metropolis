@@ -76,7 +76,7 @@
 							<width>195</width>
 							<height>197</height>
 							<texture>frames/ClassicFrame_SquareSmall.png</texture>
-							<visible>!SubString(ListItem.Icon,default) + !IsEmpty(ListItem.Icon)</visible>
+							<visible>!SubString(ListItem.Icon,default,Left) + !IsEmpty(ListItem.Icon)</visible>
 						</control>
 					</control>
 				</focusedlayout>
