@@ -185,7 +185,7 @@
 					<left>6</left>
 					<width>60</width>
 					<height>55</height>
-					<texture background="true" diffuse="flags/nocc.png">resource://resource.images.languageflags.colour/$INFO[ListItem.AudioLanguage].png</texture>
+					<texture background="true" diffuse="flags/nocc.png">$VAR[Language_Icons]</texture>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 					<visible>[IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] + !IsEmpty(ListItem.AudioLanguage) + !Substring(ListItem.AudioLanguage,und)</visible>
 				</control>
@@ -194,7 +194,7 @@
 					<left>6</left>
 					<width>60</width>
 					<height>55</height>
-					<texture background="true" diffuse="flags/cc.png">resource://resource.images.languageflags.colour/$INFO[ListItem.AudioLanguage].png</texture>
+					<texture background="true" diffuse="flags/cc.png">$VAR[Language_Icons]</texture>
 					<visible>[[!IsEmpty(ListItem.SubtitleLanguage) + IsEmpty(VideoPlayer.SubtitleLanguage)] | [IsEmpty(ListItem.SubtitleLanguage) + !IsEmpty(VideoPlayer.SubtitleLanguage)]] + [!IsEmpty(ListItem.AudioLanguage) + ![Substring(ListItem.AudioLanguage,und) | Substring(ListItem.AudioLanguage,unk)]]</visible>
 					<aspectratio aligny="center" scalediffuse="true">stretch</aspectratio>
 				</control>

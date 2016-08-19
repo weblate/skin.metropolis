@@ -18,17 +18,9 @@
 					<width>112</width>
 					<height>110</height>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
-					<texture fallback="flags/default-studio.png">resource://resource.images.studios.white/$INFO[ListItem.Studio].png</texture>
+					<texture fallback="flags/default-studio.png">$VAR[Studio_Icons]</texture>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>!IsEmpty(ListItem.Studio) + !SubString(Container.FolderPath,advanced.launcher)</visible>
-				</control>
-				<control type="image">
-					<width>112</width>
-					<height>110</height>
-					<aspectratio align="center" aligny="center">keep</aspectratio>
-					<texture fallback="flags/default-studio.png">resource://resource.images.studios.white/$INFO[ListItem.Studio].png</texture>
-					<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					<visible>!IsEmpty(ListItem.Studio) + SubString(Container.FolderPath,advanced.launcher)</visible>
+					<visible>!IsEmpty(ListItem.Studio)</visible>
 				</control>
 				<control type="image">
 					<width>112</width>

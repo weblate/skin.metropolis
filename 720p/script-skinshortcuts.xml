@@ -265,7 +265,7 @@
 						<top>-120</top>
 						<width>220</width>
 						<height>120</height>
-						<timeperimage>15000</timeperimage>
+						<timeperimage>5000</timeperimage>
 						<randomize>true</randomize>
 						<fadetime>500</fadetime>
 						<imagepath background="true">$VAR[HomeBackgroundSkinShortcuts]</imagepath>

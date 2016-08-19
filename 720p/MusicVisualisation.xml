@@ -284,7 +284,7 @@
 					<width>60</width>
 					<height>30</height>
 					<aspectratio>keep</aspectratio>
-					<texture>resource://resource.images.recordlabels.white/$INFO[MusicPlayer.Property(Album_Label)].png</texture>
+					<texture>$VAR[Player_RecordLabel_Icons]</texture>
 				</control>
 				<control type="image">
 					<posx>148</posx>
