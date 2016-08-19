@@ -62,30 +62,10 @@
 		<colordiffuse>$VAR[GlobalFanartDiffuse]</colordiffuse>
 	</include>
 	<include name="Global_Background_Fanart">
-		<!-- Videos -->
 		<control type="image">
 			<include>Global_Background_Fanart_Common</include>
 			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
-			<visible>[Container.Content(movies) | Container.Content(sets) | Container.Content(musicvideos) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart) + IsEmpty(Control.GetLabel(6999))</visible>
-		</control>
-		<!-- Music -->
-		<control type="image">
-			<include>Global_Background_Fanart_Common</include>
-			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
-			<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart) + IsEmpty(Control.GetLabel(6999))</visible>
-		</control>
-		<!-- Addons -->
-		<control type="image">
-			<include>Global_Background_Fanart_Common</include>
-			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
-			<visible>!Window.IsActive(pictures) + Container.Content(addons) + IsEmpty(Control.GetLabel(6999))</visible>
-		</control>
-		<!-- Pictures -->
-		<control type="image">
-			<include>Global_Background_Fanart_Common</include>
-			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
-			<aspectratio scalediffuse="false" aligny="top">scale</aspectratio>
-			<visible>Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart) + !Control.IsVisible(500) + IsEmpty(Control.GetLabel(6999))</visible>
+			<visible>IsEmpty(Control.GetLabel(6999)) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
 		</control>
 		<!-- Extra Fanart -->
 		<control type="multiimage" id="6999">
@@ -94,7 +74,7 @@
 			<timeperimage>5000</timeperimage>
 			<randomize>true</randomize>
 			<loop>yes</loop>
-			<visible>Skin.HasSetting(SkinHelper.EnableExtraFanart) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(musicvideos) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
+			<visible>Skin.HasSetting(SkinHelper.EnableExtraFanart) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
 		</control>
 	</include>
 	<include name="Global_ContextFilter">

@@ -69,7 +69,8 @@
 		<value>$INFO[ListItem.Art(fanart)]</value>
 	</variable>
 	<variable name="GlobalExtraFanart">
-		<value condition="!System.IdleTime(2)">-</value>
+		<!-- XXX: This is such a kludge.  It sucks having to see the first image first all the time -->
+		<value condition="!IsEmpty(ListItem.Art(fanart)) + !System.IdleTime(5)">-</value>
 		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.ExtraFanArtPath))">$INFO[Window(Home).Property(SkinHelper.ExtraFanArtPath)]</value>
 		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.Music.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.Music.ExtraFanArt)]</value>
 		<value condition="Skin.HasSetting(SkinHelper.EnableExtraFanart) + !IsEmpty(Window(Home).Property(SkinHelper.PVR.ExtraFanArt))">$INFO[Window(Home).Property(SkinHelper.PVR.ExtraFanArt)]</value>
