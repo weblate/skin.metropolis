@@ -157,10 +157,6 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 
-	<variable name="GlobalWidgetIcon">
-		<value>$INFO[ListItem.Icon]</value>
-	</variable>
-
 	<variable name="RatingColor">
 		<value condition="!SubString(ListItem.Votes,$COMMA)">FFFF0000</value>
 		<value condition="SubString(ListItem.Votes,1$COMMA,Left)">FFFF5555</value>
@@ -523,8 +519,11 @@
 		<value>flags/Rating/NoRating.png</value>
 	</variable>
 	<variable name="PosterThumb">
-		<value condition="!SubString(Container.FolderPath,plugin)">$INFO[ListItem.Art(poster)]</value>
-		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem.Icon]</value>
+		<value condition="!SubString(Container.FolderPath,plugin) + !IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+		<value>$INFO[ListItem.Icon]</value>
+	</variable>
+	<variable name="SquarePosterThumb">
+		<value>$INFO[ListItem.Icon]</value>
 	</variable>
 	<variable name="LandscapeFanart">
 		<!-- control 52 is the Landscape Viewtype, where Landscape images are always preferred -->
