@@ -411,14 +411,6 @@
 		<width>44</width>
 		<height>18</height>
 	</include>
-	<!-- XXX: Used currently in PseudoTV 2.1.0 - delete once removed -->
-	<include name="MediaFlagsVarsMPAA">
-		<posx>1</posx>
-		<posy>2</posy>
-		<width>45</width>
-		<height>45</height>
-		<colordiffuse>MediaFlagDiffuse</colordiffuse>
-	</include>
 
 	<include name="AutoScrollShort">
 		<autoscroll time="2000" delay="12000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -455,10 +447,6 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_HiddenByInfo</include>
 			<width>750</width>
-			<!-- XXX: larger font is more legible, but transition to and from the small font is jarring.
-			<height>135</height>
-			<font>METF_PlotTextMedium</font>
-			-->
 			<height>126</height>
 			<font>METF_PlotTextSmall</font>
 			<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollLong</include>
@@ -1896,37 +1884,6 @@
 		<fadetime>1000</fadetime>
 	</include>
 
-	<!-- XXX: Names are too generic.  Used only in MyMusicPlaylist.xml -->
-	<include name="WindowMenuButton">
-		<posx>0</posx>
-		<posy>30</posy>
-		<width>210</width>
-		<height>60</height>
-		<align>center</align>
-		<aligny>top</aligny>
-		<font>METF_TitleTextLarge</font>
-		<textcolor>TextNF</textcolor>
-		<focusedcolor>TextFO</focusedcolor>
-		<disabledcolor>TextDisabled</disabledcolor>
-		<texturenofocus>-</texturenofocus>
-		<texturefocus>-</texturefocus>
-		<alttexturenofocus>-</alttexturenofocus>
-		<alttexturefocus>-</alttexturefocus>
-		<textureradiofocus>-</textureradiofocus>
-		<textureradionofocus>-</textureradionofocus>
-		<wrapmultiline>true</wrapmultiline>
-	</include>
-	<include name="WindowMenuLabel">
-		<posx>0</posx>
-		<posy>0</posy>
-		<width>210</width>
-		<height>30</height>
-		<align>center</align>
-		<font>METF_TitleTextLarge</font>
-		<textcolor>TextNF</textcolor>
-		<disabledcolor>TextDisabled</disabledcolor>
-		<aligny>bottom</aligny>
-	</include>
 	<include name="VisibleIfNotMovieSet">
 		<visible>![Container.Content(movies) + IsEmpty(listitem.Genre) + IsEmpty(ListItem.VideoResolution)]</visible>
 	</include>
