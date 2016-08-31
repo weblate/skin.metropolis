@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="MediaInfo">
+	<include content="MediaInfo">
 		<control type="group" id="9901">
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>

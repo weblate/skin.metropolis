@@ -3,13 +3,13 @@
 	<!-- Home1 Default-->
 	<visible>![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]</visible>
 
-	<include name="HomeStatsPosition1">
+	<include content="HomeStatsPosition1">
 		<posx>1070</posx>
 		<posy>45</posy>
 		<width>220</width>
 		<height>416</height>
 	</include>
-	<include name="HomeStatsDetails1">
+	<include content="HomeStatsDetails1">
 		<width>120</width>
 		<height>24</height>
 		<align>left</align>
@@ -17,7 +17,7 @@
 		<font>METF_HomeStatsText</font>
 		<textcolor>HomeStatsCategory</textcolor>
 	</include>
-	<include name="HomeStatsDetailsNumber1">
+	<include content="HomeStatsDetailsNumber1">
 		<width>60</width>
 		<height>24</height>
 		<align>right</align>
@@ -26,7 +26,7 @@
 		<textcolor>HomeStatsNumber</textcolor>
 	</include>
 
-	<include name="Home1_Default">
+	<include content="Home1_Default">
 		<include>HomeDeck</include>
 		<control type="button" id="9002">
 			<description>Hidden Button to pass through navigation when recently added is disabled</description>

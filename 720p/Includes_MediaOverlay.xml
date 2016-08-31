@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="Global_MediaOverlay">
+	<include content="Global_MediaOverlay">
 		<control type="group">
 			<visible>!Window.IsActive(visualisation) + IsEmpty(Window(videolibrary).Property(PlayingBackgroundMedia))</visible>
 			<control type="group" id="9904">

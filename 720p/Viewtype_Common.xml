@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="PosterViewCommon_Browser">
+	<include content="PosterViewCommon_Browser">
 		<posx>20</posx>
 		<posy>70</posy>
 		<height>515</height>
@@ -144,7 +144,7 @@
 			</control>
 		</focusedlayout>
 	</include>
-	<include name="PosterViewCommon_Details">
+	<include content="PosterViewCommon_Details">
 		<!-- Browser label and flags -->
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
@@ -252,7 +252,7 @@
 		</control>
 	</include>
 
-	<include name="BannerViewCommon_Browser">
+	<include content="BannerViewCommon_Browser">
 		<itemlayout width="400" height="90">
 			<control type="image">
 				<posx>12</posx>
@@ -359,7 +359,7 @@
 		</focusedlayout>
 	</include>
 
-	<include name="PosterLargeViewCommon_Browser">
+	<include content="PosterLargeViewCommon_Browser">
 		<posx>-100</posx>
 		<posy>40</posy>
 		<height>500</height>
@@ -504,7 +504,7 @@
 			</control>
 		</focusedlayout>
 	</include>
-	<include name="PosterLargeViewCommon_Details">
+	<include content="PosterLargeViewCommon_Details">
 		<!-- Browser label and flags -->
 		<control type="group">
 			<include>Animation_FadedByMenu</include>

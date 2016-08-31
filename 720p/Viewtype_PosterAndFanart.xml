@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="Viewtype_PosterAndFanart">
+	<include content="Viewtype_PosterAndFanart">
 		<control type="group">
 			<visible>Control.IsVisible(550)</visible>
 			<!-- Browser -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="Viewtype_TallGenre">
+	<include content="Viewtype_TallGenre">
 		<control type="group">
 			<visible>Control.IsVisible(501)</visible>
 			<!-- Browser -->
