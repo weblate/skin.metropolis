@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="28">
+<window>
 	<views>55,53,57</views>
 	<defaultcontrol>55</defaultcontrol>
 	<controls>
@@ -124,6 +124,39 @@
 				</control>
 				<control type="button" id="23">
 					<description>Play</description>
+					<width>340</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>208</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<pulseonselect>false</pulseonselect>
+				</control>
+				<control type="button" id="27">
+					<description>viewmode</description>
+					<width>340</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>208</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick>Container.NextViewMode</onclick>
+				</control>
+				<control type="button" id="26">
+					<description>repeat</description>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
