@@ -10,7 +10,7 @@
 				<effect type="slide" start="0,0" end="0,-100" time="300" />
 				<effect type="fade" delay="1000" start="100" end="0" time="300" />
 			</animation>
-			<visible>!Window.IsActive(Player.Muted)</visible>
+			<visible>!Player.Muted</visible>
 			<posx>964</posx>
 			<posy>-15</posy>
 			<!-- Background Panel -->
