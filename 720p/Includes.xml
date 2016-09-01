@@ -39,21 +39,21 @@
 	<include file="Viewtype_TallGenre.xml" />		<!-- 501 -->
 
 	<!-- Global dimensions -->
-	<include content="Dimensions_Fullscreen">
+	<include name="Dimensions_Fullscreen">
 		<posx>0</posx>
 		<posy>0</posy>
 		<width>1280</width>
 		<height>720</height>
 	</include>
 	<!-- Global objects -->
-	<include content="Global_Background">
+	<include name="Global_Background">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture background="true" fallback="background.png">$INFO[Skin.String(CustomBackground)]</texture>
 			<colordiffuse>BackgroundColor</colordiffuse>
 		</control>
 	</include>
-	<include content="Global_Background_Fanart_Common">
+	<include name="Global_Background_Fanart_Common">
 		<include>Dimensions_Fullscreen</include>
 		<include>Animation_CommonFade</include>
 		<include>Animation_FadedByMenu</include>
@@ -61,7 +61,7 @@
 		<fadetime>200</fadetime>
 		<colordiffuse>$VAR[GlobalFanartDiffuse]</colordiffuse>
 	</include>
-	<include content="Global_Background_Fanart">
+	<include name="Global_Background_Fanart">
 		<control type="image">
 			<include>Global_Background_Fanart_Common</include>
 			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
@@ -77,7 +77,7 @@
 			<visible>Skin.HasSetting(SkinHelper.EnableExtraFanart) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
 		</control>
 	</include>
-	<include content="Global_ContextFilter">
+	<include name="Global_ContextFilter">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture background="true" fallback="background.png" diffuse="diffuse_fanart.png">$INFO[Skin.String(CustomBackground)]</texture>
@@ -89,7 +89,7 @@
 	</include>
 
 	<!-- Navigation Menu Background Panel -->
-	<include content="NavMenuBackground">
+	<include name="NavMenuBackground">
 		<control type="image">
 			<description>background image</description>
 			<posx>440</posx>
@@ -103,15 +103,15 @@
 	</include>
 
 	<!-- View Lockdowns -->
-	<include content="OnUp7000">
+	<include name="OnUp7000">
 		<onup>7000</onup>
 	</include>
-	<include content="OnLeft7000">
+	<include name="OnLeft7000">
 		<onleft>7000</onleft>
 	</include>
 
 	<!-- Heading info for various screens -->
-	<include content="Global_HeadingSectionVars">
+	<include name="Global_HeadingSectionVars">
 		<width>750</width>
 		<height>30</height>
 		<font>METF_Heading</font>
@@ -120,7 +120,7 @@
 		<aligny>center</aligny>
 		<include>Animation_HiddenByInfo</include>
 	</include>
-	<include content="Global_HeadingLevelVars">
+	<include name="Global_HeadingLevelVars">
 		<width>1220</width>
 		<height>30</height>
 		<font>METF_Heading</font>
@@ -129,7 +129,7 @@
 		<aligny>center</aligny>
 		<include>Animation_HiddenByInfo</include>
 	</include>
-	<include content="Global_HeadingDetailVars">
+	<include name="Global_HeadingDetailVars">
 		<posx>1220</posx>
 		<width>720</width>
 		<height>30</height>
@@ -139,7 +139,7 @@
 		<aligny>center</aligny>
 		<include>Animation_HiddenByInfo</include>
 	</include>
-	<include content="Global_Heading">
+	<include name="Global_Heading">
 		<control type="group">
 			<posx>30</posx>
 			<posy>10</posy>
@@ -266,7 +266,7 @@
 		</control>
 	</include>
 	<!-- SortLetter popup when scrolling through lists quickly -->
-	<include content="Global_ScrollOffsetLabel">
+	<include name="Global_ScrollOffsetLabel">
 		<control type="group" id="9906">
 			<visible>[Container(28).Scrolling | Container.Scrolling] + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[556]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[558])]</visible>
 			<animation effect="slide" start="0,0" end="0,-69" time="100">Visible</animation>
@@ -295,7 +295,7 @@
 		</control>
 	</include>
 
-	<include content="Global_Weather">
+	<include name="Global_Weather">
 		<control type="group">
 			<posx>12</posx>
 			<posy>40</posy>
@@ -321,7 +321,7 @@
 			</control>
 		</control>
 	</include>
-	<include content="Global_TimeWeekdayDetails">
+	<include name="Global_TimeWeekdayDetails">
 		<posx>1241</posx>
 		<posy>546</posy>
 		<width>200</width>
@@ -331,7 +331,7 @@
 		<aligny>center</aligny>
 		<textcolor>Date</textcolor>
 	</include>
-	<include content="Global_Time">
+	<include name="Global_Time">
 		<control type="group">
 			<posx>12</posx>
 			<posy>40</posy>
@@ -387,44 +387,44 @@
 	</include>
 
 	<!-- Used in Includes_MediaFlags?.xml -->
-	<include content="MediaFlagsVarsWide">
+	<include name="MediaFlagsVarsWide">
 		<posx>12</posx>
 		<posy>8</posy>
 		<width>80</width>
 		<height>40</height>
 	</include>
-	<include content="MediaFlagsVarsSquare">
+	<include name="MediaFlagsVarsSquare">
 		<posx>14</posx>
 		<posy>8</posy>
 		<width>44</width>
 		<height>36</height>
 	</include>
-	<include content="MediaFlagsVarsSquareHalfTop">
+	<include name="MediaFlagsVarsSquareHalfTop">
 		<posx>14</posx>
 		<posy>8</posy>
 		<width>44</width>
 		<height>18</height>
 	</include>
-	<include content="MediaFlagsVarsSquareHalfBottom">
+	<include name="MediaFlagsVarsSquareHalfBottom">
 		<posx>14</posx>
 		<posy>26</posy>
 		<width>44</width>
 		<height>18</height>
 	</include>
 
-	<include content="AutoScrollShort">
+	<include name="AutoScrollShort">
 		<autoscroll time="2000" delay="12000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
 	</include>
-	<include content="AutoScrollLong">
+	<include name="AutoScrollLong">
 		<autoscroll time="2000" delay="16000" repeat="12000">Skin.HasSetting(AutoScroll)</autoscroll>
 	</include>
-	<include content="AutoScrollShortFast">
+	<include name="AutoScrollShortFast">
 		<autoscroll time="2000" delay="8000" repeat="4000">Skin.HasSetting(AutoScroll)</autoscroll>
 	</include>
-	<include content="AutoScrollLongFast">
+	<include name="AutoScrollLongFast">
 		<autoscroll time="2000" delay="12000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
 	</include>
-	<include content="PlotBox">
+	<include name="PlotBox">
 		<posx>300</posx>
 		<posy>565</posy>
 		<control type="textbox">
@@ -459,7 +459,7 @@
 	</include>
 
 	<!-- Plot to show in all video viewtypes but NOT Video Info screen -->
-	<include content="Global_VideoPlot">
+	<include name="Global_VideoPlot">
 		<control type="group" id="9900">
 			<visible>!Skin.HasSetting(Hide_Plot) + [Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Container.Content(MusicVideos) | SubString(Container.FolderPath,plugin)]</visible>
 			<include>PlotBox</include>
@@ -467,7 +467,7 @@
 	</include>
 
 	<!-- Video Genre Descriptions for TallGenre view -->
-	<include content="Global_VideoGenreInfo">
+	<include name="Global_VideoGenreInfo">
 		<control type="group">
 			<visible>Container.Content(Genres)</visible>
 			<include>PlotBox</include>
@@ -475,7 +475,7 @@
 	</include>
 
 	<!-- Addon Description -->
-	<include content="Global_AddonInfo">
+	<include name="Global_AddonInfo">
 		<control type="group">
 			<visible>Container.Content(Addons) | SubString(Container.FolderPath,advanced.launcher)</visible>
 			<include>PlotBox</include>
@@ -483,7 +483,7 @@
 	</include>
 
 	<!-- Album and Artist Descriptions -->
-	<include content="Global_MusicInfo">
+	<include name="Global_MusicInfo">
 		<control type="group">
 			<visible>Container.Content(Artists) | Container.Content(Albums)</visible>
 			<include>PlotBox</include>
@@ -491,7 +491,7 @@
 	</include>
 
 	<!-- Live TV Plot -->
-	<include content="LiveTVPlot">
+	<include name="LiveTVPlot">
 		<!-- Plot (Bottom) -->
 		<control type="group">
 			<posx>30</posx>
@@ -545,27 +545,27 @@
 			</control>
 		</control>
 	</include>
-	<include content="LiveTVLabel">
+	<include name="LiveTVLabel">
 		<font>METF_ContextValue</font>
 		<textcolor>SettingsDetail</textcolor>
 		<focusedcolor>ButtonText</focusedcolor>
 	</include>
 
-	<include content="ViewDetailsBullet">
+	<include name="ViewDetailsBullet">
 		<width>8</width>
 		<height>36</height>
 		<texture>Dot.png</texture>
 		<aspectratio align="center" aligny="center">keep</aspectratio>
 		<colordiffuse>BulletDiffuse</colordiffuse>
 	</include>
-	<include content="ViewDetailsBulletSmall">
+	<include name="ViewDetailsBulletSmall">
 		<width>8</width>
 		<height>28</height>
 		<texture>Dot.png</texture>
 		<aspectratio align="center" aligny="center">keep</aspectratio>
 		<colordiffuse>BulletDiffuse</colordiffuse>
 	</include>
-	<include content="ViewDetailsBulletSmallest">
+	<include name="ViewDetailsBulletSmallest">
 		<width>8</width>
 		<height>24</height>
 		<texture>Dot.png</texture>
@@ -573,7 +573,7 @@
 		<colordiffuse>BulletDiffuse</colordiffuse>
 	</include>
 
-	<include content="Global_PictureInfo">
+	<include name="Global_PictureInfo">
 		<control type="group">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -664,7 +664,7 @@
 	</include>
 
 	<!-- Info detail lines for Views -->
-	<include content="ViewDetailsGenreYearDurEpsUnwatched">
+	<include name="ViewDetailsGenreYearDurEpsUnwatched">
 		<!-- Genre -->
 		<control type="label">
 			<width min="25" max="340">auto</width>
@@ -755,7 +755,7 @@
 			<visible>!IsEmpty(ListItem.Property(TotalEpisodes)) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 	</include>
-	<include content="ViewDetailsOneLineJustified">
+	<include name="ViewDetailsOneLineJustified">
 		<!-- Year -->
 		<control type="label">
 			<width min="25" max="300">auto</width>
@@ -802,7 +802,7 @@
 			<visible>!IsEmpty(ListItem.Property(UnWatchedEpisodes)) + [Container.Content(tvshows) | [Container.Content(seasons) + !Control.IsVisible(905)]]</visible>
 		</control>
 	</include>
-	<include content="ViewDetailsYearDurEps">
+	<include name="ViewDetailsYearDurEps">
 		<!-- Year -->
 		<control type="label">
 			<width min="25" max="260">auto</width>
@@ -853,7 +853,7 @@
 			<visible>!IsEmpty(ListItem.Property(NumEpisodes)) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</control>
 	</include>
-	<include content="ViewDetailsYearDurEpsUnwatched">
+	<include name="ViewDetailsYearDurEpsUnwatched">
 		<!-- Year -->
 		<control type="label">
 			<width min="25" max="1200">auto</width>
@@ -922,7 +922,7 @@
 
 
 	<!-- Video Info Screen Buttons and Text -->
-	<include content="VideoInfoButton">
+	<include name="VideoInfoButton">
 		<label>-</label>
 		<altlabel>-</altlabel>
 		<height>60</height>
@@ -936,7 +936,7 @@
 		<selectedcolor>-</selectedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include content="VideoInfoButtonLabel">
+	<include name="VideoInfoButtonLabel">
 		<posx>352</posx>
 		<posy>616</posy>
 		<width>515</width>
@@ -947,7 +947,7 @@
 		<aligny>center</aligny>
 	</include>
 
-	<include content="Object_InfoLines">
+	<include name="Object_InfoLines">
 		<control type="group">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -1014,7 +1014,7 @@
 	</include>
 
 	<!-- Login Screen Buttons and Text -->
-	<include content="LoginButton">
+	<include name="LoginButton">
 		<onup>52</onup>
 		<ondown>52</ondown>
 		<height>60</height>
@@ -1029,7 +1029,7 @@
 		<selectedcolor>-</selectedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include content="LoginButtonLabel">
+	<include name="LoginButtonLabel">
 		<posx>505</posx>
 		<posy>600</posy>
 		<width>270</width>
@@ -1041,7 +1041,7 @@
 	</include>
 
 	<!-- Debug objects -->
-	<include content="Object_DebugGrid">
+	<include name="Object_DebugGrid">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>debuggrid.png</texture>
@@ -1049,7 +1049,7 @@
 	</include>
 
 	<!-- Settings Headings -->
-	<include content="Setting_Heading">
+	<include name="Setting_Heading">
 		<control type="group">
 			<posx>30</posx>
 			<posy>10</posy>
@@ -1134,14 +1134,14 @@
 		</control>
 	</include>
 	<!-- Settings objects -->
-	<include content="SettingsHeadingVars">
+	<include name="SettingsHeadingVars">
 		<posx>300</posx>
 		<width>600</width>
 		<align>center</align>
 		<font>METF_SettingsHeading</font>
 		<textcolor>SettingsHeading</textcolor>
 	</include>
-	<include content="SettingsDetailVars">
+	<include name="SettingsDetailVars">
 		<posx>300</posx>
 		<posy>60</posy>
 		<width>600</width>
@@ -1150,7 +1150,7 @@
 		<textcolor>LowerText</textcolor>
 		<wrapmultiline>true</wrapmultiline>
 	</include>
-	<include content="SettingsLabelLeft">
+	<include name="SettingsLabelLeft">
 		<width>380</width>
 		<height>38</height>
 		<align>right</align>
@@ -1173,7 +1173,7 @@
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include content="SettingsLabelLeftIcon">
+	<include name="SettingsLabelLeftIcon">
 		<width>380</width>
 		<height>38</height>
 		<align>right</align>
@@ -1196,7 +1196,7 @@
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include content="SettingsLabel">
+	<include name="SettingsLabel">
 		<width>840</width>
 		<height>38</height>
 		<textoffsetx>20</textoffsetx>
@@ -1221,7 +1221,7 @@
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include content="SettingsHeaderLabel">
+	<include name="SettingsHeaderLabel">
 		<width>840</width>
 		<height>38</height>
 		<textoffsetx>0</textoffsetx>
@@ -1230,7 +1230,7 @@
 		<font>METF_TitleTextMedium</font>
 		<textcolor>SettingsDetail</textcolor>
 	</include>
-	<include content="Settings_Line">
+	<include name="Settings_Line">
 		<height>8</height>
 		<width>840</width>
 		<texture border="2">settings_line.png</texture>
@@ -1238,7 +1238,7 @@
 	</include>
 
 	<!-- Shutdown Menu Buttons -->
-	<include content="SettingsShutdownMenu">
+	<include name="SettingsShutdownMenu">
 		<width>340</width>
 		<height>35</height>
 		<align>center</align>
@@ -1262,7 +1262,7 @@
 	</include>
 
 	<!-- Nav Menus -->
-	<include content="Nav_NowPlaying">
+	<include name="Nav_NowPlaying">
 	       <control type="button" id="612">
 		       <description>Open Player Controls</description>
 		       <width>340</width>
@@ -1280,7 +1280,7 @@
 		       <pulseonselect>false</pulseonselect>
 		       <onclick>right</onclick>
 		       <onclick>$VAR[GoPlaylist]</onclick>
-		       <visible>[Window.IsActive(videos) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(music)] + !StringCompare(Playlist.Length(music),0)]</visible>
+		       <visible>[Window.IsActive(videos) + !StringCompare(Playlist.Length(video),0)] | [Window.IsActive(music) + !StringCompare(Playlist.Length(music),0)]</visible>
 		       <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist)</visible>
 	       </control>
 	       <control type="button" id="611">
@@ -1305,7 +1305,7 @@
 	</include>
 
 	<!-- Onscreen Displays -->
-	<include content="OSD_Progress_Bar">
+	<include name="OSD_Progress_Bar">
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
@@ -1343,7 +1343,7 @@
 			</control>
 		</control>
 	</include>
-	<include content="OSD_Progress_Bar2">
+	<include name="OSD_Progress_Bar2">
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
@@ -1545,7 +1545,7 @@
 			</control>
 		</control>
 	</include>
-	<include content="OSD_Progress_Bar3">
+	<include name="OSD_Progress_Bar3">
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
@@ -1612,7 +1612,7 @@
 			</control>
 		</control>
 	</include>
-	<include content="OSD_Player_Labels">
+	<include name="OSD_Player_Labels">
 		<posx>1255</posx>
 		<posy>12</posy>
 		<width>450</width>
@@ -1625,7 +1625,7 @@
 		<include>Animation_CommonFade</include>
 		<include>Animation_FadedByOSDSettings</include>
 	</include>
-	<include content="OSD_Player_Labels_Left">
+	<include name="OSD_Player_Labels_Left">
 		<posx>25</posx>
 		<posy>12</posy>
 		<width>450</width>
@@ -1638,7 +1638,7 @@
 		<include>Animation_CommonFade</include>
 		<include>Animation_FadedByOSDSettings</include>
 	</include>
-	<include content="OSD_Player_Time">
+	<include name="OSD_Player_Time">
 		<control type="label" id="0">
 			<include>OSD_Player_Labels_Left</include>
 			<label>$INFO[System.Time]</label>
@@ -1652,7 +1652,7 @@
 			<include condition="StringCompare(Skin.String(OSDFade),Complete) + StringCompare(Skin.String(OSDFadeTime),30)">Animation_FadeOSD30</include>
 		</control>
 	</include>
-	<include content="OSD_Player_Details">
+	<include name="OSD_Player_Details">
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<include>Animation_FadedByOSDSettings</include>
@@ -1730,10 +1730,10 @@
 		</control>
 	</include>
 	<!-- OSD default -->
-	<include content="OSDdiffuse">
+	<include name="OSDdiffuse">
 		<colordiffuse>SubmenuTextFocused</colordiffuse>
 	</include>
-	<include content="OSD_Player_Banner">
+	<include name="OSD_Player_Banner">
 		<control type="group">
 			<posx>0</posx>
 			<posy>0</posy>
@@ -1820,7 +1820,7 @@
 	</include>
 
 	<!-- Scrollbars -->
-	<include content="ScrollBar_Horizontal">
+	<include name="ScrollBar_Horizontal">
 		<!-- Scroll Bar -->
 		<control type="scrollbar" id="60">
 			<include>Animation_OpenCloseFade</include>
@@ -1840,7 +1840,7 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(60) | Container.Scrolling">Conditional</animation>
 		</control>
 	</include>
-	<include content="ScrollBar_Vertical">
+	<include name="ScrollBar_Vertical">
 		<!-- Scroll Bar -->
 		<control type="scrollbar" id="61">
 			<include>Animation_OpenCloseFade</include>
@@ -1860,7 +1860,7 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(61) | Container.Scrolling">Conditional</animation>
 		</control>
 	</include>
-	<include content="KeyboardButton">
+	<include name="KeyboardButton">
 		<width>50</width>
 		<height>50</height>
 		<texturenofocus border="3">keyboard/KeyboardKeyNF.png</texturenofocus>
@@ -1871,7 +1871,7 @@
 		<focusedcolor>black</focusedcolor>
 	</include>
 
-	<include content="MusicVis_Background">
+	<include name="MusicVis_Background">
 		<include>Animation_BackdropFade</include>
 		<posx>0</posx>
 		<posy>0</posy>
@@ -1884,10 +1884,10 @@
 		<fadetime>1000</fadetime>
 	</include>
 
-	<include content="VisibleIfNotMovieSet">
+	<include name="VisibleIfNotMovieSet">
 		<visible>![Container.Content(movies) + IsEmpty(listitem.Genre) + IsEmpty(ListItem.VideoResolution)]</visible>
 	</include>
-	<include content="VisibleIfMovieSet">
+	<include name="VisibleIfMovieSet">
 		<visible>Container.Content(movies) + IsEmpty(listitem.Genre) + IsEmpty(ListItem.VideoResolution)</visible>
 	</include>
 </includes>

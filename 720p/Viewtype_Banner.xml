@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Banner">
+	<include name="Viewtype_Banner">
 		<control type="group">
 			<visible>Control.IsVisible(511)</visible>
 			<!-- Browser -->

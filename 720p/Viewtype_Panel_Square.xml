@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Panel_Square">
+	<include name="Viewtype_Panel_Square">
 		<control type="group">
 			<visible>Control.IsVisible(559)</visible>
 			<!-- Browser -->

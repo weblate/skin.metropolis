@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="PVR_SideMenu">
+	<include name="PVR_SideMenu">
 		<control type="label" id="200">
 			<description>Options</description>
 			<width>340</width>
@@ -249,7 +249,7 @@
 		</control>
 	</include>		
 
-	<include content="PVR_Headers">
+	<include name="PVR_Headers">
 		<!-- Heading Labels at very top of screen -->
 		<control type="group">
 			<posx>30</posx>

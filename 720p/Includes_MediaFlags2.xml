@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="MediaInfo2">
+	<include name="MediaInfo2">
 		<!-- Additional Media Flags -->
 		<control type="grouplist" id="9902">
 			<posx>293</posx>

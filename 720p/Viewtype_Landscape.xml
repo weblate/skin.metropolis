@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Landscape">
+	<include name="Viewtype_Landscape">
 		<control type="group">
 			<visible>Control.IsVisible(52)</visible>
 			<!-- Browser -->

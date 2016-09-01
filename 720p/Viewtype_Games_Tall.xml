@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Games_Tall">
+	<include name="Viewtype_Games_Tall">
 		<control type="group">
 			<visible>Control.IsVisible(950)</visible>
 			<control type="group">

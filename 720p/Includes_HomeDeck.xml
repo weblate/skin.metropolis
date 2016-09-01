@@ -3,7 +3,7 @@
 	<visible>true</visible>
 
 	<!-- Submenu title for all home views -->
-	<include content="RecentlyAddedArrow1">
+	<include name="RecentlyAddedArrow1">
 		<posx>238</posx>
 		<posy>510</posy>
 		<width>30</width>
@@ -11,7 +11,7 @@
 		<texture>ArrowLeft.png</texture>
 		<colordiffuse>HelpArrowDiffuse</colordiffuse>
 	</include>
-	<include content="RecentlyAddedArrow2">
+	<include name="RecentlyAddedArrow2">
 		<posx>625</posx>
 		<posy>45</posy>
 		<width>30</width>
@@ -19,7 +19,7 @@
 		<texture>ArrowUp.png</texture>
 		<colordiffuse>HelpArrowDiffuse</colordiffuse>
 	</include>
-	<include content="RecentlyAddedArrow3">
+	<include name="RecentlyAddedArrow3">
 		<posx>625</posx>
 		<posy>420</posy>
 		<width>30</width>
@@ -27,7 +27,7 @@
 		<texture>ArrowUp.png</texture>
 		<colordiffuse>HelpArrowDiffuse</colordiffuse>
 	</include>
-	<include content="RecentlyAddedTitle1">
+	<include name="RecentlyAddedTitle1">
 		<posx>270</posx>
 		<posy>513</posy>
 		<width>570</width>
@@ -37,7 +37,7 @@
 		<font>METF_RecentlyAddedTitle</font>
 		<textcolor>HomeMenuText</textcolor>
 	</include>
-	<include content="RecentlyAddedTitle2">
+	<include name="RecentlyAddedTitle2">
 		<posx>355</posx>
 		<posy>75</posy>
 		<width>570</width>
@@ -47,7 +47,7 @@
 		<font>METF_RecentlyAddedTitle</font>
 		<textcolor>HomeMenuText</textcolor>
 	</include>
-	<include content="RecentlyAddedTitle3">
+	<include name="RecentlyAddedTitle3">
 		<posx>355</posx>
 		<posy>400</posy>
 		<width>570</width>
@@ -59,7 +59,7 @@
 	</include>
 
 	<!-- Home Stats/Media Totals -->
-	<include content="HomeStats">
+	<include name="HomeStats">
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
@@ -292,7 +292,7 @@
 		</control>
 	</include>
 
-	<include content="HomeDeck">
+	<include name="HomeDeck">
 		<control type="group" id="9004">
 			<animation effect="fade" start="100" end="0" time="0" condition="[Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + Control.HasFocus(9001)">conditional</animation>
 			<animation effect="fade" start="0" end="100" delay="200" time="200" condition="[Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Control.HasFocus(9001)">conditional</animation>
@@ -897,7 +897,7 @@
 	</include>
 
 	<!-- Vertical List Widget elements -->
-	<include content="Global_VerticalListWidget">
+	<include name="Global_VerticalListWidget">
 		<include>Animation_CommonFadeNoHide</include>
 		<include>Animation_FadedByMenu</include>
 		<animation effect="fade" start="100" end="0" time="0">Hidden</animation>

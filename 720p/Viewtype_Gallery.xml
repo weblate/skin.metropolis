@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Gallery">
+	<include name="Viewtype_Gallery">
 		<control type="group">
 			<visible>Control.IsVisible(54)</visible>
 			<!-- Browser -->

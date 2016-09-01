@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_PictureGrid">
+	<include name="Viewtype_PictureGrid">
 		<control type="group">
 			<visible>Control.IsVisible(500)</visible>
 			<!-- Browser -->

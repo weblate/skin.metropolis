@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include content="Viewtype_Poster_Large_Fixed">
+	<include name="Viewtype_Poster_Large_Fixed">
 		<control type="group">
 			<visible>Control.IsVisible(552)</visible>
 			<!-- Browser -->

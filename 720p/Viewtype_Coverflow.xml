@@ -75,7 +75,7 @@
 		<value condition="SubString(Container.FolderPath,plugin)">$INFO[ListItem(7).Icon]</value>
 		<value>DefaultThumb.png</value>
 	</variable>
-	<include content="Viewtype_Coverflow">
+	<include name="Viewtype_Coverflow">
 		<control type="group">
 			<visible>Control.IsVisible(512)</visible>
 			<include>Animation_OpenCloseFade</include>
