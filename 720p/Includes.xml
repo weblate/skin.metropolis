@@ -171,7 +171,7 @@
 			<control type="label">
 				<label>$LOCALIZE[3]</label>
 				<include>Global_HeadingSectionVars</include>
-				<visible>[[Window.IsActive(videofiles) | Window.IsActive(videolibrary)] + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(movies) | Container.Content(musicvideos)]] + !SubString(Container.FolderPath,addons) + !SubString(Container.FolderPath,plugin) + !Window.IsActive(favourites)</visible>
+				<visible>[Window.IsActive(videos) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(movies) | Container.Content(musicvideos)]] + !SubString(Container.FolderPath,addons) + !SubString(Container.FolderPath,plugin) + !Window.IsActive(favourites)</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[157] $LOCALIZE[559]</label>
@@ -196,7 +196,7 @@
 			<control type="label">
 				<label>$LOCALIZE[1037]</label>
 				<include>Global_HeadingSectionVars</include>
-				<visible>[Window.IsActive(videofiles) | Window.IsActive(videolibrary)] + [SubString(Container.FolderPath,addons) | SubString(Container.FolderPath,plugin)]</visible>
+				<visible>Window.IsActive(videos) + [SubString(Container.FolderPath,addons) | SubString(Container.FolderPath,plugin)]</visible>
 			</control>
 			<control type="label">
 				<label>$LOCALIZE[1038]</label>
@@ -1280,7 +1280,7 @@
 		       <pulseonselect>false</pulseonselect>
 		       <onclick>right</onclick>
 		       <onclick>$VAR[GoPlaylist]</onclick>
-		       <visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(music)] + !StringCompare(Playlist.Length(music),0)]</visible>
+		       <visible>[Window.IsActive(videos) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(music)] + !StringCompare(Playlist.Length(music),0)]</visible>
 		       <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist)</visible>
 	       </control>
 	       <control type="button" id="611">

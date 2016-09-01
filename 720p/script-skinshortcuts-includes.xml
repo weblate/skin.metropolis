@@ -894,8 +894,8 @@
 			<thumb />
 			<property name="labelID">24001</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
 			<property name="group">music</property>
@@ -1346,8 +1346,8 @@
 			<thumb />
 			<property name="labelID">1211</property>
 			<property name="defaultID">1211</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Container(9000).ListItem.Property(submenuVisibility),programs)</visible>
 			<property name="group">programs</property>
@@ -2930,8 +2930,8 @@
 			<thumb />
 			<property name="labelID">24001</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>StringCompare(System.ProfileName,Master user)</visible>
 			<property name="group">music</property>
@@ -3133,8 +3133,8 @@
 			<thumb />
 			<property name="labelID">24001</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Window(10000).Property(submenuVisibility),music)</visible>
 			<property name="group">music</property>
@@ -3851,8 +3851,8 @@
 			<thumb />
 			<property name="labelID">1211</property>
 			<property name="defaultID">1211</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>StringCompare(System.ProfileName,Master user)</visible>
 			<property name="group">programs</property>
@@ -3913,8 +3913,8 @@
 			<thumb />
 			<property name="labelID">1211</property>
 			<property name="defaultID">1211</property>
-			<onclick>ActivateWindow(MusicFiles,Addons,return)</onclick>
-			<property name="path">ActivateWindow(MusicFiles,Addons,return)</property>
+			<onclick>ActivateWindow(Music,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Music,Addons,return)</property>
 			<property name="list">Addons</property>
 			<visible>[StringCompare(System.ProfileName,Master user)] + StringCompare(Window(10000).Property(submenuVisibility),programs)</visible>
 			<property name="group">programs</property>
