@@ -251,46 +251,40 @@ msgid "Default Home layout"
 msgstr ""
 
 msgctxt "#31211"
-msgid "Adjust how Kodi handles video content. Includes stacking options for multi-part files, library database options, and rendering and playback options"
+msgid "Configure actions that can be used during playback · Configure how media content is played"
 msgstr ""
 
 msgctxt "#31212"
-msgid "Manage your installed Add-ons. Includes browsing and installing from Kodi.tv and Add-on modifications."
+msgid "Manage your installed add-ons · Browse for and install add-ons from kodi.tv · Modify add-on settings"
 msgstr ""
 
 msgctxt "#31213"
-msgid "Control core hardware and software functions. Includes autorun options, audio and video hardware setup, and parental master lock functions"
+msgid "Configure display · Configure audio · Configure internet access · Configure power saving · Configure logging"
 msgstr ""
 
-msgctxt "#31214"
-msgid "Adjust how Kodi handles audio content. Includes browsing options for file and database library modes, together with audio hardware setup"
-msgstr ""
-
-msgctxt "#31215"
-msgid "Set up region information for Kodi's optional Weather displays"
-msgstr ""
+#empty strings from id 31214 to 31215
 
 msgctxt "#31216"
-msgid "Adjust the look and feel of Kodi. Includes skin, theme, sound and font selection, RSS feed control, and localisation settings"
+msgid "Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
 msgstr ""
 
-msgctxt "#31217"
-msgid "Adjust how Kodi displays personal image collections. Includes screenshot grabbing, special effects and advanced display options"
-msgstr ""
+#empty string with id 31217
 
 msgctxt "#31218"
-msgid "Set up Kodi's network interface. Controls IP assignment, WWW and FTP server settings, SMB client setup, and UPnP configuration"
+msgid "Configure & manage media sharing services · Configure & manage the weather service"
 msgstr ""
 
-msgctxt "#31219"
-msgid "Choose from a variety of advanced settings and customisation options to make the UI your own"
-msgstr ""
+#empty string with id 31219
 
 msgctxt "#31220"
-msgid "Set up TV display. Includes TV channels management options, recordings and tv guide display options."
+msgid "Configure TV settings · Change full screen info · Manage EPG data settings"
 msgstr ""
 
-#empty strings from id 31221 to 31243
+msgctxt "#31221"
+msgid "Configure library sources · Show the media lists display content · Configure how library lists are navigated"
+msgstr ""
+
+#empty strings from id 31222 to 31243
 
 msgctxt "#31244"
 msgid "Playing"

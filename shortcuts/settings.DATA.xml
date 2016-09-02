@@ -19,10 +19,10 @@
 		<action>ActivateWindow(ServiceSettings)</action>
 	</shortcut>
 	<shortcut>
-		<label>31469</label>
+		<label>14206</label>
 		<label2>32034</label2>
 		<icon>DefaultShortcut.png</icon>
-		<action>ActivateWindow(AppearanceSettings)</action>
+		<action>ActivateWindow(InterfaceSettings)</action>
 	</shortcut>
 	<shortcut>
 		<label>7</label>

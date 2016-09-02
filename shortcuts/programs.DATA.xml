@@ -10,7 +10,7 @@
 		<label>1211</label>
 		<label2>32021</label2>
 		<icon>DefaultAddonMusic.png</icon>
-		<action>ActivateWindow(MusicFiles,Addons,return)</action>
+		<action>ActivateWindow(Music,Addons,return)</action>
 	</shortcut>
 	<shortcut>
 		<label>1213</label>
