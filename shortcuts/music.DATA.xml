@@ -19,6 +19,12 @@
 		<action>ActivateWindow(Music,musicdb://genres/,return)</action>
 	</shortcut>
 	<shortcut>
+		<label>29994</label>
+		<label2>32019</label2>
+		<icon>DefaultMusicRoles.png</icon>
+		<action>ActivateWindow(Music,musicdb://roles/,return)</action>
+	</shortcut>
+	<shortcut>
 		<label>652</label>
 		<label2>32019</label2>
 		<icon>DefaultMusicYears.png</icon>
