@@ -8,7 +8,7 @@
 		<control type="group">
 			<include>Animation_CommonFade</include>
 			<posx>0</posx>
-			<posy>25</posy>
+			<posy>-65</posy>
 			<control type="label" id="2">
 				<description>Heading</description>
 				<posx>360</posx>
@@ -208,12 +208,13 @@
 			<include>Animation_CommonFade</include>
 			<description>Default Button</description>
 			<posx>0</posx>
-			<posy>196</posy>
+			<posy>166</posy>
 			<include>SettingsLabelLeft</include>
 			<onleft>noop</onleft>
-			<onright>3</onright>
-			<onup>noop</onup>
-			<ondown>noop</ondown>
+			<onright condition="Control.IsVisible(6)">6</onright>
+			<onright condition="!Control.IsVisible(6)">3</onright>
+			<onup>7</onup>
+			<ondown>7</ondown>
 		</control>
 		<control type="button" id="7">
 			<description>Cancel button</description>
@@ -221,9 +222,10 @@
 			<posy>206</posy>
 			<include>SettingsLabelLeft</include>
 			<onleft>noop</onleft>
-			<onright>3</onright>
-			<onup>7</onup>
-			<ondown>7</ondown>
+			<onright condition="Control.IsVisible(6)">6</onright>
+			<onright condition="!Control.IsVisible(6)">3</onright>
+			<onup>5</onup>
+			<ondown>5</ondown>
 			<label>-</label>
 		</control>
 		<include>Global_ContextFilter</include>
