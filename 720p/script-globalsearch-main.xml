@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<coordinates>		
+	<coordinates>
 		<posx>0</posx>
 		<posy>0</posy>
 	</coordinates>
@@ -38,7 +38,7 @@
 				<visible>!ControlGroup(101).HasFocus</visible>
 			</control>
 			<include>Global_Background</include>
-			
+
 			<control type="label" id="190">
 				<posx>640</posx>
 				<posy>10</posy>
@@ -48,7 +48,7 @@
 				<font>METF_Heading</font>
 				<textcolor>GlobalHeading</textcolor>
 				<align>right</align>
-				<aligny>center</aligny>				
+				<aligny>center</aligny>
 			</control>
 			<control type="label" id="191">
 				<posx>640</posx>
@@ -60,7 +60,7 @@
 				<textcolor>GlobalHeading</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-			</control>			
+			</control>
 			<control type="label" id="199">
 				<posx>0</posx>
 				<posy>10</posy>
@@ -72,7 +72,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>
-			
+
 			<control type="grouplist" id="101">
 				<posx>30</posx>
 				<posy>56</posy>
@@ -80,7 +80,8 @@
 				<height>465</height>
 				<orientation>vertical</orientation>
 				<itemgap>0</itemgap>
-<!-- Return Movies -->				
+
+				<!-- Return Movies -->
 				<control type="group" id="119">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -312,7 +313,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Actors -->
+
+				<!-- Return Actors -->
 				<control type="group" id="219">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -544,7 +546,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return TV Shows -->
+
+				<!-- Return TV Shows -->
 				<control type="group" id="129">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -710,7 +713,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Seasons -->
+
+				<!-- Return Seasons -->
 				<control type="group" id="139">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -857,7 +861,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Episodes -->
+
+				<!-- Return Episodes -->
 				<control type="group" id="149">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1023,7 +1028,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Music Videos -->
+
+				<!-- Return Music Videos -->
 				<control type="group" id="159">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1210,7 +1216,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Artists -->
+
+				<!-- Return Artists -->
 				<control type="group" id="169">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1358,7 +1365,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Albums -->
+
+				<!-- Return Albums -->
 				<control type="group" id="179">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1506,7 +1514,8 @@
 						</focusedlayout>
 					</control>
 				</control>
-<!-- Return Songs -->
+
+				<!-- Return Songs -->
 				<control type="group" id="189">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1558,7 +1567,7 @@
 						<onleft>181</onleft>
 						<onright>181</onright>
 						<onup>171</onup>
-						<ondown>111</ondown>
+						<ondown>221</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
 						<preloaditems>2</preloaditems>
@@ -1674,8 +1683,9 @@
 							</control>
 						</focusedlayout>
 					</control>
-				</control>			
-<!-- Return EP Guide -->
+				</control>
+
+				<!-- Return EP Guide -->
 				<control type="group" id="229">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -1724,10 +1734,10 @@
 						<posy>25</posy>
 						<width>1200</width>
 						<height>110</height>
-						<onleft>121</onleft>
-						<onright>121</onright>
-						<onup>111</onup>
-						<ondown>131</ondown>
+						<onleft>221</onleft>
+						<onright>221</onright>
+						<onup>181</onup>
+						<ondown>231</ondown>
 						<orientation>horizontal</orientation>
 						<viewtype label="535">list</viewtype>
 						<preloaditems>2</preloaditems>
@@ -1840,9 +1850,242 @@
 							</control>
 						</focusedlayout>
 					</control>
-				</control>				
+				</control>
+
+				<!-- Return Directors -->
+				<control type="group" id="239">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>1200</width>
+					<height>155</height>
+					<control type="grouplist">
+						<posx>10</posx>
+						<posy>0</posy>
+						<width>1200</width>
+						<height>25</height>
+						<orientation>horizontal</orientation>
+						<control type="label">
+							<width min="10" max="700">auto</width>
+							<height>25</height>
+							<label>[B]$LOCALIZE[20348]: [/B]</label>
+							<font>METF_PlotTextSmall</font>
+							<textcolor>white</textcolor>
+						</control>
+						<control type="label" id="230">
+							<width min="10" max="280">auto</width>
+							<height>25</height>
+							<label>-</label>
+							<font>METF_PlotTextSmall</font>
+							<textcolor>white</textcolor>
+						</control>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>22</posy>
+						<width>1220</width>
+						<height>118</height>
+						<texture border="2">list/listfocus.png</texture>
+						<colordiffuse>2FFFFFFF</colordiffuse>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>22</posy>
+						<width>1220</width>
+						<height>118</height>
+						<texture border="2">ButtonFo.png</texture>
+						<colordiffuse>8FFFFFFF</colordiffuse>
+						<visible>Control.HasFocus(231)</visible>
+					</control>
+					<control type="list" id="231">
+						<posx>10</posx>
+						<posy>25</posy>
+						<width>1200</width>
+						<height>110</height>
+						<onleft>231</onleft>
+						<onright>231</onright>
+						<onup>221</onup>
+						<ondown>111</ondown>
+						<orientation>horizontal</orientation>
+						<viewtype label="535">list</viewtype>
+						<preloaditems>2</preloaditems>
+						<itemlayout width="400" height="110">
+							<control type="image">
+								<posx>4</posx>
+								<posy>7</posy>
+								<width>100</width>
+								<height>100</height>
+								<texture background="true">$INFO[ListItem.Icon]</texture>
+								<bordertexture>black.png</bordertexture>
+								<bordersize>1</bordersize>
+							</control>
+							<control type="image">
+								<posx>70</posx>
+								<posy>70</posy>
+								<width>30</width>
+								<height>30</height>
+								<texture>OverlayWatched.png</texture>
+								<colordiffuse>WatchedOverlay</colordiffuse>
+								<visible>IntegerGreaterThan(ListItem.Property(PlayCount),0)</visible>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>10</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>[B]$INFO[ListItem.Label][/B]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>white</textcolor>
+								<aligny>center</aligny>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>28</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>TextFO</textcolor>
+								<aligny>center</aligny>
+								<visible>!SubString(ListItem.Property(Duration),min)</visible>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>28</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>TextFO</textcolor>
+								<aligny>center</aligny>
+								<visible>SubString(ListItem.Property(Duration),min)</visible>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(Tagline)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(PlotOutline)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+								<visible>IsEmpty(ListItem.Property(TagLine))</visible>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(Plot)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+								<visible>IsEmpty(ListItem.Property(TagLine)) + IsEmpty(ListItem.Property(PlotOutline))</visible>
+							</control>
+						</itemlayout>
+						<focusedlayout width="400" height="110">
+							<control type="image">
+								<posx>0</posx>
+								<posy>-5</posy>
+								<width>400</width>
+								<height>120</height>
+								<texture>SearchButton.png</texture>
+								<aspectratio>stretch</aspectratio>
+								<visible>Control.HasFocus(231)</visible>
+							</control>
+							<control type="image">
+								<posx>4</posx>
+								<posy>7</posy>
+								<width>100</width>
+								<height>100</height>
+								<texture background="true">$INFO[ListItem.Icon]</texture>
+								<bordertexture>black.png</bordertexture>
+								<bordersize>1</bordersize>
+							</control>
+							<control type="image">
+								<posx>70</posx>
+								<posy>70</posy>
+								<width>30</width>
+								<height>30</height>
+								<texture>OverlayWatched.png</texture>
+								<colordiffuse>WatchedOverlay</colordiffuse>
+								<visible>IntegerGreaterThan(ListItem.Property(PlayCount),0)</visible>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>10</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>[B]$INFO[ListItem.Label][/B]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>white</textcolor>
+								<aligny>center</aligny>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>28</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>TextFO</textcolor>
+								<aligny>center</aligny>
+								<visible>!SubString(ListItem.Property(Duration),min)</visible>
+							</control>
+							<control type="label">
+								<posx>110</posx>
+								<posy>28</posy>
+								<width>280</width>
+								<height>12</height>
+								<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
+								<font>METF_PlotTextSmall</font>
+								<textcolor>TextFO</textcolor>
+								<aligny>center</aligny>
+								<visible>SubString(ListItem.Property(Duration),min)</visible>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(Tagline)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+								<autoscroll delay="3000" time="2000" repeat="10000">Control.HasFocus(231)</autoscroll>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(PlotOutline)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+								<visible>IsEmpty(ListItem.Property(TagLine))</visible>
+								<autoscroll delay="3000" time="2000" repeat="10000">Control.HasFocus(231)</autoscroll>
+							</control>
+							<control type="textbox">
+								<posx>110</posx>
+								<posy>42</posy>
+								<width>280</width>
+								<height>64</height>
+								<label>$INFO[ListItem.Property(Plot)]</label>
+								<font>METF_DialogSmall</font>
+								<textcolor>white</textcolor>
+								<visible>IsEmpty(ListItem.Property(TagLine)) + IsEmpty(ListItem.Property(PlotOutline))</visible>
+								<autoscroll delay="3000" time="2000" repeat="10000">Control.HasFocus(231)</autoscroll>
+							</control>
+						</focusedlayout>
+					</control>
+				</control>
 			</control>
-		</control>		
+		</control>
 		<control type="label">
 			<description>Header label</description>
 			<posx>30</posx>
@@ -1869,7 +2112,7 @@
 			<ondown>101</ondown>
 			<onleft>101</onleft>
 			<onright>101</onright>
-		</control>		
+		</control>
 		<control type="image">
 			<posx>625</posx>
 			<posy>45</posy>
