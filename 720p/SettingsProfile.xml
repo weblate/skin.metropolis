@@ -6,7 +6,7 @@
 		<control type="group">
 			<posy>-60</posy>
 			<include>Animation_OpenCloseFade</include>
-			<animation type="Conditional" condition="Window.IsActive(contextmenu) | Window.IsActive(confirmdialog) | Window.IsActive(filebrowser)">
+			<animation type="Conditional" condition="Window.IsActive(contextmenu) | Window.IsActive(yesnodialog) | Window.IsActive(progressdialog) | Window.IsActive(okdialog) | Window.IsActive(filebrowser)">
 				<effect type="zoom" time="600" center="640,360" start="100" end="0" tween="cubic" easing="inout" />
 				<effect type="fade" time="400" start="100" end="0" />
 			</animation>
