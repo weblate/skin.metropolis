@@ -331,7 +331,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Mood)]</label>
+					<label fallback="161">$INFO[ListItem.Mood]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
