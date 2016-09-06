@@ -383,7 +383,7 @@
 		<value condition="!IsEmpty(ListItem.Property(Artist_Description)) + IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Artist_Description)]</value>
 		<value condition="!IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Album_Description)]</value>
 		<!-- Addons -->
-		<value condition="!IsEmpty(ListItem.Property(Addon.Description))">$INFO[ListItem.Property(Addon.Description)]</value>
+		<value condition="!IsEmpty(ListItem.AddonDescription)">$INFO[ListItem.AddonDescription]</value>
 		<!-- Video Genres -->
 		<value condition="StringCompare(ListItem.Label,Action)">$LOCALIZE[31343]</value>
 		<value condition="StringCompare(ListItem.Label,Adventure)">$LOCALIZE[31344]</value>

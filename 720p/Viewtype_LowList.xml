@@ -414,10 +414,10 @@
 					<width>550</width>
 					<height>27</height>
 					<align>right</align>
-					<label fallback="416">[COLOR=MediaDetailsGenre]$LOCALIZE[31423]:[/COLOR] $INFO[ListItem.Property(Addon.Creator)]</label>
+					<label fallback="416">[COLOR=MediaDetailsGenre]$LOCALIZE[31423]:[/COLOR] $INFO[ListItem.AddonCreator]</label>
 					<font>METF_MediaDetails</font>
 					<textcolor>MediaDetailsInfo</textcolor>
-					<visible>!IsEmpty(ListItem.Property(Addon.Creator)) + Container.Content(addons)</visible>
+					<visible>!IsEmpty(ListItem.AddonCreator) + Container.Content(addons)</visible>
 				</control>
 				<!-- Genre -->
 				<control type="label">
