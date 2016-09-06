@@ -1080,64 +1080,58 @@
 				<onclick>SettingsLevelChange</onclick>
 			</control>
 			<control type="label">
-				<description>Settings Menu</description>
+				<description>Settings</description>
 				<label>$LOCALIZE[33061]</label>
 				<include>Global_HeadingDetailVars</include>
 				<visible>Window.IsActive(settings)</visible>
 			</control>
 			<control type="label">
-				<description>Video</description>
-				<label>$LOCALIZE[3]</label>
+				<description>Skin Settings</description>
+				<label>$LOCALIZE[31011]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(videossettings)</visible>
+				<visible>Window.IsActive(56)</visible>
 			</control>
 			<control type="label">
-				<description>Picture</description>
-				<label>$LOCALIZE[1]</label>
-				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(picturessettings)</visible>
-			</control>
-			<control type="label">
-				<description>Appearance</description>
-				<label>$LOCALIZE[480]</label>
-				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(appearancesettings)</visible>
-			</control>
-			<control type="label">
-				<description>Services</description>
-				<label>$LOCALIZE[31468]</label>
-				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(servicesettings)</visible>
-			</control>
-			<control type="label">
-				<description>System</description>
+				<description>System Settings</description>
 				<label>$LOCALIZE[13000]</label>
 				<include>Global_HeadingDetailVars</include>
 				<visible>Window.IsActive(systemsettings)</visible>
 			</control>
 			<control type="label">
-				<description>Music</description>
-				<label>$LOCALIZE[2]</label>
+				<description>Service Settings</description>
+				<label>$LOCALIZE[31468]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(musicsettings)</visible>
+				<visible>Window.IsActive(servicesettings)</visible>
 			</control>
 			<control type="label">
-				<description>Weather</description>
-				<label>$LOCALIZE[8]</label>
+				<description>Interface Settings</description>
+				<label>$LOCALIZE[14206]</label>
 				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(weathersettings)</visible>
+				<visible>Window.IsActive(interfacesettings)</visible>
+			</control>
+			<control type="label">
+				<description>Player Settings</description>
+				<label>$LOCALIZE[14200]</label>
+				<include>Global_HeadingDetailVars</include>
+				<visible>Window.IsActive(playersettings)</visible>
+			</control>
+			<control type="label">
+				<description>Media Settings</description>
+				<label>$LOCALIZE[14211]</label>
+				<include>Global_HeadingDetailVars</include>
+				<visible>Window.IsActive(mediasettings)</visible>
+			</control>
+			<control type="label">
+				<description>Live TV Settings</description>
+				<label>$LOCALIZE[32022]</label>
+				<include>Global_HeadingDetailVars</include>
+				<visible>Window.IsActive(pvrsettings)</visible>
 			</control>
 			<control type="label">
 				<description>Profiles</description>
 				<label>$LOCALIZE[13200]</label>
 				<include>Global_HeadingDetailVars</include>
 				<visible>Window.IsActive(profiles)</visible>
-			</control>
-			<control type="label">
-				<description>Skin</description>
-				<label>$LOCALIZE[31011]</label>
-				<include>Global_HeadingDetailVars</include>
-				<visible>Window.IsActive(56)</visible>
 			</control>
 		</control>
 	</include>
