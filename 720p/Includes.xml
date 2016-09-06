@@ -295,17 +295,25 @@
 		</control>
 	</include>
 
+	<include name="Weather_Icon_Common">
+		<timeperimage>65</timeperimage>
+		<fadetime>1</fadetime>
+		<randomize>false</randomize>
+		<loop>yes</loop>
+		<aspectratio align="center">keep</aspectratio>
+	</include>
 	<include name="Global_Weather">
 		<control type="group">
 			<posx>12</posx>
 			<posy>40</posy>
 			<visible>Weather.IsFetched + [[!Window.IsActive(visualisation) + !Skin.HasSetting(HideClockTemp)] | [Window.IsActive(visualisation) + Player.ShowInfo + !Skin.HasSetting(HideVisClock) + !Window.IsVisible(120)]]</visible>
-			<control type="image">
+			<control type="multiimage">
 				<posx>1145</posx>
 				<posy>517</posy>
 				<width>30</width>
 				<height>30</height>
-				<texture>$VAR[Weather_Icons_Current]</texture>
+				<include>Weather_Icon_Common</include>
+				<imagepath>$VAR[Weather_Icons_Current]</imagepath>
 			</control>
 			<control type="label">
 				<description>Temperature</description>

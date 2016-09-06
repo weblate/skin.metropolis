@@ -194,7 +194,8 @@
 		<value>resource://resource.images.weathericons.coloured</value>
 	</variable>
 	<variable name="WeatherIconsExt">
-		<value condition="!IsEmpty(Skin.String(WeatherIcons.name))">$INFO[Skin.String(WeatherIcons.ext)]</value>
+		<value condition="!IsEmpty(Skin.String(WeatherIcons.name)) + !Skin.HasSetting(WeatherIcons.multi)">$INFO[Skin.String(WeatherIcons.ext)]</value>
+		<value condition="!IsEmpty(Skin.String(WeatherIcons.name)) + Skin.HasSetting(WeatherIcons.multi)">/</value>
 		<value>.png</value>
 	</variable>
 	<variable name="Weather_Icons_Current">
