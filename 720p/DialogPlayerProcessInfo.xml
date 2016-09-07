@@ -217,11 +217,25 @@
 				<font>METF_HomeStatsText</font>
 				<textcolor>HomeStatsCategory</textcolor>
 			</control>
+			<control type="progress">
+				<description>Progress Bar</description>
+				<left>260</left>
+				<top>267</top>
+				<width>275</width>
+				<height>14</height>
+				<reveal>true</reveal>
+				<texturebg>osd/osd_progress_back2.png</texturebg>
+				<lefttexture>osd/osd_progress_left2.png</lefttexture>
+				<midtexture>osd/osd_progress_mid2.png</midtexture>
+				<righttexture>osd/osd_progress_right2.png</righttexture>
+				<colordiffuse>DialogProgressBar</colordiffuse>
+				<info>System.CpuUsage</info>
+			</control>
 			<control type="label">
 				<description>CPU value</description>
-				<left>260</left>
+				<left>545</left>
 				<top>260</top>
-				<width>345</width>
+				<width>180</width>
 				<height>25</height>
 				<label>$INFO[System.CpuUsage]</label>
 				<align>left</align>
@@ -241,11 +255,25 @@
 				<font>METF_HomeStatsText</font>
 				<textcolor>HomeStatsCategory</textcolor>
 			</control>
+			<control type="progress">
+				<description>Progress Bar</description>
+				<left>260</left>
+				<top>292</top>
+				<width>275</width>
+				<height>14</height>
+				<reveal>true</reveal>
+				<texturebg>osd/osd_progress_back2.png</texturebg>
+				<lefttexture>osd/osd_progress_left2.png</lefttexture>
+				<midtexture>osd/osd_progress_mid2.png</midtexture>
+				<righttexture>osd/osd_progress_right2.png</righttexture>
+				<colordiffuse>DialogProgressBar</colordiffuse>
+				<info>System.Memory(used)</info>
+			</control>
 			<control type="label">
 				<description>Memory value</description>
-				<left>260</left>
+				<left>545</left>
 				<top>285</top>
-				<width>345</width>
+				<width>180</width>
 				<height>25</height>
 				<label>$INFO[System.Memory(used.percent)]</label>
 				<align>left</align>
@@ -372,6 +400,11 @@
 				<top>122</top>
 				<width>275</width>
 				<height>14</height>
+				<texturebg>osd/osd_progress_back2.png</texturebg>
+				<lefttexture>osd/osd_progress_left2.png</lefttexture>
+				<midtexture>osd/osd_progress_mid2.png</midtexture>
+				<righttexture>osd/osd_progress_right2.png</righttexture>
+				<colordiffuse>DialogProgressBar</colordiffuse>
 				<info>PVR.ActStreamProgrSignal</info>
 			</control>
 			<control type="label">
@@ -404,7 +437,11 @@
 				<top>147</top>
 				<width>275</width>
 				<height>14</height>
-				<overlaytexture>-</overlaytexture>
+				<texturebg>osd/osd_progress_back2.png</texturebg>
+				<lefttexture>osd/osd_progress_left2.png</lefttexture>
+				<midtexture>osd/osd_progress_mid2.png</midtexture>
+				<righttexture>osd/osd_progress_right2.png</righttexture>
+				<colordiffuse>DialogProgressBar</colordiffuse>
 				<info>PVR.ActStreamProgrSNR</info>
 			</control>
 			<control type="label">
