@@ -11,7 +11,7 @@
 	</animation>
 	<controls>
 		<control type="group">
-			<posx>320</posx>
+			<posx>280</posx>
 			<posy>150</posy>
 			<control type="image">
 				<description>Background Panel</description>
@@ -61,7 +61,7 @@
 
 			<control type="grouplist" id="9000">
 				<orientation>horizontal</orientation>
-				<posx>0</posx>
+				<posx>26</posx>
 				<posy>215</posy>
 				<width>700</width>
 				<align>center</align>
