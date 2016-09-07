@@ -186,7 +186,41 @@ msgctxt "#31133"
 msgid "Mute"
 msgstr ""
 
-#empty strings from id 31134 to 31158
+#empty strings from id 31134 to 31138
+
+msgctxt "#31136"
+msgid "Video Info"
+msgstr ""
+
+msgctxt "#31137"
+msgid "Audio Info"
+msgstr ""
+
+msgctxt "#31138"
+msgid "System Info"
+msgstr ""
+
+msgctxt "#31139"
+msgid "Video decoder"
+msgstr ""
+
+msgctxt "#31140"
+msgid "Pixel format"
+msgstr ""
+
+msgctxt "#31141"
+msgid "Audio channels"
+msgstr ""
+
+msgctxt "#31142"
+msgid "CPU used"
+msgstr ""
+
+msgctxt "#31143"
+msgid "Memory used"
+msgstr ""
+
+#empty strings from id 31144 to 31158
 
 msgctxt "#31159"
 msgid "ffx2"
