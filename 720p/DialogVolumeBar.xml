@@ -89,7 +89,7 @@
 			</animation>
 			<posx>1050</posx>
 			<posy>-15</posy>
-			<visible>!VideoPlayer.IsFullscreen</visible>
+			<visible>Player.Muted + !VideoPlayer.IsFullscreen</visible>
 			<!-- Background Panel -->
 			<control type="image">
 				<description>background image</description>
@@ -114,7 +114,7 @@
 		</control>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
-			<visible>VideoPlayer.IsFullscreen + !Window.IsActive(fullscreeninfo)</visible>
+			<visible>Player.Muted + VideoPlayer.IsFullscreen + !Window.IsActive(fullscreeninfo)</visible>
 			<posx>1195</posx>
 			<posy>65</posy>
 			<control type="group">
@@ -140,7 +140,7 @@
 		</control>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
-			<visible>VideoPlayer.IsFullscreen + Window.IsActive(fullscreeninfo)</visible>
+			<visible>Player.Muted + VideoPlayer.IsFullscreen + Window.IsActive(fullscreeninfo)</visible>
 			<posx>1195</posx>
 			<posy>185</posy>
 			<control type="group">
