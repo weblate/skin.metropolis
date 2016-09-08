@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="2006">
-	<onload condition="Skin.HasSetting(VisBgArtistSlideshow)">RunScript(script.artistslideshow)</onload>
+	<onload condition="System.HasAddon(script.artistslideshow) + Skin.HasSetting(VisBgArtistSlideshow)">RunScript(script.artistslideshow)</onload>
 	<defaultcontrol>-</defaultcontrol>
 	<controls>
 		<control type="multiimage" id="99">
