@@ -638,7 +638,7 @@
 				<texturenofocus>buttons/button_fanart.png</texturenofocus>
 				<texturefocus>buttons/button_fanartFO.png</texturefocus>
 				<include>Animation_ButtonFocus</include>
-				<visible>!StringCompare(ListItem.DBtype,song)</visible>
+				<visible>!StringCompare(ListItem.DBtype,album) + !StringCompare(ListItem.DBtype,song)</visible>
 			</control>
 			<!-- Rating -->
 			<control type="button" id="7">

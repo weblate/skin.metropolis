@@ -29,7 +29,7 @@
 				<control type="label">
 					<posx>460</posx>
 					<posy>76</posy>
-					<width>370</width>
+					<width>570</width>
 					<height>38</height>
 					<font>METF_ContextValue</font>
 					<textcolor>SettingsDetail</textcolor>
@@ -40,7 +40,7 @@
 				<control type="label">
 					<posx>460</posx>
 					<posy>114</posy>
-					<width>370</width>
+					<width>570</width>
 					<height>38</height>
 					<font>METF_ContextValue</font>
 					<textcolor>SettingsDetail</textcolor>
@@ -51,7 +51,7 @@
 				<control type="label">
 					<posx>460</posx>
 					<posy>152</posy>
-					<width>370</width>
+					<width>570</width>
 					<height>38</height>
 					<font>METF_ContextValue</font>
 					<textcolor>SettingsDetail</textcolor>
@@ -62,43 +62,6 @@
 				<control type="label">
 					<posx>460</posx>
 					<posy>190</posy>
-					<width>370</width>
-					<height>38</height>
-					<font>METF_ContextValue</font>
-					<textcolor>SettingsDetail</textcolor>
-					<align>left</align>
-					<aligny>center</aligny>
-					<label>[UPPERCASE]$LOCALIZE[563]:[/UPPERCASE]</label>
-				</control>
-				<control type="grouplist">
-					<posx>460</posx>
-					<posy>198</posy>
-					<width>370</width>
-					<height>38</height>
-					<itemgap>12</itemgap>
-					<align>left</align>
-					<orientation>horizontal</orientation>
-					<control type="label">
-						<width min="10" max="370">auto</width>
-						<height>38</height>
-						<font>METF_ContextValue</font>
-						<textcolor>clear</textcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>[UPPERCASE]$LOCALIZE[563]:[/UPPERCASE]</label>
-					</control>
-					<control type="image">
-						<width>110</width>
-						<height>20</height>
-						<align>left</align>
-						<aligny>center</aligny>
-						<texture>$INFO[ListItem.Property(Addon.StarRating)]</texture>
-						<colordiffuse>MediaFlagDiffuse</colordiffuse>
-					</control>
-				</control>
-				<control type="label">
-					<posx>460</posx>
-					<posy>228</posy>
 					<width>790</width>
 					<height>38</height>
 					<font>METF_ContextValue</font>
@@ -109,19 +72,7 @@
 				</control>
 				<control type="label">
 					<posx>460</posx>
-					<posy>266</posy>
-					<width>790</width>
-					<height>38</height>
-					<font>METF_ContextValue</font>
-					<textcolor>SettingsDetail</textcolor>
-					<align>left</align>
-					<aligny>center</aligny>
-					<scroll>True</scroll>
-					<label>[UPPERCASE]$LOCALIZE[289]:[/UPPERCASE] $INFO[ListItem.AddonSize]</label>
-				</control>
-				<control type="label">
-					<posx>460</posx>
-					<posy>304</posy>
+					<posy>228</posy>
 					<width>790</width>
 					<height>38</height>
 					<font>METF_ContextValue</font>
@@ -134,47 +85,40 @@
 				<control type="textbox" id="5">
 					<description>Textarea</description>
 					<posx>460</posx>
-					<posy>342</posy>
+					<posy>266</posy>
 					<width>790</width>
-					<height>116</height>
+					<height>188</height>
 					<font>METF_ContextValue</font>
 					<textcolor>SettingsDetail</textcolor>
 					<align>left</align>
 					<aligny>top</aligny>
-					<label>[UPPERCASE]$LOCALIZE[24054]:[/UPPERCASE] $INFO[ListItem.AddonNews]</label>
+					<label>[UPPERCASE]$LOCALIZE[24054]:[/UPPERCASE][CR]$INFO[ListItem.AddonNews]</label>
 					<autoscroll time="4000" delay="3000" repeat="5000">true</autoscroll>
 				</control>
 
 			</control>
 			<control type="panel" id="50">
-				<left>850</left>
-				<top>05</top>
-				<width>405</width>
-				<height>225</height>
+				<left>1040</left>
+				<top>70</top>
+				<width>202</width>
+				<height>114</height>
 				<ondown>9000</ondown>
 				<onup>9000</onup>
 				<orientation>horizontal</orientation>
 				<itemlayout height="225" width="405">
 					<control type="image">
-						<width>405</width>
-						<height>225</height>
+						<width>202</width>
+						<height>114</height>
 						<texture border="2" fallback="episodematte.png" background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>scale</aspectratio>
 					</control>
 				</itemlayout>
 				<focusedlayout height="225" width="405">
 					<control type="image">
-						<width>405</width>
-						<height>225</height>
+						<width>202</width>
+						<height>114</height>
 						<texture border="2" fallback="episodematte.png" background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>scale</aspectratio>
-					</control>
-					<control type="image">
-						<posx>-23</posx>
-						<posy>-10</posy>
-						<width>452</width>
-						<height>246</height>
-						<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					</control>
 				</focusedlayout>
 			</control>
