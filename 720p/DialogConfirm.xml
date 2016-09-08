@@ -35,7 +35,7 @@
 			<control type="textbox" id="9">
 				<posx>50</posx>
 				<posy>85</posy>
-				<width>730</width>
+				<width>650</width>
 				<height>120</height>
 				<font>METF_InfoText</font>
 				<textcolor>LowerText</textcolor>
