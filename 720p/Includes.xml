@@ -65,7 +65,7 @@
 		<control type="image">
 			<include>Global_Background_Fanart_Common</include>
 			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
-			<visible>IsEmpty(Control.GetLabel(6999)) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)]]</visible>
+			<visible>IsEmpty(Control.GetLabel(6999)) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)] | Container.Content(addons)]</visible>
 		</control>
 		<!-- Extra Fanart -->
 		<control type="multiimage" id="6999">
