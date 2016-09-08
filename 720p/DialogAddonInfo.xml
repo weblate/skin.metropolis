@@ -82,17 +82,29 @@
 					<scroll>True</scroll>
 					<label>[UPPERCASE]$LOCALIZE[24052]:[/UPPERCASE] $INFO[ListItem.AddonDisclaimer]</label>
 				</control>
-				<control type="textbox" id="5">
-					<description>Textarea</description>
+				<control type="label">
 					<posx>460</posx>
 					<posy>266</posy>
 					<width>790</width>
-					<height>188</height>
+					<height>38</height>
+					<font>METF_ContextValue</font>
+					<textcolor>SettingsDetail</textcolor>
+					<align>left</align>
+					<aligny>center</aligny>
+					<scroll>True</scroll>
+					<label>[UPPERCASE]$LOCALIZE[24054]:[/UPPERCASE]</label>
+				</control>
+				<control type="textbox" id="5">
+					<description>Textarea</description>
+					<posx>460</posx>
+					<posy>304</posy>
+					<width>790</width>
+					<height>140</height>
 					<font>METF_ContextValue</font>
 					<textcolor>SettingsDetail</textcolor>
 					<align>left</align>
 					<aligny>top</aligny>
-					<label>[UPPERCASE]$LOCALIZE[24054]:[/UPPERCASE][CR]$INFO[ListItem.AddonNews]</label>
+					<label>$INFO[ListItem.AddonNews]</label>
 					<autoscroll time="4000" delay="3000" repeat="5000">true</autoscroll>
 				</control>
 
