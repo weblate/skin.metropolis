@@ -47,16 +47,51 @@
 				<textcolor>TextNF</textcolor>
 			</control>
 		</control>
-		<control type="label" id="24">
-			<description>buffering label</description>
-			<posx>0</posx>
-			<posy>350</posy>
-			<label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
-			<width>1280</width>
-			<align>center</align>
-			<textcolor>FFFFFFFF</textcolor>
-			<shadowcolor>FF000000</shadowcolor>
-			<font>METF_FontAMPM</font>
+		<control type="group" id="1">
+			<visible>Player.Caching</visible>
+			<animation delay="300" effect="fade" time="200">Visible</animation>
+			<animation effect="fade" delay="200" time="150">Hidden</animation>
+			<control type="image" id="1">
+				<left>580</left>
+				<top>300</top>
+				<width>120</width>
+				<height>120</height>
+				<texture>dialogs/cprogress/p100.png</texture>
+				<animation effect="fade" end="50" time="0" condition="true">Conditional</animation>
+			</control>
+			<control type="image" id="1">
+				<left>580</left>
+				<top>300</top>
+				<width>120</width>
+				<height>120</height>
+				<texture colordiffuse="DialogProgressBar">dialogs/cprogress/p$INFO[Player.CacheLevel].png</texture>
+			</control>
+			<control type="label" id="1">
+				<description>buffering value</description>
+				<label>$INFO[Player.CacheLevel]%</label>
+				<left>580</left>
+				<top>300</top>
+				<width>120</width>
+				<height>120</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>METF_DialogVerySmall</font>
+				<textcolor>TextNF</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label" id="2">
+				<description>buffering label</description>
+				<label>$LOCALIZE[15107]</label>
+				<left>580</left>
+				<top>400</top>
+				<width>120</width>
+				<height>20</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>METF_DialogVerySmall</font>
+				<textcolor>TextNF</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
 		</control>
 	</controls>
 </window>
