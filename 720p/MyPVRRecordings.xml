@@ -90,8 +90,8 @@
 					</control>
 				</focusedlayout>
 			</control>
-			
-<!---fix -->			
+
+			<!-- XXX: fix -->
 			<control type="scrollbar" id="72">
 				<posx>1210</posx>
 				<posy>80</posy>
@@ -131,9 +131,9 @@
 			</control>
 			<!-- TV Channel Plot (Bottom) -->
 			<include>LiveTVPlot</include>
-		</control>	
-	
-		<!--  Side Buttons -->	
+		</control>
+
+		<!--  Side Buttons -->
 		<control type="group">
 			<include>Animation_NavMenu</include>
 			<include>NavMenuBackground</include>
@@ -150,7 +150,7 @@
 				<include>Nav_NowPlaying</include>
 			</control>
 		</control>
-	
+
 		<include>PVR_Headers</include>
 		<include>Global_Weather</include>
 		<include>Global_Time</include>

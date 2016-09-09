@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="142">
+<window>
 	<controls>
 		<include>OSD_Player_Banner</include>
 		<include>OSD_Progress_Bar2</include>

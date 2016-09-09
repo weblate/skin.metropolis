@@ -34,7 +34,7 @@
 					<onright>101</onright>
 					<onup>10</onup>
 					<ondown>10</ondown>
-					<onback>101</onback> 
+					<onback>101</onback>
 					<rulerlayout height="35" width="40">
 						<control type="label" id="2">
 							<left>10</left>
@@ -926,7 +926,7 @@
 						</focusedlayout>
 					</control>
 
-	<!-- fixxxxx -->
+					<!-- XXX: fixxxxx -->
 					<control type="scrollbar" id="76">
 						<description>Channel scrollbar</description>
 						<posx>1187</posx>
@@ -1006,7 +1006,7 @@
 						<ondown>13</ondown>
 						<onleft>101</onleft>
 						<onright>75</onright>
-						<onback>7000</onback> 
+						<onback>7000</onback>
 						<pagecontrol>75</pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="40">

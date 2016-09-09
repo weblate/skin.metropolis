@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="10140">
+<window>
 	<defaultcontrol always="true">9</defaultcontrol>
 	<include>Animation_OpenCloseFade</include>
 	<coordinates>
@@ -8,7 +8,7 @@
 		<posy>0</posy>
 		<origin x="0" y="0" />
 	</coordinates>
-	<controls>		
+	<controls>
 		<control type="group">
 			<animation type="Conditional" condition="Window.IsActive(filebrowser)">
 				<effect type="zoom" time="600" center="640,360" start="100" end="50" tween="cubic" easing="inout" />

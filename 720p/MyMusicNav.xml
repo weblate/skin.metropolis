@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="502">
+<window>
 	<views>55,905,58,559,501</views>
 	<defaultcontrol always="true">55</defaultcontrol>
 	<onunload>ClearProperty(SkinHelper.Music.ExtraFanArt, Home)</onunload>
@@ -11,7 +11,7 @@
 		<include>Viewtype_LowList</include>
 		<include>Viewtype_Gallery_Square</include>
 		<include>Viewtype_Panel_Square</include>
-		<include>Viewtype_TallGenre</include>		
+		<include>Viewtype_TallGenre</include>
 		<include>Global_ContextFilter</include>
 		<include>Global_AddonInfo</include>
 		<include>Global_ScrollOffsetLabel</include>

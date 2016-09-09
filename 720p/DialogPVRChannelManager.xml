@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="605">
+<window>
 	<defaultcontrol always="true">4</defaultcontrol>
 
 	<controls>
@@ -135,7 +135,7 @@
 				<onright>4</onright>
 				<onup>30</onup>
 				<ondown>19204</ondown>
-			</control> 
+			</control>
 			<control type="button" id ="19204">
 				<description>New Channel Button</description>
 				<posx>0</posx>
@@ -223,7 +223,7 @@
 				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
-			</control>    
+			</control>
 		</control>
 
 		<!-- Default Menu -->
@@ -251,7 +251,7 @@
 			</control>
 		</control>
 
-		<!-- Header group --> 
+		<!-- Header group -->
 		<control type="group">
 			<posx>30</posx>
 			<posy>10</posy>

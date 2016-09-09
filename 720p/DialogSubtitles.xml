@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window type="dialog">
+<window>
 	<coordinates>
 		<system>1</system>
 		<left>380</left>
@@ -7,7 +7,7 @@
 	</coordinates>
 	<controls>
 		<control type="group" id="250">
-			<animation effect="slide" start="0,0" end="900,0" time="500" tween="quadratic" easing="out">WindowClose</animation> 
+			<animation effect="slide" start="0,0" end="900,0" time="500" tween="quadratic" easing="out">WindowClose</animation>
 			<animation type="Conditional" condition="Control.HasFocus(150) | Control.HasFocus(160)" reversible="true">
 				<effect type="slide" end="-250,0" time="400"/>
 			</animation>
@@ -340,7 +340,7 @@
 					<height>4</height>
 					<texture>subtitles/VideoInfoLine.png</texture>
 					<colordiffuse>FilesDividerDiffuse</colordiffuse>
-					<animation effect="rotate" start="0" end="90" center="auto" time="0" condition="true">Conditional</animation>		
+					<animation effect="rotate" start="0" end="90" center="auto" time="0" condition="true">Conditional</animation>
 				</control>
 				<control type="label">
 					<left>905</left>

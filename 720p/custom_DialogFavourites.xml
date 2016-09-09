@@ -18,7 +18,7 @@
 			<onright>450</onright>
 			<ondown>450</ondown>
 		</control>
-		<include>Global_Background</include>		
+		<include>Global_Background</include>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 			<control type="image">

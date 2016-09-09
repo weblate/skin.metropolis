@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="601">
+<window>
 	<defaultcontrol always="true">7</defaultcontrol>
 	<controls>
 		<include>Global_Background</include>
@@ -171,7 +171,7 @@
 			</control>
 		</control>
 
-		<!-- Header group --> 
+		<!-- Header group -->
 		<control type="group">
 			<posx>30</posx>
 			<posy>10</posy>

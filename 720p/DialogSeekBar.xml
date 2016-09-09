@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="115">
+<window>
 	<visible>[Window.IsActive(fullscreenvideo) | Window.IsActive(Visualisation)] + !Window.IsVisible(10153)</visible>
 	<visible>![Window.IsActive(VideoOSD) | Window.IsActive(MusicOSD)] + !Window.IsActive(FullscreenInfo) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>

@@ -23,7 +23,7 @@
 					<pagecontrol>70</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<itemlayout height="60" width="550">
-						<control type="label">	
+						<control type="label">
 							<description>Channel number label</description>
 							<left>0</left>
 							<top>0</top>
@@ -225,10 +225,10 @@
 				</control>
 			</control>
 			<!-- TV Channel Plot (Bottom) -->
-			<include>LiveTVPlot</include> 
-		</control>		
-	
-		<!--  Side Buttons -->	
+			<include>LiveTVPlot</include>
+		</control>
+
+		<!--  Side Buttons -->
 		<control type="group">
 			<include>Animation_NavMenu</include>
 			<include>NavMenuBackground</include>
@@ -245,7 +245,7 @@
 				<include>Nav_NowPlaying</include>
 			</control>
 		</control>
-	
+
 		<include>PVR_Headers</include>
 		<include>Global_Weather</include>
 		<include>Global_Time</include>

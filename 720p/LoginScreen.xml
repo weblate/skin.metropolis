@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="29">
+<window>
 	<defaultcontrol always="true">52</defaultcontrol>
 
 	<controls>
-		<include>Global_Background</include>		
+		<include>Global_Background</include>
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
-			
+
 			<!-- Exit Button -->
 			<control type="button" id="104">
 				<include>LoginButton</include>
