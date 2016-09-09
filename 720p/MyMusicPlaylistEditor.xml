@@ -16,7 +16,7 @@
 					<posy>0</posy>
 					<width>380</width>
 					<height>38</height>
-					<texture>ButtonFo.png</texture>
+					<texture>ButtonFO.png</texture>
 					<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 				</control>
 				<control type="label">
@@ -75,7 +75,7 @@
 						<width>160</width>
 						<height>160</height>
 						<texture>$INFO[Container(50).ListItem.Icon]</texture>
-						<bordertexture border="8">thumb_border.png</bordertexture>
+						<bordertexture border="8">frames/thumb_border_square.png</bordertexture>
 						<bordersize>8</bordersize>
 						<aspectratio aligny="top">scale</aspectratio>
 					</control>
@@ -198,7 +198,7 @@
 						<width>160</width>
 						<height>160</height>
 						<texture>$INFO[Container(100).ListItem.Icon]</texture>
-						<bordertexture border="8">thumb_border.png</bordertexture>
+						<bordertexture border="8">frames/thumb_border_square.png</bordertexture>
 						<bordersize>8</bordersize>
 						<aspectratio aligny="top">scale</aspectratio>
 					</control>
@@ -320,7 +320,7 @@
 					<posy>0</posy>
 					<width>390</width>
 					<height>38</height>
-					<texture>ButtonFo.png</texture>
+					<texture>ButtonFO.png</texture>
 					<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 				</control>
 				<control type="label">
@@ -367,7 +367,7 @@
 							<height>38</height>
 							<align>left</align>
 							<aligny>center</aligny>
-							<texture>ButtonFo.png</texture>
+							<texture>ButtonFO.png</texture>
 							<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(50)">Conditional</animation>
 						</control>
 						<control type="label">
@@ -392,7 +392,7 @@
 					<posy>0</posy>
 					<width>390</width>
 					<height>38</height>
-					<texture>ButtonFo.png</texture>
+					<texture>ButtonFO.png</texture>
 					<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 				</control>
 				<control type="label">
@@ -439,7 +439,7 @@
 							<height>38</height>
 							<align>left</align>
 							<aligny>center</aligny>
-							<texture>ButtonFo.png</texture>
+							<texture>ButtonFO.png</texture>
 							<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(100)">Conditional</animation>
 						</control>
 						<control type="label">

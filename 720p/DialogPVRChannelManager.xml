@@ -189,7 +189,7 @@
 						<posy>0</posy>
 						<height>40</height>
 						<width>350</width>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(20)">Conditional</animation>
 					</control>
 					<control type="image">
@@ -220,7 +220,7 @@
 				<onleft>20</onleft>
 				<onright>7</onright>
 				<texturesliderbackground>-</texturesliderbackground>
-				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+				<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 			</control>

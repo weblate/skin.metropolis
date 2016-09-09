@@ -143,7 +143,7 @@
 					<width>25</width>
 					<height>500</height>
 					<texturesliderbackground>-</texturesliderbackground>
-					<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+					<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 					<onleft>50</onleft>
  					<onright>100</onright>
 					<showonepage>false</showonepage>
@@ -172,7 +172,7 @@
 					<width>704</width>
 					<height>396</height>
 					<aspectratio aligny="bottom">stretch</aspectratio>
-					<texture background="true" diffuse="diffuse_fanart.png"></texture>
+					<texture background="true" diffuse="FanartDiffuse.png"></texture>
 					<visible>Player.HasVideo</visible>
 				</control>
 				<control type="image">

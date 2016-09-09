@@ -65,7 +65,7 @@
 						<posx>0</posx>
 						<width>840</width>
 						<height>38</height>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(10)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -97,7 +97,7 @@
 				<posy>342</posy>
 				<width>840</width>
 				<height>38</height>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 			</control>
 			<control type="edit" id="12">
@@ -115,7 +115,7 @@
 				<font>METF_ContextValue</font>
 				<textcolor>ButtonText</textcolor>
 				<focusedcolor>ButtonText</focusedcolor>
-				<texturefocus>ButtonFo.png</texturefocus>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<disabledcolor>TextDisabled</disabledcolor>
 			</control>
 			<control type="group" id="9000">

@@ -64,9 +64,9 @@
 				<focusedcolor>DialogTextFO</focusedcolor>
 				<align>right</align>
 				<aligny>center</aligny>
-				<texturefocus>ButtonFo.png</texturefocus>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<alttexturefocus>ButtonFo.png</alttexturefocus>
+				<alttexturefocus>ButtonFO.png</alttexturefocus>
 				<alttexturenofocus>-</alttexturenofocus>
 				<pulseonselect>false</pulseonselect>
 			</control>
@@ -75,9 +75,9 @@
 				<include>SettingsLabel</include>
 				<sliderwidth>300</sliderwidth>
 				<sliderheight>16</sliderheight>
-				<texturesliderbar>osdsliderback.png</texturesliderbar>
-				<textureslidernib>osdslidernib_2.png</textureslidernib>
-				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
+				<texturesliderbar>osd/osdsliderback.png</texturesliderbar>
+				<textureslidernib>osd/osdslidernib_2.png</textureslidernib>
+				<textureslidernibfocus>osd/osdslidernib.png</textureslidernibfocus>
 			</control>
 			<control type="textbox" id="6">
 				<include>Animation_FadedByMenu</include>

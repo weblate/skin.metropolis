@@ -16,10 +16,10 @@
 				<posy>0</posy>
 				<width>830</width>
 				<height>453</height>
-				<texture background="true">black.png</texture>
+				<texture background="true">BlackBG.png</texture>
 				<aspectratio>scale</aspectratio>
 				<colordiffuse>f0000000</colordiffuse>
-				<bordertexture border="8,8,0,8">border.png</bordertexture>
+				<bordertexture border="8,8,0,8">frames/thumb_border_round2.png</bordertexture>
 				<bordersize>4,4,0,4</bordersize>
 			</control>
 			<control type="group">

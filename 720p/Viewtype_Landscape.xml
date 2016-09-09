@@ -30,7 +30,7 @@
 						<posy>40</posy>
 						<width>272</width>
 						<height>152</height>
-						<texture>landscapematteNF.png</texture>
+						<texture>frames/landscapematteNF.png</texture>
 						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
 						<visible>!IsEmpty(ListItem.Title)</visible>
 					</control>
@@ -39,7 +39,7 @@
 						<posy>40</posy>
 						<width>272</width>
 						<height>152</height>
-						<texture background="true" diffuse="landscapematteNF.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="frames/landscapematteNF.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">keep</aspectratio>
@@ -50,7 +50,7 @@
 						<posy>40</posy>
 						<width>272</width>
 						<height>152</height>
-						<texture background="true" diffuse="landscapematteNF.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="frames/landscapematteNF.png">$INFO[ListItem.Icon]</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">scale</aspectratio>
@@ -61,7 +61,7 @@
 						<posy>40</posy>
 						<width>272</width>
 						<height>152</height>
-						<texture background="true" diffuse="landscapematteNF.png">$VAR[LandscapeFanart]</texture>
+						<texture background="true" diffuse="frames/landscapematteNF.png">$VAR[LandscapeFanart]</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -72,7 +72,7 @@
 						<posy>40</posy>
 						<width>272</width>
 						<height>152</height>
-						<texture background="true" fallback="home_art/movies.jpg" diffuse="landscapematteNF.png">$VAR[LandscapeFanart]</texture>
+						<texture background="true" fallback="home_art/movies.jpg" diffuse="frames/landscapematteNF.png">$VAR[LandscapeFanart]</texture>
 						<fadetime>200</fadetime>
 						<colordiffuse>LandscapeDiffuse</colordiffuse>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -83,7 +83,7 @@
 						<posy>38</posy>
 						<width>276</width>
 						<height>156</height>
-						<texture>landscapeframeNF.png</texture>
+						<texture>frames/landscapeframeNF.png</texture>
 					</control>
 					<control type="image">
 						<posx>245</posx>

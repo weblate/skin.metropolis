@@ -65,9 +65,9 @@
 				<include>SettingsLabel</include>
 				<sliderwidth>300</sliderwidth>
 				<sliderheight>16</sliderheight>
-				<texturesliderbar>osdsliderback.png</texturesliderbar>
-				<textureslidernib>osdslidernib_2.png</textureslidernib>
-				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
+				<texturesliderbar>osd/osdsliderback.png</texturesliderbar>
+				<textureslidernib>osd/osdslidernib_2.png</textureslidernib>
+				<textureslidernibfocus>osd/osdslidernib.png</textureslidernibfocus>
 			</control>
 			<control type="grouplist" id="9">
 				<description>Button Area</description>

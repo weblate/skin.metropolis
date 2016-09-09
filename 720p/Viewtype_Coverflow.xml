@@ -100,7 +100,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-7Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -109,7 +109,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -117,7 +117,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-7Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -133,7 +133,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -142,7 +142,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -150,7 +150,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -166,7 +166,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -175,7 +175,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -183,7 +183,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -199,7 +199,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -208,7 +208,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -216,7 +216,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -232,7 +232,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -241,7 +241,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -249,7 +249,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -265,7 +265,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -274,7 +274,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -282,7 +282,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -299,7 +299,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -308,7 +308,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -316,7 +316,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -332,7 +332,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -341,7 +341,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -349,7 +349,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -365,7 +365,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -374,7 +374,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -382,7 +382,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -398,7 +398,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -407,7 +407,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -415,7 +415,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -431,7 +431,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -440,7 +440,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -448,7 +448,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -464,7 +464,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -473,7 +473,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -481,7 +481,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -501,7 +501,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -510,7 +510,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -518,7 +518,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -535,7 +535,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -544,7 +544,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -552,7 +552,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -576,7 +576,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem7Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -585,7 +585,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -593,7 +593,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem7Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -609,7 +609,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -618,7 +618,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -626,7 +626,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -642,7 +642,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -651,7 +651,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -659,7 +659,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -675,7 +675,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -684,7 +684,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -692,7 +692,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -708,7 +708,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -717,7 +717,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -725,7 +725,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -741,7 +741,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -750,7 +750,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -758,7 +758,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -775,7 +775,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -784,7 +784,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -792,7 +792,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -808,7 +808,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -817,7 +817,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -825,7 +825,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -841,7 +841,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -850,7 +850,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -858,7 +858,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -874,7 +874,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -883,7 +883,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -891,7 +891,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -907,7 +907,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -916,7 +916,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -924,7 +924,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -940,7 +940,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -949,7 +949,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -957,7 +957,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -977,7 +977,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -986,7 +986,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -994,7 +994,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -1011,7 +1011,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -1020,7 +1020,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -1028,7 +1028,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -1052,7 +1052,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1061,7 +1061,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1069,7 +1069,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1085,7 +1085,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1094,7 +1094,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1102,7 +1102,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1118,7 +1118,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1127,7 +1127,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1135,7 +1135,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1151,7 +1151,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1160,7 +1160,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1168,7 +1168,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1184,7 +1184,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1193,7 +1193,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1201,7 +1201,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1217,7 +1217,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1226,7 +1226,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1234,7 +1234,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1250,7 +1250,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1259,7 +1259,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1267,7 +1267,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1283,7 +1283,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1292,7 +1292,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1300,7 +1300,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1316,7 +1316,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1325,7 +1325,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1333,7 +1333,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1349,7 +1349,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1358,7 +1358,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1366,7 +1366,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1382,7 +1382,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1391,7 +1391,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1399,7 +1399,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1415,7 +1415,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1424,7 +1424,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1432,7 +1432,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1446,7 +1446,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1455,7 +1455,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1463,7 +1463,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>PosterDiffuse</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1489,7 +1489,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-7Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1498,7 +1498,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1506,7 +1506,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-7Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1521,7 +1521,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1530,7 +1530,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1538,7 +1538,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1553,7 +1553,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1562,7 +1562,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1570,7 +1570,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1585,7 +1585,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1594,7 +1594,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1602,7 +1602,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1617,7 +1617,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1626,7 +1626,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1634,7 +1634,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1649,7 +1649,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1658,7 +1658,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1666,7 +1666,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1683,7 +1683,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1692,7 +1692,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1700,7 +1700,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1715,7 +1715,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1724,7 +1724,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1732,7 +1732,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1747,7 +1747,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1756,7 +1756,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1764,7 +1764,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1779,7 +1779,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1788,7 +1788,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1796,7 +1796,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1811,7 +1811,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1820,7 +1820,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1828,7 +1828,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1843,7 +1843,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1852,7 +1852,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1860,7 +1860,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1880,7 +1880,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -1889,7 +1889,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -1897,7 +1897,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -1913,7 +1913,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -1922,7 +1922,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -1930,7 +1930,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -1954,7 +1954,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem7Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1963,7 +1963,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -1971,7 +1971,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem7Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem7Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -1986,7 +1986,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -1995,7 +1995,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2003,7 +2003,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2018,7 +2018,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2027,7 +2027,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2035,7 +2035,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2050,7 +2050,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2059,7 +2059,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2067,7 +2067,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2082,7 +2082,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2091,7 +2091,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2099,7 +2099,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2114,7 +2114,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2123,7 +2123,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2131,7 +2131,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2148,7 +2148,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2157,7 +2157,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2165,7 +2165,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2180,7 +2180,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2189,7 +2189,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2197,7 +2197,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2212,7 +2212,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2221,7 +2221,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2229,7 +2229,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2244,7 +2244,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2253,7 +2253,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2261,7 +2261,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2276,7 +2276,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2285,7 +2285,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2293,7 +2293,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2308,7 +2308,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2317,7 +2317,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2325,7 +2325,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2345,7 +2345,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -2354,7 +2354,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -2362,7 +2362,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -2378,7 +2378,7 @@
 									<width>173</width>
 									<height>254</height>
 									<align>center</align>
-									<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+									<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 								<control type="image">
@@ -2387,7 +2387,7 @@
 									<posy>8</posy>
 									<width>173</width>
 									<height>254</height>
-									<texture border="-17">showcase_shadow.png</texture>
+									<texture border="-17">frames/showcase_shadow.png</texture>
 								</control>
 								<control type="image">
 									<posx>49</posx>
@@ -2395,7 +2395,7 @@
 									<width>173</width>
 									<height>254</height>
 									<colordiffuse>d0FFFFFF</colordiffuse>
-									<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+									<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 									<aspectratio scalediffuse="false">stretch</aspectratio>
 								</control>
 							</control>
@@ -2418,7 +2418,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2427,7 +2427,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2435,7 +2435,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2450,7 +2450,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2459,7 +2459,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2467,7 +2467,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2482,7 +2482,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2491,7 +2491,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2499,7 +2499,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2514,7 +2514,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2523,7 +2523,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2531,7 +2531,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2546,7 +2546,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2555,7 +2555,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2563,7 +2563,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2578,7 +2578,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2587,7 +2587,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2595,7 +2595,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem-1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2610,7 +2610,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2619,7 +2619,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2627,7 +2627,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem6Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2642,7 +2642,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2651,7 +2651,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2659,7 +2659,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem5Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2674,7 +2674,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2683,7 +2683,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2691,7 +2691,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem4Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2706,7 +2706,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2715,7 +2715,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2723,7 +2723,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem3Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2738,7 +2738,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2747,7 +2747,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2755,7 +2755,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem2Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2770,7 +2770,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2779,7 +2779,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2787,7 +2787,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>d0FFFFFF</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem1Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>
@@ -2801,7 +2801,7 @@
 								<width>173</width>
 								<height>254</height>
 								<align>center</align>
-								<texture background="true" diffuse="showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
+								<texture background="true" diffuse="frames/showcase_matte.png">$VAR[CoverflowItem0Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 							<control type="image">
@@ -2810,7 +2810,7 @@
 								<posy>8</posy>
 								<width>173</width>
 								<height>254</height>
-								<texture border="-17">showcase_shadow.png</texture>
+								<texture border="-17">frames/showcase_shadow.png</texture>
 							</control>
 							<control type="image">
 								<posx>49</posx>
@@ -2818,7 +2818,7 @@
 								<width>173</width>
 								<height>254</height>
 								<colordiffuse>PosterDiffuse</colordiffuse>
-								<texture background="true" flipy="true" diffuse="showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
+								<texture background="true" flipy="true" diffuse="frames/showcase_matte_reflect.png">$VAR[CoverflowItem0Image]</texture>
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 							</control>
 						</control>

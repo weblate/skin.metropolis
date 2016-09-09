@@ -9,7 +9,7 @@
 				<posy>-45</posy>
 				<width>1280</width>
 				<height>186</height>
-				<texture>osd/OSDdialogback_top.png</texture>
+				<texture>osd/osd_dialog_bg_top.png</texture>
 				<colordiffuse>OSDBackgroundColor</colordiffuse>
 			</control>
 
@@ -56,7 +56,7 @@
 				<top>300</top>
 				<width>120</width>
 				<height>120</height>
-				<texture>dialogs/cprogress/p100.png</texture>
+				<texture>flags/ProgressCircle/p100.png</texture>
 				<animation effect="fade" end="50" time="0" condition="true">Conditional</animation>
 			</control>
 			<control type="image" id="1">
@@ -64,7 +64,7 @@
 				<top>300</top>
 				<width>120</width>
 				<height>120</height>
-				<texture colordiffuse="DialogProgressBar">dialogs/cprogress/p$INFO[Player.CacheLevel].png</texture>
+				<texture colordiffuse="DialogProgressBar">flags/ProgressCircle/p$INFO[Player.CacheLevel].png</texture>
 			</control>
 			<control type="label" id="1">
 				<description>buffering value</description>

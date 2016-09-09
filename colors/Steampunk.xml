@@ -1,5 +1,4 @@
 <colors>
-
 	<color name="Clear">00FFFFFF</color> <!-- dont change -->
 	<color name="Black">FF000000</color>
 	<color name="White">FFFFFFFF</color>
@@ -27,7 +26,7 @@
 	<color name="LowerText">eeFFFFFF</color>
 	<color name="ButtonText">eeFFFFFF</color>
 	<color name="ButtonDiffuse">eeFFFFFF</color>
-		
+
 	<!-- Home Screen -->
 	<color name="HomeMenuText">eef8cd22</color>
 	<color name="HomeMenuTextFocused">eeFFFFFF</color>
@@ -42,7 +41,7 @@
 	<color name="HomeStatsNumber">ddFFFFFF</color>
 	<color name="KodiLogoDiffuse">eeFFFFFF</color>
 	<color name="Home2SkinName">FFc89008</color>
-	
+
 	<!-- Media Flags -->
 	<color name="MediaFlagDiffuse">ccFFFFFF</color>
 	<color name="MediaFlagBoxDiffuse">89b4e58d</color>
@@ -68,27 +67,27 @@
 	<!-- Low List View -->
 	<color name="LowListTitle">ddd4c2c2</color>
 	<color name="LowListDivider">89f8cd22</color>
-	
+
 	<!-- Landscape View -->
 	<color name="LandscapeDiffuse">89FFFFFF</color>
 
 	<!-- Coverflow View -->
 	<color name="PosterDiffuse">89FFFFFF</color>
-	
+
 	<!-- Files View -->
 	<color name="FilesDividerDiffuse">20f8cd22</color>
 	<color name="FilesStarDiffuse">FFf8cd22</color>
-	
+
 	<!-- Settings -->
 	<color name="SettingsHeading">FFb4e58d</color>
 	<color name="SettingsDetail">ddFFFFFF</color>
 	<color name="SettingsLine">88f8cd22</color>
 	<color name="SettingsTitle">eeb4e58d</color>
-	
+
 	<!-- Info -->
 	<color name="InfoLines">88f8cd22</color>
 	<color name="MPAADescription">eeb4e58d</color>
-	
+
 	<!-- OSD -->
 	<color name="OSDBackgroundColor">ddc0c0c0</color>
 	<color name="OSDDialogBackgroundColor">a0d0d0d0</color>
@@ -97,7 +96,7 @@
 	<color name="OSDPlayerStatusText">eef8cd22</color>
 	<color name="OSDBookmarkNF">32FFFFFF</color>
 	<color name="OSDBookmarkFO">60f8cd22</color>
-	
+
 	<!-- Dialogs -->
 	<color name="DialogBackgroundColor">FFd0d0d0</color>
 	<color name="DialogDropdownColor">FFff8080</color>
@@ -111,27 +110,24 @@
 	<color name="WeatherLowTemp">eeFFFFFF</color>
 	<color name="WeatherHeading">FFb4e58d</color>
 	<color name="WeatherDetails">FFFFFFFF</color>
-	
+
 	<!-- Now Playing -->
 	<color name="NowPlayingTitle">ddc89008</color>				<!-- Now Playing in large frame on Default home screen -->
 	<color name="NowPlayingDetails">FFFFFFFF</color>			<!-- Now Playing in large frame on Default home screen -->
 	<color name="NowPlayingTitle2">eef8cd22</color>				<!-- Now Playing text on dropdown -->
 	<color name="NowPlayingDetails2">eeFFFFFF</color>			<!-- Now Playing text on dropdown -->
-	
-	
-	
+
+
 	<!-- Alaska Revisited Colors -->
 
 	<!-- Background/Dialog colours -->
 	<color name="PicturesDiffuse">52FFFFFF</color>				<!-- Fullscreen Picture background colour and transparency-->
-	<color name="DialogBackgroundColour">FFFFFFFF</color>		<!-- dialogback.png colour and transparency -->
-	<color name="GlobalColour">FFFFFFFF</color>					<!-- background.png colour - dont change transparency -->
+	<color name="DialogBackgroundColour">FFFFFFFF</color>			<!-- dialogs/DialogBG.png colour and transparency -->
+	<color name="GlobalColour">FFFFFFFF</color>				<!-- Background.png colour - dont change transparency -->
 	<color name="GlobalContextColour">32FFFFFF</color>			<!-- Context Menu colour and transparency -->
 
 	<!-- Global colours -->
 	<color name="GlobalDialog">FF686868</color>
 	<color name="GlobalDialogDetails">FF686868</color>
 	<color name="NowPlayingWindowFocus">FF0000ff</color>
-	
-
 </colors>

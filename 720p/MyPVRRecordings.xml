@@ -56,7 +56,7 @@
 						<description>Focus selection</description>
 						<width>1210</width>
 						<height>40</height>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 					</control>
 					<control type="image">
 						<description>Recording icon</description>
@@ -98,7 +98,7 @@
 				<width>25</width>
 				<height>460</height>
  				<texturesliderbackground>-</texturesliderbackground>
- 				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+ 				<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 				<onleft>50</onleft>
 				<onright>102</onright>
 				<showonepage>false</showonepage>

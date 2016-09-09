@@ -55,9 +55,9 @@
 				<onright>11</onright>
 				<texturefocus>-</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<texturesliderbar>osd/slider_bg_2.png</texturesliderbar>
-				<textureslidernib border="2">osd/SliderNibNF.png</textureslidernib>
-				<textureslidernibfocus border="2">osd/SliderNibFO.png</textureslidernibfocus>
+				<texturesliderbar>osd/slider_bg2.png</texturesliderbar>
+				<textureslidernib border="2">osd/slider_nib_nf.png</textureslidernib>
+				<textureslidernibfocus border="2">osd/slider_nib_fo.png</textureslidernibfocus>
 			</control>
 		</control>
 	</controls>

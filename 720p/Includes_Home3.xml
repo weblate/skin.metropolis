@@ -66,7 +66,7 @@
 			<timeperimage>5000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>500</fadetime>
-			<imagepath background="true" diffuse="diffuse_fanart.png">$VAR[HomeBackground]</imagepath>
+			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[HomeBackground]</imagepath>
 			<aspectratio>scale</aspectratio>
 			<visible>!StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
@@ -89,7 +89,7 @@
 			<timeperimage>5000</timeperimage>
 			<randomize>true</randomize>
 			<fadetime>500</fadetime>
-			<imagepath background="true" diffuse="diffuse_fanart.png">$VAR[Weather_Fanart]</imagepath>
+			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[Weather_Fanart]</imagepath>
 			<aspectratio>scale</aspectratio>
 			<visible>StringCompare(Container(9000).ListItem.Property(background),home\weather\)</visible>
 			<visible allowhiddenfocus="true">!Skin.HasSetting(HomeStretchBackgrounds)</visible>
@@ -116,7 +116,7 @@
 			<posy>450</posy>
 			<width>1320</width>
 			<height>63</height>
-			<texture>ButtonFo.png</texture>
+			<texture>ButtonFO.png</texture>
 			<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
 		</control>
 		<control type="image">
@@ -124,7 +124,7 @@
 			<posy>450</posy>
 			<width>1420</width>
 			<height>63</height>
-			<texture flipy="true">osd/OSDdialogback.png</texture>
+			<texture flipy="true">osd/osd_dialog_bg.png</texture>
 			<colordiffuse>BackgroundColor</colordiffuse>
 		</control>
 

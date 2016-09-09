@@ -279,7 +279,7 @@
 						<top>0</top>
 						<width>340</width>
 						<height>24</height>
-						<texture border="4">ButtonFo.png</texture>
+						<texture border="4">ButtonFO.png</texture>
 						<visible>Control.HasFocus(300)</visible>
 					</control>
 					<control type="label">
@@ -722,7 +722,7 @@
 					<height>404</height>
 					<aspectratio align="right" aligny="center">keep</aspectratio>
 					<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">border.png</bordertexture>
+					<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 					<bordersize>4</bordersize>
 				</control>
 			</control>

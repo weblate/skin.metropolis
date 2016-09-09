@@ -148,7 +148,7 @@
 						<height>184</height>
 						<fadetime>200</fadetime>
 						<aspectratio align="center" aligny="center">scale</aspectratio>
-						<texture fallback="profile.png">$INFO[ListItem.Icon]</texture>
+						<texture fallback="Profile.png">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="image">
 						<posx>10</posx>
@@ -177,7 +177,7 @@
 						<width>184</width>
 						<height>184</height>
 						<aspectratio align="center" aligny="center">scale</aspectratio>
-						<texture fallback="profile.png">$INFO[ListItem.Icon]</texture>
+						<texture fallback="Profile.png">$INFO[ListItem.Icon]</texture>
 						<animation reversible="false" effect="zoom" center="auto" start="100" end="115" time="200" tween="sine" easing="inout">focus</animation>
 						<animation reversible="false" effect="zoom" center="auto" start="115" end="100" time="200" tween="sine" easing="inout">unfocus</animation>
 					</control>

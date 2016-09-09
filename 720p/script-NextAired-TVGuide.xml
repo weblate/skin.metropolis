@@ -18,7 +18,7 @@
 				<height>720</height>
 				<aspectratio>scale</aspectratio>
 				<texture>special://skin/home_art/programs.jpg</texture>
-			</control>			
+			</control>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
@@ -35,7 +35,7 @@
 			<posy>0</posy>
 			<height>820</height>
 			<aspectratio>scale</aspectratio>
-			<texture fallback="background.png">$INFO[Skin.String(CustomBackground)]</texture>
+			<texture fallback="Background.png">$INFO[Skin.String(CustomBackground)]</texture>
 			<colordiffuse>BackgroundColor</colordiffuse>
 		</control>
 		<control type="group">
@@ -250,7 +250,7 @@
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
-						</control>						
+						</control>
 					</itemlayout>
 					<focusedlayout height="77" width="150">
 						<control type="group">
@@ -260,7 +260,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -419,7 +419,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -578,7 +578,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -737,7 +737,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -817,7 +817,7 @@
 							<aspectratio>keep</aspectratio>
 							<texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
 							<visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
-						</control>	
+						</control>
 					</focusedlayout>
 				</control>
 				<control type="list" id="204">
@@ -896,7 +896,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -1055,7 +1055,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -1214,7 +1214,7 @@
 								<posy>0</posy>
 								<width>147</width>
 								<height>76</height>
-								<texture border="5">ButtonFo.png</texture>
+								<texture border="5">ButtonFO.png</texture>
 								<aspectratio>stretch</aspectratio>
 							</control>
 							<control type="label">
@@ -1315,7 +1315,7 @@
 					<font>METF_Heading</font>
 					<textcolor>TextFO</textcolor>
 					<wrapmultiline>true</wrapmultiline>
-				</control>				
+				</control>
 				<control type="label">
 					<description>Season/Episode number</description>
 					<posx>0</posx>
@@ -1327,7 +1327,7 @@
 					<aligny>center</aligny>
 					<font>METF_PlotTextSmall</font>
 					<textcolor>white</textcolor>
-				</control>				
+				</control>
 				<control type="image">
 					<posx>0</posx>
 					<posy>88</posy>
@@ -1336,7 +1336,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(200).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2001) + !stringcompare(Control.GetLabel(2001),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2001">
@@ -1347,7 +1347,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(200).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -1390,7 +1390,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<wrapmultiline>true</wrapmultiline>
-				</control>				
+				</control>
 				<control type="label">
 					<posx>0</posx>
 					<posy>390</posy>
@@ -1429,7 +1429,7 @@
 					<width>60</width>
 					<height>41</height>
 					<texture>$INFO[Container(200).ListItem.Property(Network),resource://resource.images.studios.coloured/,.png]</texture>
-				</control>								
+				</control>
 			</control>
 			<control type="group">
 				<description>Additional show info</description>
@@ -1469,7 +1469,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(201).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2011) + !stringcompare(Control.GetLabel(2011),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2011">
@@ -1480,7 +1480,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(201).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -1602,7 +1602,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(202).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2021) + !stringcompare(Control.GetLabel(2021),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2021">
@@ -1613,7 +1613,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(202).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -1735,7 +1735,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(203).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2031) + !stringcompare(Control.GetLabel(2031),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2031">
@@ -1746,7 +1746,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(203).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -1868,7 +1868,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(204).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2041) + !stringcompare(Control.GetLabel(2041),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2041">
@@ -1879,7 +1879,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(204).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -2001,7 +2001,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(205).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2051) + !stringcompare(Control.GetLabel(2051),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2051">
@@ -2012,7 +2012,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(205).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -2134,7 +2134,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true">$INFO[Container(206).ListItem.Property(Fanart)]</texture>
 					<visible>![Control.IsVisible(2061) + !stringcompare(Control.GetLabel(2021),empty.png)]</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image" id="2061">
@@ -2145,7 +2145,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture background="true" fallback="empty.png">$INFO[Container(206).ListItem.Property(Path),,landscape.jpg]</texture>
 					<visible>!IsEmpty(Window(Home).Property(TVGuide.PreviewThumbs))</visible>
-					<bordertexture>dialogback.png</bordertexture>
+					<bordertexture>dialogs/DialogBG.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="image">
@@ -2248,6 +2248,6 @@
 				<font>METF_HomeMenuSmall</font>
 				<align>center</align>
 			</control>
-		</control>				
+		</control>
 	</controls>
 </window>

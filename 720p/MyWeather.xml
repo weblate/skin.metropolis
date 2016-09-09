@@ -4786,8 +4786,8 @@
 					<spinheight>34</spinheight>
 					<textureup>ArrowUpNF.png</textureup>
 					<texturedown>ArrowDownNF.png</texturedown>
-					<textureupfocus>ArrowUpFo.png</textureupfocus>
-					<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+					<textureupfocus>ArrowUpFO.png</textureupfocus>
+					<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 					<reverse>yes</reverse>
 				</control>
 				<include>Nav_NowPlaying</include>

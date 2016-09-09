@@ -103,13 +103,13 @@
 				<!--
 				<textureup>ArrowUpNF.png</textureup>
 				<texturedown>ArrowDownNF.png</texturedown>
-				<textureupfocus>ArrowUpFo.png</textureupfocus>
-				<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+				<textureupfocus>ArrowUpFO.png</textureupfocus>
+				<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 				-->
 				<textureup>ArrowUpNF.png</textureup>
 				<texturedown>ArrowDownNF.png</texturedown>
-				<textureupfocus>ArrowUpFo.png</textureupfocus>
-				<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+				<textureupfocus>ArrowUpFO.png</textureupfocus>
+				<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 				<pulseonselect>false</pulseonselect>
 			</control>
 			<control type="image" id="11">
@@ -138,14 +138,9 @@
 				<sliderheight>15</sliderheight>
 				<texturefocus>ButtonFO2Wide.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<!--
-				<texturesliderbar>osdsliderback.png</texturesliderbar>
-				<textureslidernib>osdslidernib_2.png</textureslidernib>
-				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
-				-->
 				<texturesliderbar>osd/slider_bg.png</texturesliderbar>
-				<textureslidernib border="2">osd/SliderNibNF.png</textureslidernib>
-				<textureslidernibfocus border="2">osd/SliderNibFO.png</textureslidernibfocus>
+				<textureslidernib border="2">osd/slider_nib_nf.png</textureslidernib>
+				<textureslidernibfocus border="2">osd/slider_nib_fo.png</textureslidernibfocus>
 			</control>
 			<control type="label" id="14">
 				<description>Default Label</description>

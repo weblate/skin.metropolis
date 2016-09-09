@@ -121,7 +121,7 @@
 					<control type="image">
 						<width>202</width>
 						<height>114</height>
-						<texture border="2" fallback="episodematte.png" background="true">$INFO[ListItem.Icon]</texture>
+						<texture border="2" fallback="frames/episode_matte.png" background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>scale</aspectratio>
 					</control>
 				</itemlayout>
@@ -129,7 +129,7 @@
 					<control type="image">
 						<width>202</width>
 						<height>114</height>
-						<texture border="2" fallback="episodematte.png" background="true">$INFO[ListItem.Icon]</texture>
+						<texture border="2" fallback="frames/episode_matte.png" background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio>scale</aspectratio>
 					</control>
 				</focusedlayout>

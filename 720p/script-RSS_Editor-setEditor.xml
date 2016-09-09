@@ -19,11 +19,11 @@
 				<posy>0</posy>
 				<width>1320</width>
 				<height>760</height>
-				<texture background="true">black.png</texture>
+				<texture background="true">BlackBG.png</texture>
 			</control>
 			<control type="image">
 				<include>Dimensions_Fullscreen</include>
-				<texture background="true" fallback="background.png">$INFO[Skin.String(CustomBackground)]</texture>
+				<texture background="true" fallback="Background.png">$INFO[Skin.String(CustomBackground)]</texture>
 				<colordiffuse>BackgroundColor</colordiffuse>
 			</control>
 		</control>
@@ -84,7 +84,7 @@
 						<width>590</width>
 						<height>42</height>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<visible>Control.HasFocus(10) | Control.HasFocus(14) | Control.HasFocus(11)</visible>
 					</control>
 					<control type="label">
@@ -111,7 +111,7 @@
 				<height>474</height>
 				<visible allowhiddenfocus="true">Control.IsVisible(10) + Control.HasFocus(60)</visible>
 				<texturesliderbackground>-</texturesliderbackground>
-				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+				<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 				<onleft>10</onleft>
 				<onright>noop</onright>
 				<showonepage>true</showonepage>

@@ -80,7 +80,7 @@
 					<top>140</top>
 					<width>820</width>
 					<height>4</height>
-					<texture>subtitles/VideoInfoLine.png</texture>
+					<texture>VideoInfoLine.png</texture>
 					<colordiffuse>FilesDividerDiffuse</colordiffuse>
 				</control>
 				<control type="image" id="110">
@@ -108,7 +108,7 @@
 					<top>176</top>
 					<width>820</width>
 					<height>4</height>
-					<texture>subtitles/VideoInfoLine.png</texture>
+					<texture>VideoInfoLine.png</texture>
 					<colordiffuse>FilesDividerDiffuse</colordiffuse>
 				</control>
 			</control>
@@ -185,7 +185,7 @@
 							<top>11</top>
 							<width>90</width>
 							<height>17</height>
-							<texture>LeftRating/rating$INFO[ListItem.ActualIcon].png</texture>
+							<texture>flags/LeftRating/rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</itemlayout>
 					<focusedlayout width="800" height="36">
@@ -194,7 +194,7 @@
 							<top>0</top>
 							<width>780</width>
 							<height>38</height>
-							<texture>subtitles/FocusLine.png</texture>
+							<texture>FocusLine.png</texture>
 							<colordiffuse>FocusBar</colordiffuse>
 						</control>
 						<control type="image">
@@ -202,7 +202,7 @@
 							<top>0</top>
 							<width>780</width>
 							<height>38</height>
-							<texture>subtitles/FocusLine.png</texture>
+							<texture>FocusLine.png</texture>
 							<colordiffuse>FocusBar</colordiffuse>
 							<visible>Control.HasFocus(120)</visible>
 						</control>
@@ -258,7 +258,7 @@
 							<top>11</top>
 							<width>90</width>
 							<height>17</height>
-							<texture>LeftRating/rating$INFO[ListItem.ActualIcon].png</texture>
+							<texture>flags/LeftRating/rating$INFO[ListItem.ActualIcon].png</texture>
 						</control>
 					</focusedlayout>
 				</control>
@@ -338,7 +338,7 @@
 					<top>360</top>
 					<width>720</width>
 					<height>4</height>
-					<texture>subtitles/VideoInfoLine.png</texture>
+					<texture>VideoInfoLine.png</texture>
 					<colordiffuse>FilesDividerDiffuse</colordiffuse>
 					<animation effect="rotate" start="0" end="90" center="auto" time="0" condition="true">Conditional</animation>
 				</control>
@@ -361,7 +361,7 @@
 					<top>176</top>
 					<width>240</width>
 					<height>4</height>
-					<texture>subtitles/VideoInfoLine.png</texture>
+					<texture>VideoInfoLine.png</texture>
 					<colordiffuse>FilesDividerDiffuse</colordiffuse>
 				</control>
 				<control type="list" id="150">
@@ -401,7 +401,7 @@
 							<top>0</top>
 							<width>230</width>
 							<height>38</height>
-							<texture>subtitles/FocusLine.png</texture>
+							<texture>FocusLine.png</texture>
 							<colordiffuse>FocusBar</colordiffuse>
 						</control>
 						<control type="image">
@@ -409,7 +409,7 @@
 							<top>0</top>
 							<width>230</width>
 							<height>38</height>
-							<texture>subtitles/FocusLine.png</texture>
+							<texture>FocusLine.png</texture>
 							<colordiffuse>FocusBar</colordiffuse>
 							<visible>Control.HasFocus(150)</visible>
 						</control>
@@ -441,9 +441,9 @@
 					<font>METF_InfoText</font>
 					<textcolor>White</textcolor>
 					<focusedcolor>TextFO</focusedcolor>
-					<texturefocus>ButtonFo.png</texturefocus>
+					<texturefocus>ButtonFO.png</texturefocus>
 					<selectedcolor>TextFO</selectedcolor>
-					<texturenofocus colordiffuse="7fffffff">ButtonFo.png</texturenofocus>
+					<texturenofocus colordiffuse="7fffffff">ButtonFO.png</texturenofocus>
 					<align>center</align>
 				</control>
 			</control>

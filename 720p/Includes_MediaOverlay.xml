@@ -21,7 +21,7 @@
 					<height>150</height>
 					<texture background="true">$INFO[MusicPlayer.Cover]</texture>
 					<aspectratio aligny="bottom">scale</aspectratio>
-					<bordertexture border="8">thumb_border.png</bordertexture>
+					<bordertexture border="8">frames/thumb_border_square.png</bordertexture>
 					<bordersize>6</bordersize>
 					<visible>Player.HasAudio</visible>
 				</control>

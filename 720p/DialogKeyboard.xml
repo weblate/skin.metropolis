@@ -62,7 +62,7 @@
 					<width>860</width>
 					<height>2</height>
 					<aspectratio>stretch</aspectratio>
-					<texture>divider.png</texture>
+					<texture>keyboard/Divider.png</texture>
 				</control>
 				<control type="label" id="313">
 					<description>HZCODE label</description>

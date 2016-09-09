@@ -19,7 +19,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture background="true" fallback="black.png">$VAR[GlobalSearchFanart]</texture>
+				<texture background="true" fallback="BlackBG.png">$VAR[GlobalSearchFanart]</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>400</fadetime>
 				<animation effect="fade" time="400">Visible</animation>
@@ -30,7 +30,7 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture>black.png</texture>
+				<texture>BlackBG.png</texture>
 				<aspectratio>scale</aspectratio>
 				<fadetime>400</fadetime>
 				<animation effect="fade" time="400">Visible</animation>
@@ -121,7 +121,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(111)</visible>
 					</control>
@@ -144,7 +144,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -234,7 +234,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -354,7 +354,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(211)</visible>
 					</control>
@@ -377,7 +377,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -467,7 +467,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -587,7 +587,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(121)</visible>
 					</control>
@@ -610,7 +610,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -668,7 +668,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -754,7 +754,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(111)</visible>
 					</control>
@@ -777,7 +777,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -826,7 +826,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -902,7 +902,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(141)</visible>
 					</control>
@@ -925,7 +925,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -983,7 +983,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -1069,7 +1069,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(151)</visible>
 					</control>
@@ -1092,7 +1092,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -1161,7 +1161,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -1257,7 +1257,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(161)</visible>
 					</control>
@@ -1280,7 +1280,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1329,7 +1329,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1406,7 +1406,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(171)</visible>
 					</control>
@@ -1429,7 +1429,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1478,7 +1478,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1555,7 +1555,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(181)</visible>
 					</control>
@@ -1578,7 +1578,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1638,7 +1638,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="label">
@@ -1725,7 +1725,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(221)</visible>
 					</control>
@@ -1748,7 +1748,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -1806,7 +1806,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -1892,7 +1892,7 @@
 						<posy>22</posy>
 						<width>1220</width>
 						<height>118</height>
-						<texture border="2">ButtonFo.png</texture>
+						<texture border="2">ButtonFO.png</texture>
 						<colordiffuse>8FFFFFFF</colordiffuse>
 						<visible>Control.HasFocus(231)</visible>
 					</control>
@@ -1915,7 +1915,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">
@@ -2005,7 +2005,7 @@
 								<width>100</width>
 								<height>100</height>
 								<texture background="true">$INFO[ListItem.Icon]</texture>
-								<bordertexture>black.png</bordertexture>
+								<bordertexture>BlackBG.png</bordertexture>
 								<bordersize>1</bordersize>
 							</control>
 							<control type="image">

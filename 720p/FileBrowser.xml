@@ -49,7 +49,7 @@
 					<width>590</width>
 					<height>42</height>
 					<aligny>center</aligny>
-					<texture>ButtonFo.png</texture>
+					<texture>ButtonFO.png</texture>
 					<animation effect="fade" start="100" end="100" condition="!Control.HasFocus(450)">Conditional</animation>
 				</control>
 				<control type="label">
@@ -77,7 +77,7 @@
 			<fadetime>100</fadetime>
 			<aspectratio align="right" aligny="center">keep</aspectratio>
 			<texture>$INFO[ListItem.Icon]</texture>
-			<bordertexture border="8">border.png</bordertexture>
+			<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 			<bordersize>4</bordersize>
 			<visible>!substring(ListItem.Icon,default,Left)</visible>
 		</control>
@@ -130,7 +130,7 @@
 			<height>474</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(450) + Control.HasFocus(60)</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 			<onleft>450</onleft>
 			<onright>noop</onright>
 			<showonepage>true</showonepage>

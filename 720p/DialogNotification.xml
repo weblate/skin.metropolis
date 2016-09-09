@@ -30,7 +30,7 @@
 				<width>48</width>
 				<height>48</height>
 				<aspectratio>keep</aspectratio>
-				<texture diffuse="squarematte.png">DefaultIconInfo.png</texture>
+				<texture diffuse="frames/square_matte.png">DefaultIconInfo.png</texture>
 			</control>
 			<!-- Text -->
 			<control type="fadelabel" id="401">

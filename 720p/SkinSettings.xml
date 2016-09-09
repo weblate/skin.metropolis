@@ -43,7 +43,7 @@
 						<height>38</height>
 						<align>left</align>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -762,7 +762,7 @@
 						<control type="image" id="808">
 							<height>60</height>
 							<width>60</width>
-							<texture>blank.png</texture>
+							<texture>Blank.png</texture>
 						</control>
 						<control type="button" id="809">
 							<description>Playlists</description>

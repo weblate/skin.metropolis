@@ -49,7 +49,7 @@
 	<include name="Global_Background">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture background="true" fallback="background.png">$INFO[Skin.String(CustomBackground)]</texture>
+			<texture background="true" fallback="Background.png">$INFO[Skin.String(CustomBackground)]</texture>
 			<colordiffuse>BackgroundColor</colordiffuse>
 		</control>
 	</include>
@@ -64,13 +64,13 @@
 	<include name="Global_Background_Fanart">
 		<control type="image">
 			<include>Global_Background_Fanart_Common</include>
-			<texture background="true" diffuse="diffuse_fanart.png">$VAR[GlobalFanart]</texture>
+			<texture background="true" diffuse="FanartDiffuse.png">$VAR[GlobalFanart]</texture>
 			<visible>IsEmpty(Control.GetLabel(6999)) + [[[Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !Skin.HasSetting(HideVideoFanart)] | [[Container.Content(artists) | Container.Content(albums) | Container.Content(songs)] + !Skin.HasSetting(HideMusicFanart)] | [Window.IsActive(pictures) + !Skin.HasSetting(HidePictureFanart)] | Container.Content(addons)]</visible>
 		</control>
 		<!-- Extra Fanart -->
 		<control type="multiimage" id="6999">
 			<include>Global_Background_Fanart_Common</include>
-			<imagepath background="true" diffuse="diffuse_fanart.png">$VAR[GlobalExtraFanart]</imagepath>
+			<imagepath background="true" diffuse="FanartDiffuse.png">$VAR[GlobalExtraFanart]</imagepath>
 			<timeperimage>5000</timeperimage>
 			<randomize>true</randomize>
 			<loop>yes</loop>
@@ -80,7 +80,7 @@
 	<include name="Global_ContextFilter">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture background="true" fallback="background.png" diffuse="diffuse_fanart.png">$INFO[Skin.String(CustomBackground)]</texture>
+			<texture background="true" fallback="Background.png" diffuse="FanartDiffuse.png">$INFO[Skin.String(CustomBackground)]</texture>
 			<colordiffuse>GlobalContextColour</colordiffuse>
 			<visible>ControlGroup(7001).HasFocus | ControlGroup(7000).HasFocus | Window.IsActive(yesnodialog) | Window.IsActive(progressdialog) | Window.IsActive(okdialog) | Window.IsActive(contextmenu) | Window.IsActive(favourites) | Window.IsActive(mediasource) | Window.IsActive(addonsettings) | Window.IsActive(pictureinfo) | Window.IsActive(songinformation)</visible>
 			<animation effect="fade" start="0" end="100" time="200">Visible</animation>
@@ -931,7 +931,7 @@
 				<posy>92</posy>
 				<width>2</width>
 				<height>445</height>
-				<texture>VideoInfoLine_Vertical2.png</texture>
+				<texture>VideoInfoLineV2.png</texture>
 				<colordiffuse>InfoLines</colordiffuse>
 			</control>
 			<control type="image">
@@ -939,7 +939,7 @@
 				<posy>57</posy>
 				<width>2</width>
 				<height>478</height>
-				<texture>VideoInfoLine_Vertical2.png</texture>
+				<texture>VideoInfoLineV2.png</texture>
 				<colordiffuse>InfoLines</colordiffuse>
 			</control>
 		</control>
@@ -976,7 +976,7 @@
 	<include name="Object_DebugGrid">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture>debuggrid.png</texture>
+			<texture>DebugGrid.png</texture>
 		</control>
 	</include>
 
@@ -1084,17 +1084,17 @@
 		<textoffsetx>20</textoffsetx>
 		<radiowidth>55</radiowidth>
 		<radioheight>55</radioheight>
-		<textureradiofocus>button_radioF.png</textureradiofocus>
-		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureradiofocus>buttons/button_radioFO.png</textureradiofocus>
+		<textureradionofocus>buttons/button_radioNF.png</textureradionofocus>
 		<textureup>ArrowUpNF.png</textureup>
 		<texturedown>ArrowDownNF.png</texturedown>
-		<textureupfocus>ArrowUpFo.png</textureupfocus>
-		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		<textureupfocus>ArrowUpFO.png</textureupfocus>
+		<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 		<font>METF_TitleTextMedium</font>
 		<textcolor>SettingsDetail</textcolor>
 		<focusedcolor>DialogTextFO</focusedcolor>
 		<selectedcolor>TextFO</selectedcolor>
-		<texturefocus>ButtonFo.png</texturefocus>
+		<texturefocus>ButtonFO.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
@@ -1107,17 +1107,17 @@
 		<textoffsetx>58</textoffsetx>
 		<radiowidth>55</radiowidth>
 		<radioheight>55</radioheight>
-		<textureradiofocus>button_radioF.png</textureradiofocus>
-		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureradiofocus>buttons/button_radioFO.png</textureradiofocus>
+		<textureradionofocus>buttons/button_radioNF.png</textureradionofocus>
 		<textureup>ArrowUpNF.png</textureup>
 		<texturedown>ArrowDownNF.png</texturedown>
-		<textureupfocus>ArrowUpFo.png</textureupfocus>
-		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		<textureupfocus>ArrowUpFO.png</textureupfocus>
+		<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 		<font>METF_TitleTextMedium</font>
 		<textcolor>SettingsDetail</textcolor>
 		<focusedcolor>DialogTextFO</focusedcolor>
 		<selectedcolor>TextFO</selectedcolor>
-		<texturefocus>ButtonFo.png</texturefocus>
+		<texturefocus>ButtonFO.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
@@ -1132,17 +1132,17 @@
 		<spinheight>34</spinheight>
 		<radiowidth>55</radiowidth>
 		<radioheight>55</radioheight>
-		<textureradiofocus>button_radioF.png</textureradiofocus>
-		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureradiofocus>buttons/button_radioFO.png</textureradiofocus>
+		<textureradionofocus>buttons/button_radioNF.png</textureradionofocus>
 		<textureup>ArrowUpNF.png</textureup>
 		<texturedown>ArrowDownNF.png</texturedown>
-		<textureupfocus>ArrowUpFo.png</textureupfocus>
-		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		<textureupfocus>ArrowUpFO.png</textureupfocus>
+		<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 		<font>METF_ContextValue</font>
 		<textcolor>SettingsDetail</textcolor>
 		<focusedcolor>ButtonText</focusedcolor>
 		<selectedcolor>TextFO</selectedcolor>
-		<texturefocus>ButtonFo.png</texturefocus>
+		<texturefocus>ButtonFO.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<disabledcolor>TextDisabled</disabledcolor>
 		<pulseonselect>false</pulseonselect>
@@ -1159,7 +1159,7 @@
 	<include name="Settings_Line">
 		<height>8</height>
 		<width>840</width>
-		<texture border="2">settings_line.png</texture>
+		<texture border="2">SettingsLine.png</texture>
 		<colordiffuse>SettingsLine</colordiffuse>
 	</include>
 
@@ -1173,12 +1173,12 @@
 		<spinheight>34</spinheight>
 		<radiowidth>55</radiowidth>
 		<radioheight>55</radioheight>
-		<textureradiofocus>button_radioF.png</textureradiofocus>
-		<textureradionofocus>button_radioNF.png</textureradionofocus>
+		<textureradiofocus>buttons/button_radioFO.png</textureradiofocus>
+		<textureradionofocus>buttons/button_radioNF.png</textureradionofocus>
 		<textureup>ArrowUpNF.png</textureup>
 		<texturedown>ArrowDownNF.png</texturedown>
-		<textureupfocus>ArrowUpFo.png</textureupfocus>
-		<texturedownfocus>ArrowDownFo.png</texturedownfocus>
+		<textureupfocus>ArrowUpFO.png</textureupfocus>
+		<texturedownfocus>ArrowDownFO.png</texturedownfocus>
 		<font>METF_Menu</font>
 		<textcolor>TextNF</textcolor>
 		<focusedcolor>DialogTextFO</focusedcolor>
@@ -1240,7 +1240,7 @@
 				<posy>545</posy>
 				<width>1280</width>
 				<height>175</height>
-				<texture>osd/OSDdialogback.png</texture>
+				<texture>osd/osd_dialog_bg.png</texture>
 				<colordiffuse>OSDBackgroundColor</colordiffuse>
 			</control>
 			<control type="progress" id="23">
@@ -1278,7 +1278,7 @@
 				<posy>545</posy>
 				<width>1280</width>
 				<height>175</height>
-				<texture>osd/OSDdialogback.png</texture>
+				<texture>osd/osd_dialog_bg.png</texture>
 				<colordiffuse>OSDBackgroundColor</colordiffuse>
 			</control>
 			<control type="progress" id="23">
@@ -1436,7 +1436,7 @@
 					<width>250</width>
 					<height>140</height>
 					<aspectratio align="right" aligny="center">keep</aspectratio>
-					<bordertexture border="6">frames/thumb_border.png</bordertexture>
+					<bordertexture border="6">frames/thumb_border_round.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
 					<visible>VideoPlayer.Content(MusicVideos) + !SubString(VideoPlayer.Cover,default,Left)</visible>
@@ -1463,7 +1463,7 @@
 					<width>218</width>
 					<height>310</height>
 					<aspectratio align="right" aligny="bottom">keep</aspectratio>
-					<bordertexture border="6">frames/thumb_border.png</bordertexture>
+					<bordertexture border="6">frames/thumb_border_round.png</bordertexture>
 					<bordersize>6</bordersize>
 					<texture diffuse="frames/EpisodeMatte.png">$INFO[VideoPlayer.Cover]</texture>
 					<visible>!SubString(VideoPlayer.Cover,default,Left)</visible>
@@ -1675,7 +1675,7 @@
 			<control type="image">
 				<width>1280</width>
 				<height>80</height>
-				<texture>osd/OSDdialogback_top.png</texture>
+				<texture>osd/osd_dialog_bg_top.png</texture>
 				<colordiffuse>OSDBackgroundColor</colordiffuse>
 			</control>
 			<control type="group">
@@ -1757,8 +1757,8 @@
 			<height>30</height>
 			<visible allowhiddenfocus="true">Control.HasFocus(60) | Container.Scrolling</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernib>ScrollBarV_Nib_Focus.png</textureslidernib>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+			<textureslidernib>ScrollbarVnibFO</textureslidernib>
+			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 			<onup>55</onup>
 			<ondown>noop</ondown>
 			<showonepage>true</showonepage>
@@ -1777,8 +1777,8 @@
 			<height>484</height>
 			<visible allowhiddenfocus="true">Control.HasFocus(61) | Container.Scrolling</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernib>ScrollBarV_Nib_Focus.png</textureslidernib>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+			<textureslidernib>ScrollbarVnibFO</textureslidernib>
+			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 			<onleft>55</onleft>
 			<onright>noop</onright>
 			<showonepage>true</showonepage>

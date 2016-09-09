@@ -478,7 +478,7 @@
 						<width>300</width>
 						<height>440</height>
 						<fadetime>100</fadetime>
-						<texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="frames/poster_matte.png">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">keep</aspectratio>
 						<visible>IsEmpty(ListItem.Title)</visible>
 					</control>
@@ -512,7 +512,7 @@
 						<width>293</width>
 						<height>265</height>
 						<fadetime>100</fadetime>
-						<texture background="true" diffuse="episodematte.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="frames/episode_matte.png">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">keep</aspectratio>
 						<visible>IsEmpty(ListItem.Title) | SubString(ListItem.Icon,default)</visible>
 					</control>
@@ -661,8 +661,8 @@
 				<height>376</height>
 				<visible allowhiddenfocus="true">Control.HasFocus(998) | Container.Scrolling</visible>
 				<texturesliderbackground>-</texturesliderbackground>
-				<textureslidernib>ScrollBarV_Nib_Focus.png</textureslidernib>
-				<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+				<textureslidernib>ScrollbarVnibFO</textureslidernib>
+				<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 				<onleft>55</onleft>
 				<onright>noop</onright>
 				<showonepage>true</showonepage>

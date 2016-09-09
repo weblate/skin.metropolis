@@ -13,7 +13,7 @@
 				<posy>120</posy>
 				<height>38</height>
 				<width>610</width>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="70" condition="Control.HasFocus(21)">Conditional</animation>
 			</control>
 			<control type="fadelabel" id="101">
@@ -67,7 +67,7 @@
 						<posy>0</posy>
 						<height>38</height>
 						<width>610</width>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="70" condition="Control.HasFocus(21)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -106,7 +106,7 @@
 				<posy>120</posy>
 				<height>38</height>
 				<width>610</width>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="70" condition="Control.HasFocus(20)">Conditional</animation>
 			</control>
 			<control type="fadelabel" id="102">
@@ -160,7 +160,7 @@
 						<posy>0</posy>
 						<height>38</height>
 						<width>610</width>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="70" condition="Control.HasFocus(20)">Conditional</animation>
 					</control>
 					<control type="label">

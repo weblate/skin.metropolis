@@ -97,7 +97,7 @@
 							<height>38</height>
 							<align>left</align>
 							<aligny>center</aligny>
-							<texture border="5">ButtonFo.png</texture>
+							<texture border="5">ButtonFO.png</texture>
 						</control>
 						<control type="image">
 							<left>283</left>
@@ -367,7 +367,7 @@
 					<control type="image" id="910">
 						<height>8</height>
 						<width>700</width>
-						<texture border="2">settings_line.png</texture>
+						<texture border="2">SettingsLine.png</texture>
 						<colordiffuse>SettingsLine</colordiffuse>
 					</control>
 				</control>
@@ -392,7 +392,7 @@
 						<font>METF_TitleTextMedium</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<texturefocus border="5">ButtonFo.png</texturefocus>
+						<texturefocus border="5">ButtonFO.png</texturefocus>
 						<texturenofocus border="5">ButtonNf.png</texturenofocus>
 						<label>$ADDON[script.skinshortcuts 32000]</label>
 					</control>
@@ -405,7 +405,7 @@
 						<font>METF_TitleTextMedium</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<texturefocus border="5">ButtonFo.png</texturefocus>
+						<texturefocus border="5">ButtonFO.png</texturefocus>
 						<texturenofocus border="5">ButtonNf.png</texturenofocus>
 						<onclick>Close</onclick>
 					</control>
@@ -417,7 +417,7 @@
 						<font>METF_TitleTextMedium</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<texturefocus border="5">ButtonFo.png</texturefocus>
+						<texturefocus border="5">ButtonFO.png</texturefocus>
 						<texturenofocus border="5">ButtonNf.png</texturenofocus>
 						<label>$ADDON[script.skinshortcuts 32028]</label>
 					</control>

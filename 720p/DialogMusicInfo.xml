@@ -29,7 +29,7 @@
 					<width>515</width>
 					<height>30</height>
 					<aligny>center</aligny>
-					<texture fallback="LeftRating/rating0.png">$INFO[ListItem.Rating,rating,.png]</texture>
+					<texture fallback="flags/LeftRating/rating0.png">$INFO[ListItem.Rating,flags/LeftRating/rating,.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
 					<visible>String.IsEmpty(ListItem.UserRating)</visible>
@@ -40,7 +40,7 @@
 					<width>515</width>
 					<height>30</height>
 					<aligny>center</aligny>
-					<texture>$INFO[ListItem.UserRating,LeftRating/rating,.png]</texture>
+					<texture fallback="flags/LeftRating/rating0.png">$INFO[ListItem.UserRating,flags/LeftRating/rating,.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
 					<visible>!String.IsEmpty(ListItem.UserRating)</visible>
@@ -199,7 +199,7 @@
 					<width>515</width>
 					<height>30</height>
 					<aligny>center</aligny>
-					<texture fallback="LeftRating/rating0.png">$INFO[ListItem.Rating,rating,.png]</texture>
+					<texture fallback="flags/LeftRating/rating0.png">$INFO[ListItem.Rating,flags/LeftRating/rating,.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
 					<visible>String.IsEmpty(ListItem.UserRating)</visible>
@@ -210,7 +210,7 @@
 					<width>515</width>
 					<height>30</height>
 					<aligny>center</aligny>
-					<texture>$INFO[ListItem.UserRating,LeftRating/rating,.png]</texture>
+					<texture fallback="flags/LeftRating/rating0.png">$INFO[ListItem.UserRating,flags/LeftRating/rating,.png]</texture>
 					<aspectratio align="center" aligny="center">keep</aspectratio>
 					<colordiffuse>MediaFlagDiffuse</colordiffuse>
 					<visible>!String.IsEmpty(ListItem.UserRating)</visible>

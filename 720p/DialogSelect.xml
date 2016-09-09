@@ -26,7 +26,7 @@
 				<posy>158</posy>
 				<width>840</width>
 				<height>38</height>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 			</control>
 			<control type="label" id="1">
@@ -72,7 +72,7 @@
 						<height>38</height>
 						<align>left</align>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(3)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -108,7 +108,7 @@
 						<fadetime>100</fadetime>
 						<aspectratio align="left" aligny="center">keep</aspectratio>
 						<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
-						<bordertexture border="8">thumb_border.png</bordertexture>
+						<bordertexture border="8">frames/thumb_border_square.png</bordertexture>
 						<bordersize>6</bordersize>
 					</control>
 					<control type="label">
@@ -132,7 +132,7 @@
 						<fadetime>100</fadetime>
 						<aspectratio align="left" aligny="center">keep</aspectratio>
 						<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
-						<bordertexture border="8">border.png</bordertexture>
+						<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 						<bordersize>4</bordersize>
 					</control>
 					<control type="image">
@@ -142,7 +142,7 @@
 						<height>38</height>
 						<align>left</align>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(6)">Conditional</animation>
 						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
@@ -182,7 +182,7 @@
 			<height>400</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(3) + Control.HasFocus(60)</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 			<onleft>3</onleft>
 			<onright>noop</onright>
 			<showonepage>true</showonepage>
@@ -196,7 +196,7 @@
 			<height>450</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(6) + Control.HasFocus(61)</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
 			<onleft>6</onleft>
 			<onright>noop</onright>
 			<showonepage>true</showonepage>

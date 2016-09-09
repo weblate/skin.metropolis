@@ -155,7 +155,7 @@
 						<height>38</height>
 						<align>left</align>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 				<visible>Control.Hasfocus(10)</visible>
 						<animation effect="fade" start="0" end="100" condition="True">Conditional</animation>
 					</control>
@@ -265,9 +265,9 @@
 				<onup>17</onup>
 				<ondown>23</ondown>
 				<texturenofocus>-</texturenofocus>
-				<texturefocus>ButtonFo.png</texturefocus>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<alttexturenofocus>-</alttexturenofocus>
-				<alttexturefocus>ButtonFo.png</alttexturefocus>
+				<alttexturefocus>ButtonFO.png</alttexturefocus>
 			</control>
 			<control type="spincontrolex" id="23">
 				<posx>440</posx>
@@ -292,9 +292,9 @@
 				<onup>18</onup>
 				<ondown>22</ondown>
 				<texturenofocus>-</texturenofocus>
-				<texturefocus>ButtonFo.png</texturefocus>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<alttexturenofocus>-</alttexturenofocus>
-				<alttexturefocus>ButtonFo.png</alttexturefocus>
+				<alttexturefocus>ButtonFO.png</alttexturefocus>
 			</control>
 			<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>
 		</control>

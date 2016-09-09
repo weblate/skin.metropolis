@@ -16,7 +16,7 @@
 				<posy>234</posy>
 				<width>380</width>
 				<height>38</height>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="0" condition="!Control.HasFocus(4)">Conditional</animation>
 			</control>
 			<control type="radiobutton" id="4">
@@ -32,8 +32,8 @@
 				<aligny>center</aligny>
 				<radiowidth>80</radiowidth>
 				<radioheight>55</radioheight>
-				<textureradiofocus>button_radioF.png</textureradiofocus>
-				<textureradionofocus>button_radioNF.png</textureradionofocus>
+				<textureradiofocus>buttons/button_radioFO.png</textureradiofocus>
+				<textureradionofocus>buttons/button_radioNF.png</textureradionofocus>
 				<font>METF_ContextValue</font>
 				<textcolor>ButtonText</textcolor>
 				<disabledcolor>TextDisabled</disabledcolor>
@@ -59,7 +59,7 @@
 				<textcolor>ButtonText</textcolor>
 				<disabledcolor>TextDisabled</disabledcolor>
 				<focusedcolor>ButtonText</focusedcolor>
-				<texturefocus>ButtonFo.png</texturefocus>
+				<texturefocus>ButtonFO.png</texturefocus>
 				<selectedcolor>TextFO</selectedcolor>
 				<texturenofocus>-</texturenofocus>
 				<label>$LOCALIZE[31444]</label>
@@ -90,7 +90,7 @@
 				<posy>158</posy>
 				<width>840</width>
 				<height>38</height>
-				<texture>ButtonFo.png</texture>
+				<texture>ButtonFO.png</texture>
 				<animation effect="fade" start="100" end="70" condition="True">Conditional</animation>
 			</control>
 			-->
@@ -137,7 +137,7 @@
 						<fadetime>100</fadetime>
 						<aspectratio align="center" aligny="center">scale</aspectratio>
 						<texture fallback="settings/settings_profiles.png">$INFO[ListItem.Icon]</texture>
-						<bordertexture border="8">border.png</bordertexture>
+						<bordertexture border="8">frames/thumb_border_round2.png</bordertexture>
 						<bordersize>4</bordersize>
 					</control>
 					<control type="image">
@@ -147,7 +147,7 @@
 						<height>38</height>
 						<align>left</align>
 						<aligny>center</aligny>
-						<texture>ButtonFo.png</texture>
+						<texture>ButtonFO.png</texture>
 						<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(2)">Conditional</animation>
 						<animation effect="slide" end="0,20" condition="IsEmpty(ListItem.Label2)">Conditional</animation>
 					</control>
