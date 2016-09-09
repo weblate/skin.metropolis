@@ -562,4 +562,39 @@
 		<value condition="Player.Process(videohwdecoder)">HW</value>
 		<value>SW</value>
 	</variable>
+
+	<variable name="GlobalHeadingLeft">
+		<value condition="[SubString(System.CurrentWindow, Videos, right) | SubString(System.CurrentWindow, Music, right) | SubString(System.CurrentWindow, Programs, right) | SubString(System.CurrentWindow, Pictures, right)] + IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
+
+		<!-- Left side movie titles -->
+		<value condition="[SubString(Container.FolderPath, videodb://movies/, left)]">$LOCALIZE[342]</value>
+
+		<!-- Left side tvshows titles -->
+		<value condition="[SubString(Container.FolderPath, videodb://tvshows/, left) + [SubString(ListItem.DBType, season, left) | [SubString(ListItem.DBType, episode, left) + !SubString(Container.FolderName, Season)]]]">$INFO[Container.FolderName]</value>
+		<value condition="[SubString(Container.FolderPath, videodb://tvshows/, left) + SubString(ListItem.DBType, episode, left) + SubString(Container.FolderName, Season)]">$INFO[Container.ShowTitle]$INFO[Container.FolderName,: ]</value>
+		<value condition="[SubString(Container.FolderPath,videodb://tvshows/,left)]">$LOCALIZE[20343]</value>
+		<value condition="[SubString(Container.FolderPath, videodb://tvshows/, left) + SubString(ListItem.DBType, tvshow, left)]">$INFO[Container.FolderName]</value>
+
+		<!-- Left side files titles -->
+		<value condition="[System.CurrentWindow(Videos) + Container.Content(files)]">$INFO[System.CurrentWindow],, · ]$LOCALIZE[744]$INFO[Container.FolderName, · ]</value>
+
+		<!-- Left side playlist titles -->
+		<value condition="[SubString(Container.FolderPath, special://profile/playlists/video/, left) + !SubString(Container.FolderPath, videodb://tvshows/tags/, right)]">$INFO[System.CurrentWindow,, · ]$LOCALIZE[136]$INFO[Container.FolderName, · ]</value>
+
+		<!-- Left side video-addons titles -->
+		<value condition="[SubString(Container.FolderPath, plugin://plugin.video., left)]">$INFO[System.CurrentWindow,, · ]$LOCALIZE[24001]$INFO[Container.FolderName, · ]</value>
+
+		<!-- Left side music titles -->
+		<value condition="[SubString(Container.FolderPath, musicdb://, left)]">$INFO[System.CurrentWindow]</value>
+
+		<!-- Left side musicvideo titles -->
+		<value condition="[SubString(Container.FolderPath, videodb://musicvideos/, left)]">$LOCALIZE[20389]</value>
+
+		<!-- remaining old Left side titles-->
+		<value condition="Window.IsActive(MusicPlaylist)">$LOCALIZE[2] $LOCALIZE[559]</value>
+		<value condition="Window.IsActive(SystemInfo)">$LOCALIZE[130]</value>
+		<value condition="Window.IsActive(LoginScreen)">$LOCALIZE[20096]</value>
+		<value condition="IsEmpty(Container.FolderPath)">$INFO[System.CurrentWindow]</value>
+		<value>$INFO[Container.FolderName]</value>
+	</variable>
 </includes>
