@@ -414,9 +414,9 @@
 		<height>18</height>
 	</include>
 	<include name="MediaFlagsVarsSquareHalfBottom">
-		<posx>14</posx>
+		<posx>9</posx>
 		<posy>26</posy>
-		<width>44</width>
+		<width>52</width>
 		<height>18</height>
 	</include>
 
