@@ -605,6 +605,9 @@
 		<!-- Left side playlist titles -->
 		<value condition="[SubString(Container.FolderPath, special://profile/playlists/, left) + !SubString(Container.FolderPath, special://profile/playlists/, right)]">$INFO[System.CurrentWindow,, · ]$LOCALIZE[136]$INFO[Container.FolderName, · ]</value>
 
+		<!-- Left side pictures titles -->
+		<value condition="SubString(System.CurrentWindow, Pictures, left) + !IsEmpty(Container.FolderPath) + !SubString(Container.FolderPath, addons://sources/image, right) + !SubString(Container.FolderPath, plugin, left)">$INFO[System.CurrentWindow] · $INFO[Container.FolderPath]</value>
+
 		<!-- Left side music titles -->
 		<value condition="SubString(Container.FolderPath, musicdb://genres/, right) | SubString(Container.FolderPath, musicdb://artists/, right) | SubString(Container.FolderPath, musicdb://albums/, right) | SubString(Container.FolderPath, musicdb://songs/, right) | SubString(Container.FolderPath, musicdb://years/, right) | SubString(Container.FolderPath, library://music/top100/, right) | SubString(Container.FolderPath, musicdb://recentlyaddedalbums/, right) | SubString(Container.FolderPath, musicdb://recentlyplayedalbums/, right) | SubString(Container.FolderPath, musicdb://compilations/, right) | SubString(Container.FolderPath, special://musicplaylists/, right) | SubString(Container.FolderPath, library://music/musicroles/, right) | SubString(Container.FolderPath, sources://music/, right)">$INFO[System.CurrentWindow]$INFO[Container.FolderName, · ]</value>
 		<value condition="SubString(Container.FolderPath, musicdb://genres/, left) + !SubString(Container.FolderPath, musicdb://genres/, right) + !SubString(ListItem.DBType, album, left) + !SubString(ListItem.DBType,song,left)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[135]$INFO[Container.FolderName, · ]</value>
