@@ -28,9 +28,11 @@
 			<thumb />
 			<property name="labelID">movies</property>
 			<property name="defaultID">movies</property>
-			<property name="widget">LDPRecentlyAddedMovies</property>
-			<property name="widgetName">Recently Added Movies</property>
-			<property name="widgetType">video</property>
+			<property name="widget">RecentMovies</property>
+			<property name="widgetName">20386</property>
+			<property name="widgetType">movies</property>
+			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentmovies&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget">videos</property>
 			<property name="background">home\movies\</property>
 			<property name="backgroundName">342</property>
 			<visible>Library.HasContent(Movies)</visible>
@@ -50,9 +52,11 @@
 			<thumb />
 			<property name="labelID">tvshows</property>
 			<property name="defaultID">tvshows</property>
-			<property name="widget">LDPRecentlyAddedEpisodes</property>
-			<property name="widgetName">Recently Added Episodes</property>
-			<property name="widgetType">video</property>
+			<property name="widget">RecentEpisodes</property>
+			<property name="widgetName">20387</property>
+			<property name="widgetType">episodes</property>
+			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentepisodes&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget">videos</property>
 			<property name="background">home\tvshows\</property>
 			<property name="backgroundName">20343</property>
 			<visible>Library.HasContent(TVShows)</visible>
@@ -90,9 +94,6 @@
 			<thumb />
 			<property name="labelID">plugin.video.itunes_trailers</property>
 			<property name="defaultID">trailers</property>
-			<property name="widget">ComingSoonMovies</property>
-			<property name="widgetName">Rotten Tomatoes (Coming Soon)</property>
-			<property name="widgetType">video</property>
 			<property name="background">home\trailers\</property>
 			<property name="backgroundName">31334</property>
 			<visible>System.HasAddon(plugin.video.itunes_trailers)</visible>
@@ -112,7 +113,7 @@
 			<thumb />
 			<property name="labelID">livetv</property>
 			<property name="defaultID">livetv</property>
-			<property name="widget">PVR</property>
+			<property name="widget">PVRWidget</property>
 			<property name="widgetName">31611</property>
 			<property name="widgetType">video</property>
 			<property name="background">home\livetv\</property>
@@ -134,9 +135,11 @@
 			<thumb />
 			<property name="labelID">music</property>
 			<property name="defaultID">music</property>
-			<property name="widget">LDPRecentlyAddedAlbums</property>
-			<property name="widgetName">Recently Added Albums</property>
-			<property name="widgetType">music</property>
+			<property name="widget">RecentAlbums</property>
+			<property name="widgetName">359</property>
+			<property name="widgetType">albums</property>
+			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentalbums&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreloadmusic)]</property>
+			<property name="widgetTarget">music</property>
 			<property name="background">home\music\</property>
 			<property name="backgroundName">10005</property>
 			<onclick>ActivateWindow(Music)</onclick>
@@ -155,9 +158,11 @@
 			<thumb />
 			<property name="labelID">musicvideos</property>
 			<property name="defaultID">musicvideos</property>
-			<property name="widget">LibraryRecentlyAddedMusicVideos</property>
-			<property name="widgetName">Recently Added Music Videos (Built-in)</property>
-			<property name="widgetType">video</property>
+			<property name="widget">RecentMusicVideos</property>
+			<property name="widgetName">20390</property>
+			<property name="widgetType">musicvideos</property>
+			<property name="widgetPath">plugin://script.skin.helper.service/?action=recentmusicvideos&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget">videos</property>
 			<property name="background">home\musicvideos\</property>
 			<property name="backgroundName">20389</property>
 			<visible>Library.HasContent(MusicVideos)</visible>
@@ -232,7 +237,7 @@
 			<thumb />
 			<property name="labelID">weather</property>
 			<property name="defaultID">weather</property>
-			<property name="widget">WeatherForecast</property>
+			<property name="widget">WeatherForecastWidget</property>
 			<property name="widgetName">10508</property>
 			<property name="widgetType">weather</property>
 			<property name="background">home\weather\</property>
@@ -254,6 +259,11 @@
 			<thumb />
 			<property name="labelID">1036</property>
 			<property name="defaultID">favourites</property>
+			<property name="widget">Favourites</property>
+			<property name="widgetName">1036</property>
+			<property name="widgetType">static</property>
+			<property name="widgetPath">plugin://script.skin.helper.service/?action=favourites&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]</property>
+			<property name="widgetTarget">static</property>
 			<property name="background">home\favourites\</property>
 			<property name="backgroundName">1036</property>
 			<onclick>ActivateWindow(favourites)</onclick>
