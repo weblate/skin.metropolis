@@ -1308,28 +1308,6 @@
 			<pulseonselect>false</pulseonselect>
 		</control>
 	</include>
-	<include name="NavMenuListLibrary">
-		<control type="togglebutton" id="20">
-			<description>Update Library</description>
-			<width>340</width>
-			<height>40</height>
-			<align>left</align>
-			<label>653</label>
-			<altlabel>13353</altlabel>
-			<textoffsetx>20</textoffsetx>
-			<font>METF_DialogLarge</font>
-			<textcolor>TextNF</textcolor>
-			<focusedcolor>DialogTextFO</focusedcolor>
-			<disabledcolor>TextDisabled</disabledcolor>
-			<texturefocus>ButtonFO2Wide.png</texturefocus>
-			<texturenofocus>-</texturenofocus>
-			<alttexturenofocus border="2">-</alttexturenofocus>
-			<alttexturefocus border="5">ButtonFO2.png</alttexturefocus>
-			<usealttexture>library.isscanningvideo</usealttexture>
-			<aligny>center</aligny>
-			<pulseonselect>false</pulseonselect>
-		</control>
-	</include>
 	<include name="NavMenuListPartyMode">
 		<control type="radiobutton" id="16">
 			<description>PartyMode</description>

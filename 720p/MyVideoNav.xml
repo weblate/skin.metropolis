@@ -62,7 +62,28 @@
 				</control>
 				<include>NavMenuListFilter</include>
 				<include>NavMenuListSearch</include>
-				<include>NavMenuListLibrary</include>
+				<control type="togglebutton" id="50">
+					<description>Update Library</description>
+					<width>340</width>
+					<height>40</height>
+					<align>left</align>
+					<label>653</label>
+					<altlabel>13353</altlabel>
+					<textoffsetx>20</textoffsetx>
+					<font>METF_DialogLarge</font>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<alttexturenofocus border="2">-</alttexturenofocus>
+					<alttexturefocus border="5">ButtonFO2.png</alttexturefocus>
+					<usealttexture>library.isscanningvideo</usealttexture>
+					<aligny>center</aligny>
+					<pulseonselect>false</pulseonselect>
+					<onclick>UpdateLibrary(video)</onclick>
+					<visible>!Container.Content(addons)</visible>
+				</control>
 				<include>NavMenuListPartyMode</include>
 				<include>NavMenuListPlaying</include>
 			</control>
