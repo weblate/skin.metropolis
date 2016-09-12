@@ -27,6 +27,24 @@
 				<include>NavMenuListCommon</include>
 				<include>NavMenuListOrder</include>
 				<include>NavMenuListFilter</include>
+				<control type="button" id="51">
+					<description>Get more</description>
+					<width>340</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>21452</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick>ActivateWindow(addonbrowser, addons://more/executable/, return)</onclick>
+					<visible>Container.Content(addons)</visible>
+				</control>
 				<include>NavMenuListPlaying</include>
 			</control>
 		</control>

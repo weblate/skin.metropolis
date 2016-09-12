@@ -84,6 +84,24 @@
 					<onclick>UpdateLibrary(video)</onclick>
 					<visible>!Container.Content(addons)</visible>
 				</control>
+				<control type="button" id="51">
+					<description>Get more</description>
+					<width>340</width>
+					<height>40</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>METF_DialogLarge</font>
+					<label>21452</label>
+					<textoffsetx>20</textoffsetx>
+					<textcolor>TextNF</textcolor>
+					<focusedcolor>DialogTextFO</focusedcolor>
+					<disabledcolor>TextDisabled</disabledcolor>
+					<texturefocus>ButtonFO2Wide.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<pulseonselect>false</pulseonselect>
+					<onclick>ActivateWindow(addonbrowser, addons://more/video/, return)</onclick>
+					<visible>Container.Content(addons)</visible>
+				</control>
 				<include>NavMenuListPartyMode</include>
 				<include>NavMenuListPlaying</include>
 			</control>
