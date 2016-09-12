@@ -143,7 +143,7 @@
 					<width>25</width>
 					<height>500</height>
 					<texturesliderbackground>-</texturesliderbackground>
-					<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
+					<textureslidernibfocus>ScrollbarVnibFO.png</textureslidernibfocus>
 					<onleft>50</onleft>
  					<onright>100</onright>
 					<showonepage>false</showonepage>

@@ -1757,8 +1757,8 @@
 			<height>30</height>
 			<visible allowhiddenfocus="true">Control.HasFocus(60) | Container.Scrolling</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernib>ScrollbarVnibFO</textureslidernib>
-			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
+			<textureslidernib>ScrollbarVnibFO.png</textureslidernib>
+			<textureslidernibfocus>ScrollbarVnibFO.png</textureslidernibfocus>
 			<onup>55</onup>
 			<ondown>noop</ondown>
 			<showonepage>true</showonepage>
@@ -1777,8 +1777,8 @@
 			<height>484</height>
 			<visible allowhiddenfocus="true">Control.HasFocus(61) | Container.Scrolling</visible>
 			<texturesliderbackground>-</texturesliderbackground>
-			<textureslidernib>ScrollbarVnibFO</textureslidernib>
-			<textureslidernibfocus>ScrollbarVnibFO</textureslidernibfocus>
+			<textureslidernib>ScrollbarVnibFO.png</textureslidernib>
+			<textureslidernibfocus>ScrollbarVnibFO.png</textureslidernibfocus>
 			<onleft>55</onleft>
 			<onright>noop</onright>
 			<showonepage>true</showonepage>
