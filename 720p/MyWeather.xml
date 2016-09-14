@@ -4726,6 +4726,7 @@
 					<texturenofocus>-</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<onclick>Skin.SetString(WeatherDisplay,WeatherMap)</onclick>
+					<visible>SubString(Skin.String(WeatherDisplay),WeatherMap) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
 				</control>
 				<control type="button" id="2">
 					<description>Refresh</description>
@@ -4758,7 +4759,7 @@
 					<texturefocus>ButtonFO2Wide.png</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<onclick>ActivateWindow(weathersettings)</onclick>
+					<onclick>ActivateWindow(servicesettings,weather)</onclick>
 				</control>
 				<control type="spincontrolex" id="3">
 					<description>Location Select</description>
@@ -4805,7 +4806,7 @@
 			</control>
 
 			<control type="label">
-				<description>Location Label</description>
+				<description>Nav Menu Location Label</description>
 				<visible>Skin.HasSetting(UseExtendedWeather)</visible>
 				<posx>482</posx>
 				<posy>415</posy>
@@ -4820,6 +4821,25 @@
 					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
+				<visible>SubString(Skin.String(WeatherDisplay),WeatherMap) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+			</control>
+			<control type="label">
+				<description>Nav Menu Location Label</description>
+				<visible>Skin.HasSetting(UseExtendedWeather)</visible>
+				<posx>482</posx>
+				<posy>372</posy>
+				<width>250</width>
+				<height>40</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[Control.GetLabel(3)]</label>
+				<font>METF_DialogLarge</font>
+				<textcolor>DialogTextFO</textcolor>
+				<animation type="Conditional" condition="!ControlGroup(7000).HasFocus()">
+					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
+					<effect type="fade" start="100" end="0" time="300" />
+				</animation>
+				<visible>!SubString(Skin.String(WeatherDisplay),WeatherMap) | IsEmpty(Window.Property(Map.IsFetched))</visible>
 			</control>
 		</control>
 		<!-- Heading Labels at very top of screen -->
