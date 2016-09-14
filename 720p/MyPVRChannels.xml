@@ -68,10 +68,9 @@
 						<control type="progress">
 							<description>Channel progressbar</description>
 							<posx>115</posx>
-							<posy>54</posy>
-							<width>350</width>
-							<height>6</height>
-							<colordiffuse>88FFFFFF</colordiffuse>
+							<posy>57</posy>
+							<width>304</width>
+							<height>8</height>
 							<info>ListItem.Progress</info>
 						</control>
 					</itemlayout>
@@ -130,10 +129,9 @@
 						<control type="progress">
 							<description>Channel progressbar</description>
 							<posx>115</posx>
-							<posy>54</posy>
-							<width>350</width>
-							<height>6</height>
-							<colordiffuse>88FFFFFF</colordiffuse>
+							<posy>57</posy>
+							<width>304</width>
+							<height>8</height>
 							<info>ListItem.Progress</info>
 						</control>
 					</focusedlayout>
