@@ -113,9 +113,9 @@
 			<thumb />
 			<property name="labelID">livetv</property>
 			<property name="defaultID">livetv</property>
-			<property name="widget">PVRWidget</property>
+			<property name="widget">PVRStatusWidget</property>
 			<property name="widgetName">31611</property>
-			<property name="widgetType">video</property>
+			<property name="widgetType">static</property>
 			<property name="background">home\livetv\</property>
 			<property name="backgroundName">32022</property>
 			<visible>PVR.HasTVChannels</visible>
@@ -4837,7 +4837,7 @@
 		<control type="grouplist">
 			<visible>[![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)] + !Skin.HasSetting(HideUnfocusedWidgets)] | Control.HasFocus(8002)</visible>
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),livetv)</visible>
-			<include>Widget_PVR</include>
+			<include>Widget_PVRStatus</include>
 			<content target="" />
 		</control>
 		<control type="image">
