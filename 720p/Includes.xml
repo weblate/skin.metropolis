@@ -1517,21 +1517,22 @@
 				<!-- TV Show Poster / Logo / Clearart -->
 				<control type="image">
 					<description>TV Show Thumbnail</description>
-					<posx>40</posx>
-					<posy>393</posy>
-					<width>206</width>
-					<height>302</height>
+					<posx>42</posx>
+					<posy>370</posy>
+					<width>216</width>
+					<height>318</height>
 					<texture background="true">$INFO[Player.Art(tvshow.poster)]</texture>
-					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<aspectratio scalediffuse="false">scale</aspectratio>
 					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
 					<description>TV Show Thumbnail Frame</description>
-					<posx>19</posx>
-					<posy>367</posy>
-					<width>253</width>
-					<height>343</height>
-					<texture>frames/ClassicFrame_PosterSmall.png</texture>
+					<posx>28</posx>
+					<posy>350</posy>
+					<width>244</width>
+					<height>358</height>
+					<texture>frames/ClassicFrame_PosterMedium.png</texture>
+					<aspectratio>stretch</aspectratio>
 					<visible>VideoPlayer.Content(Episodes) + !SubString(VideoPlayer.Cover,default,Left) + !Skin.HasSetting(Enable_OSDClearArt)</visible>
 				</control>
 				<control type="image">
@@ -1547,21 +1548,22 @@
 				<!-- Movie Poster -->
 				<control type="image">
 					<description>Movie Poster</description>
-					<posx>40</posx>
-					<posy>393</posy>
-					<width>206</width>
-					<height>302</height>
+					<posx>42</posx>
+					<posy>370</posy>
+					<width>216</width>
+					<height>318</height>
 					<texture background="true">$INFO[VideoPlayer.Cover]</texture>
-					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<aspectratio scalediffuse="false">scale</aspectratio>
 					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 				<control type="image">
 					<description>Movie Poster Frame</description>
-					<posx>19</posx>
-					<posy>367</posy>
-					<width>253</width>
-					<height>343</height>
-					<texture>frames/ClassicFrame_PosterSmall.png</texture>
+					<posx>28</posx>
+					<posy>350</posy>
+					<width>244</width>
+					<height>358</height>
+					<texture>frames/ClassicFrame_PosterMedium.png</texture>
+					<aspectratio>stretch</aspectratio>
 					<visible>VideoPlayer.Content(Movies) + !SubString(VideoPlayer.Cover,default,Left)</visible>
 				</control>
 				<!-- Music Video Thumbnail -->
