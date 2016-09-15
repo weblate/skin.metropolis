@@ -838,7 +838,6 @@
 		</control>
 		<!-- Four Days From Today -->
 		<control type="group">
-			<visible>Skin.HasSetting(UseExtendedWeather)</visible>
 			<width>WeatherHomeWidth</width>
 			<control type="image">
 				<posy>0</posy>
