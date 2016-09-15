@@ -40,7 +40,7 @@
 				<font>METF_TitleTextLarge</font>
 				<textcolor>TextNF</textcolor>
 				<info>ListItem.Label</info>
-				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works.-->
+				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works. -->
 				<visible>!StringCompare(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
 			</control>
 			<control type="fadelabel">
@@ -54,8 +54,8 @@
 				<scrollspeed>20</scrollspeed>
 				<font>METF_TitleTextLarge</font>
 				<textcolor>TextNF</textcolor>
-				<label>$INFO[ListItem.Season]x$INFO[ListItem.Episode]$INFO[ListItem.Title,. ]</label>
-				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works.-->
+				<label>$INFO[ListItem.Season]$INFO[ListItem.Episode,x]$INFO[ListItem.Title,. ]</label>
+				<!-- Title was overlapping progress dialog.  this is probably not the best way to fix this, but it works. -->
 				<visible>StringCompare(ListItem.DBType,episode) + !Window.IsActive(extendedprogressdialog)</visible>
 			</control>
 			<!-- Tagline -->
@@ -636,12 +636,14 @@
 				<visible>ControlGroup(7003).HasFocus(7)</visible>
 			</control>
 		</control>
+
+		<!-- Images -->
 		<control type="group">
 			<control type="group">
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_CommonFade</include>
 				<include>Animation_OpenCloseFade</include>
-				<visible>Window.IsActive(videos) + [StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)]</visible>
+				<visible>StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)</visible>
 				<!-- Default Poster Image -->
 				<control type="image">
 					<posx>44</posx>
@@ -738,7 +740,7 @@
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_CommonFade</include>
 				<include>Animation_OpenCloseFade</include>
-				<visible>!Window.IsActive(videos)</visible>
+				<visible>![StringCompare(ListItem.DBType,movie) | StringCompare(ListItem.DBType,tvshow) | StringCompare(ListItem.DBType,season) | StringCompare(ListItem.DBType,episode) | StringCompare(ListItem.DBType,musicvideo)]</visible>
 				<!-- Icon Image for items NOT in Video Library -->
 				<control type="image">
 					<posx>35</posx>
@@ -752,6 +754,7 @@
 				</control>
 			</control>
 		</control>
+		<include>Object_InfoLines</include>
 		<include>Global_ContextFilter</include>
 		<include condition="Skin.HasSetting(Hide_ExtraMediaFlags)">MediaInfo2</include>
 		<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>

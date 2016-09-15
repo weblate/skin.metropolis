@@ -4782,6 +4782,7 @@
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),movies)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
 			<animation delay="100" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<posx>265</posx>
@@ -4803,6 +4804,7 @@
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
 			<animation delay="100" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<posx>265</posx>
@@ -4844,6 +4846,7 @@
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),music)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
 			<animation delay="100" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<posx>265</posx>
@@ -4865,6 +4868,7 @@
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),musicvideos)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
 			<animation delay="100" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<posx>265</posx>
@@ -4905,6 +4909,7 @@
 			<visible>StringCompare(Container(9000).ListItem.Property(submenuVisibility),num-1036)</visible>
 			<include>Animation_CommonFadeNoHide</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
 			<animation delay="100" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<posx>265</posx>

@@ -63,6 +63,7 @@
 		<control type="group">
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
+			<include>Animation_HiddenByInfo</include>
 			<animation effect="fade" start="100" end="0" delay="200" time="200" condition="Control.HasFocus(9001) + ![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">conditional</animation>
 			<animation effect="fade" start="0" end="100" time="0" condition="Control.HasFocus(9001) + ![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">WindowClose</animation>
 			<animation effect="slide" start="180,0" end="0,0" tween="back" easing="out" time="300">Visible</animation>
@@ -301,6 +302,7 @@
 			<control type="group">
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_FadedByMenu</include>
+				<include>Animation_HiddenByInfo</include>
 				<!-- Widget arrow for all home views -->
 				<control type="image">
 					<include condition="![Skin.HasSetting(Home2) | Skin.HasSetting(Home3)]">RecentlyAddedArrow1</include>
@@ -342,6 +344,7 @@
 	<include name="Widget_VerticalList">
 		<include>Animation_CommonFadeNoHide</include>
 		<include>Animation_FadedByMenu</include>
+		<include>Animation_HiddenByInfo</include>
 		<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
 		<animation effect="fade" start="0" end="100" time="200" delay="100" >Visible</animation>
 		<posx>522</posx>

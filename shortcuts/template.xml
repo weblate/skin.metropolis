@@ -81,6 +81,7 @@
 				<skinshortcuts>visibility</skinshortcuts>
 				<include>Animation_CommonFadeNoHide</include>
 				<include>Animation_FadedByMenu</include>
+				<include>Animation_HiddenByInfo</include>
 				<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
 				<animation effect="fade" start="0" end="100" time="200" delay="100" >Visible</animation>
 				<posx>265</posx>

@@ -541,12 +541,12 @@
 				</focusedlayout>
 			</control>
 		</control>
+
 		<!-- Artist/Album Image -->
 		<control type="group">
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>
 			<include>Animation_OpenCloseFade</include>
-			<visible>Window.IsActive(music) + [StringCompare(ListItem.DBtype,artist) | StringCompare(ListItem.DBtype,album) | StringCompare(ListItem.DBtype,song)]</visible>
 			<control type="image">
 				<include>Animation_CommonFade</include>
 				<posx>44</posx>
@@ -571,7 +571,6 @@
 			<include>Animation_FadedByMenu</include>
 			<include>Animation_CommonFade</include>
 			<include>Animation_OpenCloseFade</include>
-			<visible>Window.IsActive(music) + [StringCompare(ListItem.DBtype,artist) | StringCompare(ListItem.DBtype,album) | StringCompare(ListItem.DBtype,song)]</visible>
 			<control type="image">
 				<posx>912</posx>
 				<posy>80</posy>
@@ -682,6 +681,7 @@
 				<visible>ControlGroup(7001).HasFocus(7)</visible>
 			</control>
 		</control>
+		<include>Object_InfoLines</include>
 		<include>Global_ContextFilter</include>
 		<include condition="Skin.HasSetting(DebugGrid)">Object_DebugGrid</include>
 	</controls>
