@@ -4251,7 +4251,7 @@
 				</control>
 				<control type="button" id="5">
 					<description>Weather Maps</description>
-					<visible>!IsEmpty(Window.Property(Weekend.1.LongDay))</visible>
+					<visible>!IsEmpty(Window.Property(Map.IsFetched))</visible>
 					<width>340</width>
 					<height>40</height>
 					<align>left</align>
@@ -4341,7 +4341,24 @@
 					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
-				<visible>!IsEmpty(Window.Property(Hourly.13.Time))</visible>
+				<visible>!IsEmpty(Window.Property(Hourly.13.Time)) + !IsEmpty(Window.Property(Map.IsFetched))</visible>
+			</control>
+			<control type="label">
+				<description>Nav Menu Location Label</description>
+				<posx>482</posx>
+				<posy>370</posy>
+				<width>250</width>
+				<height>40</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[Control.GetLabel(3)]</label>
+				<font>METF_DialogLarge</font>
+				<textcolor>DialogTextFO</textcolor>
+				<animation type="Conditional" condition="!ControlGroup(7000).HasFocus()">
+					<effect type="zoom" start="100" end="80" center="auto" tween="back" easing="in" time="300" />
+					<effect type="fade" start="100" end="0" time="300" />
+				</animation>
+				<visible>!IsEmpty(Window.Property(Hourly.13.Time)) + IsEmpty(Window.Property(Map.IsFetched))</visible>
 			</control>
 			<control type="label">
 				<description>Nav Menu Location Label</description>
