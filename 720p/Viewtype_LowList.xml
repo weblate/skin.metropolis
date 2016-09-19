@@ -245,7 +245,7 @@
 					<width>300</width>
 					<height>300</height>
 					<fadetime>100</fadetime>
-					<aspectratio align="right" aligny="bottom">keep</aspectratio>
+					<aspectratio align="right" aligny="bottom">stretch</aspectratio>
 					<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
 					<visible>Container.Content(albums) | Container.Content(songs) | Container.Content(addons)</visible>
 				</control>
