@@ -355,7 +355,7 @@
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>Container.Content(seasons) + !SubString(ListItem.Icon,default,Left)</visible>
+					<visible>Container.Content(seasons) + !StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left) + !IsEmpty(ListItem.Icon)</visible>
 				</control>
 			</control>
 			<!-- Info Details -->

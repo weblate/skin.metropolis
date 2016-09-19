@@ -514,7 +514,7 @@
 						<fadetime>100</fadetime>
 						<texture background="true" diffuse="frames/episode_matte.png">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">keep</aspectratio>
-						<visible>IsEmpty(ListItem.Title) | SubString(ListItem.Icon,default)</visible>
+						<visible>IsEmpty(ListItem.Title) | StringCompare(ListItem.Icon,-) | SubString(ListItem.Icon,default,Left)</visible>
 					</control>
 					<control type="image">
 						<posx>22</posx>
@@ -524,7 +524,7 @@
 						<fadetime>100</fadetime>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">scale</aspectratio>
-						<visible>!IsEmpty(ListItem.Title) + !SubString(ListItem.Icon,default)</visible>
+						<visible>!IsEmpty(ListItem.Title) + !StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)</visible>
 					</control>
 					<control type="image">
 						<posx>22</posx>
@@ -535,7 +535,7 @@
 						<aspectratio scalediffuse="false">stretch</aspectratio>
 						<colordiffuse>GlassDiffuse</colordiffuse>
 						<fadetime>100</fadetime>
-						<visible>!IsEmpty(ListItem.Title) + !SubString(ListItem.Icon,default)</visible>
+						<visible>!IsEmpty(ListItem.Title) + !StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)</visible>
 					</control>
 					<control type="image">
 						<posx>5</posx>
@@ -544,7 +544,7 @@
 						<height>203</height>
 						<texture>frames/ClassicFrame_FanartSmall.png</texture>
 						<fadetime>100</fadetime>
-						<visible>!IsEmpty(ListItem.Title) + !SubString(ListItem.Icon,default)</visible>
+						<visible>!IsEmpty(ListItem.Title) + !StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)</visible>
 					</control>
 				</control>
 				<!-- Images for All Items NOT in Video Library -->
