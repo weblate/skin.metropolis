@@ -378,7 +378,7 @@
 					<posx>935</posx>
 					<posy>417</posy>
 					<width>328</width>
-					<height>203</height>
+					<height>204</height>
 					<texture>frames/ClassicFrame_FanartSmall.png</texture>
 					<fadetime>300</fadetime>
 					<visible>!Container.Content(seasons)</visible>

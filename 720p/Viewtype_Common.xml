@@ -380,29 +380,29 @@
 				<posy>9</posy>
 				<!-- Unfocused Item - Poster -->
 				<control type="image">
-					<posx>20</posx>
-					<posy>21</posy>
-					<width>236</width>
-					<height>362</height>
+					<posx>26</posx>
+					<posy>28</posy>
+					<width>230</width>
+					<height>352</height>
 					<texture background="true" fallback="DefaultThumb.png">$VAR[PosterThumb]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>!IsEmpty(ListItem.Title)</visible>
 				</control>
 				<control type="image">
-					<posx>20</posx>
-					<posy>21</posy>
-					<width>236</width>
-					<height>362</height>
+					<posx>26</posx>
+					<posy>28</posy>
+					<width>230</width>
+					<height>352</height>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<aspectratio scalediffuse="false">keep</aspectratio>
 					<visible>IsEmpty(ListItem.Title)</visible>
 				</control>
 				<!-- Unfocused Item - Frame -->
 				<control type="image">
-					<posx>20</posx>
-					<posy>21</posy>
-					<width>236</width>
-					<height>362</height>
+					<posx>26</posx>
+					<posy>28</posy>
+					<width>230</width>
+					<height>352</height>
 					<texture>frames/ClassicFrameGlass_Vertical.png</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<colordiffuse>GlassDiffuse</colordiffuse>
@@ -447,19 +447,19 @@
 				<posx>-15</posx>
 				<!-- Focused Item - Poster -->
 				<control type="image">
-					<posx>13</posx>
-					<posy>27</posy>
-					<width>290</width>
-					<height>443</height>
+					<posx>15</posx>
+					<posy>32</posy>
+					<width>286</width>
+					<height>432</height>
 					<texture background="true" fallback="DefaultThumb.png">$VAR[PosterThumb]</texture>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
 					<visible>!IsEmpty(ListItem.Title)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>27</posy>
-					<width>290</width>
-					<height>443</height>
+					<posx>15</posx>
+					<posy>32</posy>
+					<width>286</width>
+					<height>432</height>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<aspectratio scalediffuse="false">keep</aspectratio>
 					<visible>IsEmpty(ListItem.Title)</visible>
