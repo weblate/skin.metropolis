@@ -190,6 +190,15 @@
 					<posy>160</posy>
 					<width>300</width>
 					<height>440</height>
+					<texture>frames/ClassicFrame_Background.png</texture>
+					<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
+					<visible>[!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
+				</control>
+				<control type="image">
+					<posx>37</posx>
+					<posy>160</posy>
+					<width>300</width>
+					<height>440</height>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<aspectratio scalediffuse="false">keep</aspectratio>
 					<fadetime>300</fadetime>
@@ -239,6 +248,15 @@
 					<visible>Container.Content(musicvideos) | Window.IsActive(pictures)</visible>
 				</control>
 				<!-- Artist/Album Cover and Addons-->
+				<control type="image">
+					<posx>32</posx>
+					<posy>290</posy>
+					<width>300</width>
+					<height>300</height>
+					<texture>frames/ClassicFrame_Background.png</texture>
+					<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
+					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+				</control>
 				<control type="image">
 					<posx>32</posx>
 					<posy>290</posy>

@@ -477,6 +477,15 @@
 						<posy>15</posy>
 						<width>300</width>
 						<height>440</height>
+						<texture>frames/ClassicFrame_Background.png</texture>
+						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
+						<visible>!IsEmpty(ListItem.Title)</visible>
+					</control>
+					<control type="image">
+						<posx>17</posx>
+						<posy>15</posy>
+						<width>300</width>
+						<height>440</height>
 						<fadetime>100</fadetime>
 						<texture background="true" diffuse="frames/poster_matte.png">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">keep</aspectratio>
@@ -506,6 +515,15 @@
 					<visible>Window.IsActive(videos) + Container.Content(episodes)</visible>
 					<posx>25</posx>
 					<posy>45</posy>
+					<control type="image">
+						<posx>22</posx>
+						<posy>112</posy>
+						<width>293</width>
+						<height>265</height>
+						<texture>frames/ClassicFrame_Background.png</texture>
+						<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
+						<visible>!IsEmpty(ListItem.Title) + !StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)</visible>
+					</control>
 					<control type="image">
 						<posx>22</posx>
 						<posy>112</posy>
@@ -548,6 +566,15 @@
 					</control>
 				</control>
 				<!-- Artist/Album Cover and Addons -->
+				<control type="image">
+					<posx>32</posx>
+					<posy>132</posy>
+					<width>300</width>
+					<height>300</height>
+					<texture>frames/ClassicFrame_Background.png</texture>
+					<colordiffuse>FrameBackgroundDiffuse</colordiffuse>
+					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+				</control>
 				<control type="image">
 					<posx>32</posx>
 					<posy>132</posy>
