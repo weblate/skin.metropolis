@@ -88,7 +88,7 @@
 				<include>Animation_ZoomInZoomOut</include>
 				<include>Animation_HiddenByInfo</include>
 				<include>Animation_FadedByMenu</include>
-				<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
+				<visible>!StringCompare(ListItem.Icon,-) + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)]</visible>
 				<control type="image">
 					<posx>25</posx>
 					<posy>49</posy>

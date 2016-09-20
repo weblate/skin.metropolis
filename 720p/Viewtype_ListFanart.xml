@@ -125,7 +125,7 @@
 				<include>Animation_OpenCloseFade</include>
 				<include>Animation_FadedByMenu</include>
 				<include>Animation_HiddenByInfo</include>
-				<visible>Window.IsActive(pictures) | Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)</visible>
+				<visible>[Window.IsActive(pictures) | Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + [!StringCompare(ListItem.Icon,-) + !SubString(ListItem.Icon,default,Left)]</visible>
 				<!-- Background Frame Matte -->
 				<control type="image">
 					<posx>35</posx>
@@ -195,6 +195,12 @@
 					<texture>frames/ClassicFrame_FanartMedium.png</texture>
 					<aspectratio scalediffuse="false">scale</aspectratio>
 				</control>
+			</control>
+			<!-- Details -->
+			<control type="group">
+				<include>Animation_OpenCloseFade</include>
+				<include>Animation_FadedByMenu</include>
+				<include>Animation_HiddenByInfo</include>
 				<!-- Movie and TV Show Titles -->
 				<control type="label">
 					<posx>35</posx>
@@ -260,6 +266,19 @@
 					<label>$INFO[ListItem.PictureDateTime]</label>
 					<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.PictureDateTime)</visible>
 				</control>
+				<!-- Picture Resolution -->
+				<control type="label">
+					<posx>35</posx>
+					<posy>487</posy>
+					<width>600</width>
+					<height>30</height>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>METF_MediaDetailsSmall</font>
+					<textcolor>MediaDetailsDuration</textcolor>
+					<label>$INFO[ListItem.PictureResolution]</label>
+					<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.PictureResolution) + !StringCompare(ListItem.PictureResolution, 0 x 0)</visible>
+				</control>
 				<!-- Movie Sets -->
 				<control type="label">
 					<posx>35</posx>
@@ -272,46 +291,6 @@
 					<textcolor>MediaDetailsGenre</textcolor>
 					<label>$LOCALIZE[31313]</label>
 					<include>VisibleIfMovieSet</include>
-				</control>
-			</control>
-			<!-- Details -->
-			<control type="grouplist">
-				<posx>35</posx>
-				<posy>487</posy>
-				<width>600</width>
-				<height>30</height>
-				<align>center</align>
-				<itemgap>10</itemgap>
-				<orientation>horizontal</orientation>
-				<include>Animation_OpenCloseFade</include>
-				<include>Animation_FadedByMenu</include>
-				<include>Animation_HiddenByInfo</include>
-				<include>ViewDetailsYearDurEpsUnwatched</include>
-				<visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)</visible>
-				<include>VisibleIfNotMovieSet</include>
-			</control>
-			<!-- Picture Info -->
-			<control type="grouplist">
-				<posx>35</posx>
-				<posy>487</posy>
-				<width>600</width>
-				<height>30</height>
-				<align>center</align>
-				<itemgap>10</itemgap>
-				<orientation>horizontal</orientation>
-				<include>Animation_OpenCloseFade</include>
-				<include>Animation_FadedByMenu</include>
-				<include>Animation_HiddenByInfo</include>
-				<visible>Window.IsActive(pictures)</visible>
-				<!-- Picture Resolution -->
-				<control type="label">
-					<width min="25" max="1200">auto</width>
-					<height>30</height>
-					<aligny>center</aligny>
-					<font>METF_MediaDetailsSmall</font>
-					<textcolor>MediaDetailsDuration</textcolor>
-					<label>$INFO[ListItem.PictureResolution]</label>
-					<visible>!IsEmpty(ListItem.PictureResolution) + !StringCompare(ListItem.PictureResolution, 0 x 0)</visible>
 				</control>
 			</control>
 			<include>ScrollBar_Vertical</include>
