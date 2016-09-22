@@ -64,7 +64,7 @@
 					<control type="image">
 						<posx>10</posx>
 						<posy>1</posy>
-						<width>151</width>
+						<width>152</width>
 						<height>208</height>
 						<texture>frames/ClassicFrame_PosterSmall.png</texture>
 						<visible>!IsEmpty(ListItem.Title)</visible>
@@ -151,7 +151,7 @@
 						<include>Animation_GalleryFloat</include>
 						<posx>10</posx>
 						<posy>1</posy>
-						<width>151</width>
+						<width>152</width>
 						<height>208</height>
 						<texture>frames/ClassicFrame_PosterSmall.png</texture>
 						<visible>!IsEmpty(ListItem.Title)</visible>
@@ -163,7 +163,7 @@
 					<control type="image">
 						<include>Animation_GalleryFloat</include>
 						<posx>112</posx>
-						<posy>163</posy>
+						<posy>162</posy>
 						<width>28</width>
 						<height>28</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
@@ -191,7 +191,7 @@
 					</control>
 				</focusedlayout>
 			</control>
-			
+
 			<!-- Title -->
 			<control type="label">
 				<posx>40</posx>

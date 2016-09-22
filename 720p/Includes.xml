@@ -1891,7 +1891,7 @@
 			<include>Animation_OpenCloseFade</include>
 			<include>Animation_FadedByMenu</include>
 			<posx>0</posx>
-			<posy>534</posy>
+			<posy>530</posy>
 			<width>1280</width>
 			<height>30</height>
 			<visible allowhiddenfocus="true">Control.HasFocus(60) | Container.Scrolling</visible>

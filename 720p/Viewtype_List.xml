@@ -597,9 +597,9 @@
 				</control>
 				<control type="image">
 					<posx>12</posx>
-					<posy>108</posy>
-					<width>338</width>
-					<height>348</height>
+					<posy>111</posy>
+					<width>339</width>
+					<height>342</height>
 					<texture>frames/ClassicFrame_SquareMedium.png</texture>
 					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons) | [Window.IsActive(pictures) + !SubString(Container.FolderPath,plugin)]] + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
 				</control>

@@ -236,7 +236,7 @@
 					<fadetime>300</fadetime>
 					<visible>[!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)]] | [Container.Content(seasons) | Container.Content(episodes)]</visible>
 				</control>
-				<!-- Pictures and Music Videos -->
+				<!-- Music Videos -->
 				<control type="image">
 					<posx>37</posx>
 					<posy>165</posy>
@@ -245,7 +245,7 @@
 					<fadetime>100</fadetime>
 					<aspectratio align="right" aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultThumb.png">$INFO[ListItem.Icon]</texture>
-					<visible>Container.Content(musicvideos) | Window.IsActive(pictures)</visible>
+					<visible>Container.Content(musicvideos)</visible>
 				</control>
 				<!-- Artist/Album Cover and Addons-->
 				<control type="image">
@@ -269,9 +269,9 @@
 				</control>
 				<control type="image">
 					<posx>12</posx>
-					<posy>266</posy>
-					<width>338</width>
-					<height>348</height>
+					<posy>269</posy>
+					<width>340</width>
+					<height>340</height>
 					<texture>frames/ClassicFrame_SquareMedium.png</texture>
 					<visible>[Container.Content(artists) | Container.Content(albums) | Container.Content(songs) | Container.Content(addons)] + [!SubString(ListItem.Icon,default,Left) | SubString(ListItem.Icon,defaultalbumcover,Left)] + !IsEmpty(ListItem.Icon)</visible>
 				</control>
@@ -330,27 +330,6 @@
 					<aspectratio scalediffuse="false">scale</aspectratio>
 					<visible>Window.IsActive(music)</visible>
 				</control>
-				<!-- Pictures Fanart Image -->
-				<control type="image">
-					<posx>952</posx>
-					<posy>435</posy>
-					<width>293</width>
-					<height>165</height>
-					<texture fallback="home_art/pictures.jpg" background="true">$INFO[ListItem.Art(fanart)]</texture>
-					<aspectratio scalediffuse="false" background="true">scale</aspectratio>
-					<fadetime>300</fadetime>
-					<visible>Window.IsActive(pictures) + !IsEmpty(ListItem.Art(fanart))</visible>
-				</control>
-				<control type="image">
-					<posx>952</posx>
-					<posy>435</posy>
-					<width>293</width>
-					<height>165</height>
-					<texture fallback="home_art/pictures.jpg" background="true">$INFO[ListItem.filenameandpath]</texture>
-					<aspectratio scalediffuse="false" background="true">scale</aspectratio>
-					<fadetime>300</fadetime>
-					<visible>Window.IsActive(pictures) + IsEmpty(ListItem.Art(fanart))</visible>
-				</control>
 				<!-- Addons Fanart Image -->
 				<control type="image">
 					<posx>952</posx>
@@ -375,10 +354,10 @@
 					<visible>!Container.Content(seasons)</visible>
 				</control>
 				<control type="image">
-					<posx>935</posx>
+					<posx>936</posx>
 					<posy>417</posy>
-					<width>328</width>
-					<height>204</height>
+					<width>326</width>
+					<height>202</height>
 					<texture>frames/ClassicFrame_FanartSmall.png</texture>
 					<fadetime>300</fadetime>
 					<visible>!Container.Content(seasons)</visible>

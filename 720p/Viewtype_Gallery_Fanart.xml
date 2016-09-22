@@ -82,9 +82,9 @@
 					</control>
 					<control type="image">
 						<posx>8</posx>
-						<posy>11</posy>
-						<width>289</width>
-						<height>179</height>
+						<posy>14</posy>
+						<width>288</width>
+						<height>174</height>
 						<texture>frames/ClassicFrame_FanartSmall.png</texture>
 					</control>
 					<control type="image">
@@ -99,7 +99,7 @@
 					<!-- Watched Overlay for In-Progress Items -->
 					<control type="image">
 						<posx>236</posx>
-						<posy>126</posy>
+						<posy>128</posy>
 						<width>41</width>
 						<height>41</height>
 						<texture>flags/Progress/$INFO[ListItem.PercentPlayed].png</texture>
@@ -195,9 +195,9 @@
 					<control type="image">
 						<include>Animation_GalleryFanartFloat</include>
 						<posx>8</posx>
-						<posy>11</posy>
-						<width>289</width>
-						<height>179</height>
+						<posy>14</posy>
+						<width>288</width>
+						<height>174</height>
 						<texture>frames/ClassicFrame_FanartSmall.png</texture>
 						<visible>!IsEmpty(ListItem.Label)</visible>
 						<animation type="Focus" reversible="false">
@@ -222,7 +222,7 @@
 					<!-- Watched Overlay for In-Progress Items -->
 					<control type="image">
 						<include>Animation_GalleryFanartFloat</include>
-						<posx>236</posx>
+						<posx>238</posx>
 						<posy>126</posy>
 						<width>41</width>
 						<height>41</height>
