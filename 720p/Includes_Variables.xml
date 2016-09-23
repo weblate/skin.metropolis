@@ -415,12 +415,12 @@
 		<value condition="[!IsEmpty(ListItem.mpaa) + StringCompare(ListItem.mpaa,NC-17)] | [IsEmpty(ListItem.mpaa) + StringCompare(VideoPlayer.mpaa,NC-17)]">flags/MPAA/mpaa_nc17.png</value>
 		<value condition="[!IsEmpty(ListItem.mpaa) + StringCompare(ListItem.mpaa,G)] | [IsEmpty(ListItem.mpaa) + StringCompare(VideoPlayer.mpaa,G)]">flags/MPAA/mpaa_general.png</value>
 		<!-- US (TV) -->
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-14,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-14,Left)]">flags/MPAA/TV-14.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-G,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-G,Left)]">flags/MPAA/TV-G.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-MA,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-MA,Left)]">flags/MPAA/TV-MA.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-PG,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-PG,Left)]">flags/MPAA/TV-PG.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-Y7,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-Y7,Left)]">flags/MPAA/TV-Y7.png</value>
-		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Rated TV-Y,Left)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Rated TV-Y,Left)]">flags/MPAA/TV-Y.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-14,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-14,Right)]">flags/MPAA/TV-14.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-G,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-G,Right)]">flags/MPAA/TV-G.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-MA,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-MA,Right)]">flags/MPAA/TV-MA.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-PG,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-PG,Right)]">flags/MPAA/TV-PG.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-Y7,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-Y7,Right)]">flags/MPAA/TV-Y7.png</value>
+		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,TV-Y,Right)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,TV-Y,Right)]">flags/MPAA/TV-Y.png</value>
 		<!-- Germany -->
 		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Germany:0)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Germany:0)]">flags/MPAA/germany_0.png</value>
 		<value condition="[!IsEmpty(ListItem.mpaa) + SubString(ListItem.mpaa,Germany:6)] | [IsEmpty(ListItem.mpaa) + SubString(VideoPlayer.mpaa,Germany:6)]">flags/MPAA/germany_6.png</value>
