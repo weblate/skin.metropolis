@@ -133,7 +133,7 @@
 				<texture fallback="flags/Rating10/rating0.png">$INFO[ListItem.UserRating,flags/Rating10/rating,.png]</texture>
 				<aspectratio align="center" aligny="center">keep</aspectratio>
 				<colordiffuse>MediaFlagDiffuse</colordiffuse>
-				<visible>!Skin.HasSetting(ShowVideoPath) + !IsEmpty(ListItem.UserRating)</visible>
+				<visible>!Skin.HasSetting(ShowVideoPath) + !IsEmpty(ListItem.UserRating) + [!Skin.HasSetting(NextAired) | IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
 			</control>
 			<control type="image">
 				<posx>-8</posx>
@@ -144,7 +144,7 @@
 				<texture>flags/Rating10/rating0.png</texture>
 				<aspectratio align="center" aligny="center">keep</aspectratio>
 				<colordiffuse>MediaFlagDiffuse</colordiffuse>
-				<visible>!Skin.HasSetting(ShowVideoPath) + IsEmpty(ListItem.UserRating) + IsEmpty(ListItem.mpaa)</visible>
+				<visible>!Skin.HasSetting(ShowVideoPath) + IsEmpty(ListItem.UserRating) + IsEmpty(ListItem.mpaa) + [!Skin.HasSetting(NextAired) | IsEmpty(Window(Home).Property(NextAired.NextDate))]</visible>
 			</control>
 			<!-- MPAA Long Description -->
 			<control type="textbox">
