@@ -152,8 +152,8 @@
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>osd/osd_button_play_fo.png</alttexturefocus>
 					<alttexturenofocus>osd/osd_button_play_nf.png</alttexturenofocus>
-					<disabledcolor>-</disabledcolor>
-					<colordiffuse>-</colordiffuse>
+					<disabledcolor></disabledcolor>
+					<colordiffuse></colordiffuse>
 					<onclick>PlayerControl(play)</onclick>
 				</control>
 				<control type="button" id="6">
@@ -179,9 +179,9 @@
 					<include>Animation_ButtonFocus</include>
 					<height>60</height>
 					<width>60</width>
-					<label>-</label>
-					<texturefocus>-</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<label></label>
+					<texturefocus></texturefocus>
+					<texturenofocus></texturenofocus>
 					<onclick>PlayerControl(Repeat)</onclick>
 				</control>
 				<control type="group" id="802">
@@ -348,8 +348,8 @@
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>osd/osd_button_play_fo.png</alttexturefocus>
 					<alttexturenofocus>osd/osd_button_play_nf.png</alttexturenofocus>
-					<disabledcolor>-</disabledcolor>
-					<colordiffuse>-</colordiffuse>
+					<disabledcolor></disabledcolor>
+					<colordiffuse></colordiffuse>
 					<onclick>PlayerControl(play)</onclick>
 				</control>
 				<control type="button" id="114">

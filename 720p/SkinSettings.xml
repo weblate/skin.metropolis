@@ -20,7 +20,7 @@
 				<onup>9000</onup>
 				<ondown>9000</ondown>
 				<orientation>vertical</orientation>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<itemlayout height="38" width="380">
 					<control type="label">
 						<posx>0</posx>
