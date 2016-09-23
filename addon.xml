@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon 
-	id="skin.metropolis"
-	version="3.3.2"
-	name="Metropolis"
-	provider-name="Amra, Stoli, jingai">
+<addon id="skin.metropolis" version="3.4.0" name="Metropolis" provider-name="jingai, Stoli, Amra">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="1.0.6"/>
@@ -14,15 +10,12 @@
 		<import addon="resource.images.weatherfanart.prairie" version="0.0.5"/>
 		<import addon="resource.images.weathericons.coloured" version="0.0.6"/>
 	</requires>
-	<extension
-		point="xbmc.gui.skin"
-		debugging="false"
-		effectslowdown="0.75">
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="be">A Mix of Retro and Modern. Original Metropolis skin by Amra - continued by Stoli</summary>
+		<summary lang="be">A Mix of Retro and Modern.</summary>
 		<summary lang="da">En blanding af Retro og Moderne.</summary>
 		<summary lang="de">Ein Mix aus Retro und Moderne.</summary>
 		<summary lang="el">Ένα μείγμα Παλαιού και Νέου. Το αρχικό κέλυφος Metropolis από τον Amra - συντήρηση και εξέλιξη από τον Stoli</summary>
@@ -71,6 +64,7 @@
 		<description lang="ru">Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи.  Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. &#10;Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса. </description>
 		<description lang="sv">Metropolis är utformat att visa så mycket mediainfo som möjligt, med text och ikoner som är lätta att läsa. Allt medan skalet är mjukt och enkelt nog att använda för alla familjemedlemmar, med flera teman, anpassningsbara menyer och vyer. Tack till Hitcher för Alaska Revisited som användes som bas för Metropolis.</description>
 		<description lang="zh">Metropolis旨在展示尽可能多的媒体信息同时尽可能易读的文字和图标。采用多项主题和自定义菜单及视图，同时试图保持皮肤流畅，并且对所有家庭成员都简单易用。感谢Hitcher的Alaska Revisited皮肤，它是Metropolis的基础。</description>
+		<news>3.4.0 - 20160923[CR]- Required changes for Kodi 17 (Krypton).[CR]- Adjustable row height for Banner View.[CR]- Adjust frames alignment and size.[CR]- Clean up PVR views.[CR]- Make Leather theme darker.[CR]- Speed up widget display.[CR]- Clean up Navigation Menus.[CR]- Use default widgets from SkinShortcuts/SkinHelper.[CR]- Show numeric position in lists.[CR]- Add Breadcrumbs to Global Heading.[CR]- Restore background fanart for addons.[CR]- Fix Media Overlay text overlapping Media Flags.[CR]- Support for Videos in Panel Square view.[CR]- Add screenshots to DialogAddonInfo.[CR]- Add addon size to DialogAddonInfo.[CR]- Fix visual glitches in progress bars.</news>
 		<language></language>
 		<platform>all</platform>
 		<license>Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) United States License</license>
