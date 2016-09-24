@@ -487,7 +487,7 @@
 						<width>300</width>
 						<height>440</height>
 						<fadetime>100</fadetime>
-						<texture background="true" diffuse="frames/poster_matte.png">$INFO[ListItem.Icon]</texture>
+						<texture background="true" diffuse="frames/postermatte.png">$INFO[ListItem.Icon]</texture>
 						<aspectratio scalediffuse="false">keep</aspectratio>
 						<visible>IsEmpty(ListItem.Title)</visible>
 					</control>
