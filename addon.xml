@@ -11,7 +11,7 @@
 		<import addon="resource.images.weathericons.coloured" version="0.0.6"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p"/>
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
@@ -61,16 +61,17 @@
 		<description lang="pl">Metropolis zaprojektowano by pokazywać jak najwięcej informacji o mediach z czytelnymi napisami i ikonami. A wszystko to przy zachowaniu płynności i łatwości użycia przez wszystkich członków rodziny, z wieloma motywami tematycznymi i konfigurowalnymi widokami i menu. Słowa uznania należą się Hitcherowi za skórę Alaska Revisited, która była użyta jako podstawa dla Metropolis.</description>
 		<description lang="pt">A Metropolis está concebida para exibir tanta info de média quanto possível, com ícones e texto fácil de ler. Ao mesmo tempo, tenta manter um desempenho suave e uma utilização acessível para todos os membros da família, com várias aparências e personalização dos menus e das vistas. O Hitcher merece crédito pela criação de Alaska Revisited, que serviu de base para a Metropolis.</description>
 		<description lang="pt_BR">Metropolis é projetado para exibir o máximo possível de informações da mídia com  textos fáceis de ler e ícones. Tudo ao mesmo tempo tentando manter a pele rápida e simples de usar para todos os membros da família com vários temas e menus customizáveis ​​e modos de visualização. Crédito para Hitcher por Alaska Revisited que foi utilizado como base para Metropolis</description>
-		<description lang="ru">Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи.  Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. &#10;Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса. </description>
+		<description lang="ru">Обложка Метрополис запроектирована так, чтобы показывать как можно больше информации о медиа, используя легко читаемые иконки и шрифты. При этом мы стараемся сохранить обложку быстрой и легкой в использовании для всех членов семьи.  Метрополис также предлагает дополнительные темы оформления и настраиваемые меню и режимы просмотра. 
+Благодарности для Hitcher за его обложку Alaska Revisited, которая была взята за основу Метрополиса. </description>
 		<description lang="sv">Metropolis är utformat att visa så mycket mediainfo som möjligt, med text och ikoner som är lätta att läsa. Allt medan skalet är mjukt och enkelt nog att använda för alla familjemedlemmar, med flera teman, anpassningsbara menyer och vyer. Tack till Hitcher för Alaska Revisited som användes som bas för Metropolis.</description>
 		<description lang="zh">Metropolis旨在展示尽可能多的媒体信息同时尽可能易读的文字和图标。采用多项主题和自定义菜单及视图，同时试图保持皮肤流畅，并且对所有家庭成员都简单易用。感谢Hitcher的Alaska Revisited皮肤，它是Metropolis的基础。</description>
 		<news>3.4.0 - 20160923[CR]- Required changes for Kodi 17 (Krypton).[CR]- Adjustable row height for Banner View.[CR]- Adjust frames alignment and size.[CR]- Clean up PVR views.[CR]- Make Leather theme darker.[CR]- Speed up widget display.[CR]- Clean up Navigation Menus.[CR]- Use default widgets from SkinShortcuts/SkinHelper.[CR]- Show numeric position in lists.[CR]- Add Breadcrumbs to Global Heading.[CR]- Restore background fanart for addons.[CR]- Fix Media Overlay text overlapping Media Flags.[CR]- Support for Videos in Panel Square view.[CR]- Add screenshots to DialogAddonInfo.[CR]- Add addon size to DialogAddonInfo.[CR]- Fix visual glitches in progress bars.</news>
-		<language></language>
+		<language/>
 		<platform>all</platform>
 		<license>Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) United States License</license>
 		<forum>http://forum.kodi.tv/forumdisplay.php?fid=162</forum>
 		<website>http://www.floatingpenguins.com</website>
-		<email></email>
+		<email/>
 		<source>http://github.com/jingai/skin.metropolis</source>
 		<assets>
 			<icon>resources/icon.png</icon>
