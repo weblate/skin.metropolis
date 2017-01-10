@@ -1064,6 +1064,10 @@ msgctxt "#31483"
 msgid "Banner View: Number of rows"
 msgstr ""
 
+msgctxt "#31484"
+msgid "Order"
+msgstr "Order"
+
 #empty strings from id 31484 to 31599
 #PVR Resources
 
