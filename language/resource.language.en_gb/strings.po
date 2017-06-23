@@ -845,7 +845,7 @@ msgid "TV Guide"
 msgstr ""
 
 msgctxt "#31429"
-msgid "Display Path in Video Info instead of Rating details"
+msgid "Display Path in Info Dialog instead of Rating"
 msgstr ""
 
 msgctxt "#31430"
