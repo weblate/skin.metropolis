@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.metropolis" version="3.4.30" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
+<addon id="skin.metropolis" version="3.5.7" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skinshortcuts" version="1.0.6"/>
 		<import addon="script.image.resource.select" version="0.1.1"/>
 		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
