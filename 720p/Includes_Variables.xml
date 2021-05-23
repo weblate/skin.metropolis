@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<variable name="HomeBackground">
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(thumb)]</value>
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(fanart)]</value>
-		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape)) + [String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))]">$INFO[Container(8000).ListItem.Art(landscape)]</value>
 		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(fanart)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(fanart)]</value>
 		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(landscape)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(landscape)]</value>
 		<value condition="Control.HasFocus(8000) + !String.IsEmpty(Container(8000).ListItem.Art(thumb)) + String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">$INFO[Container(8000).ListItem.Art(thumb)]</value>
