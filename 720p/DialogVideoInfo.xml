@@ -752,8 +752,8 @@
 					<imagepath fallback="DefaultThumb.png">$INFO[Control.GetLabel(3333)]</imagepath>
 					<aspectratio align="center">keep</aspectratio>
 					<visible>!String.IsEqual(ListItem.DBType,episode)</visible>
-				</control>				
-				
+				</control>
+
 				<!-- TV Show Episode Fanart Image -->
 				<control type="image">
 					<posx>912</posx>

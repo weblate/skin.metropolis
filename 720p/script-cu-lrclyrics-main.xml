@@ -36,7 +36,7 @@
 			<aligny>center</aligny>
 			<shadowcolor>black</shadowcolor>
 		</control>
-	<!-- ** Required ** Do not change <id> or <type> (Lyrics, will autoscroll if lrc based lyrics are shown) -->
+        <!-- ** Required ** Do not change <id> or <type> (Lyrics, will autoscroll if lrc based lyrics are shown) -->
 		<control type="list" id="110">
 			<left>5</left>
 			<top>65</top>
@@ -76,7 +76,7 @@
 				</control>
 			</focusedlayout>
 		</control>
-		
+
 		<control type="label">
 			<description>Pick label</description>
 			<left>5</left>

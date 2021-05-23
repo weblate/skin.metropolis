@@ -15,7 +15,7 @@
 				<texture background="true">frames/Menu_Glass2c.png</texture>
 				<colordiffuse>BackgroundColor</colordiffuse>
 			</control>
-		
+
 			<control type="group">
 				<width>1820</width>
 				<height>690</height>
@@ -31,15 +31,15 @@
 					<textcolor>GlobalHeading</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
-			</control>			
-				
+			</control>
+
 			<!-- controller selection column -->
 			<control type="group">
 				<left>65</left>
 				<width>300</width>
 				<top>90</top>
-				<height>590</height>	
-				
+				<height>590</height>
+
 				<control type="label">
 					<description>Controller profiles grouplist heading</description>
 					<top>0</top>
@@ -52,7 +52,7 @@
 					<aligny>center</aligny>
 					<textcolor>GlobalHeading</textcolor>
 				</control>
-				
+
 				<control type="grouplist" id="3">
 					<description>Controller profiles grouplist</description>
 					<top>30</top>
@@ -64,7 +64,7 @@
 					<onup>3</onup>
 					<ondown>3</ondown>
 				</control>
-				
+
 				<control type="button" id="10">
 					<description>Default controller button</description>
 					<height>30</height>
@@ -78,7 +78,7 @@
 					<texturenofocus />
 				</control>
 			</control>
-				
+
 			<!-- Game controller image -->
 			<control type="gamecontroller" id="31">
 				<left>400</left>
@@ -86,13 +86,13 @@
 				<width>480</width>
 				<height>480</height>
 			</control>
-				
+
 			<!-- button selection column -->
 			<control type="group">
 				<left>900</left>
 				<width>300</width>
 				<top>90</top>
-				<height>590</height>	
+				<height>590</height>
 				<control type="label">
 					<description>Feature list heading</description>
 					<top>0</top>
@@ -141,7 +141,7 @@
 					<shadowcolor>black</shadowcolor>
 				</control>
 			</control>
-			
+
 			<control type="image" id="9">
 				<description>Feature separator image</description>
 				<height>1</height>
@@ -169,4 +169,3 @@
 		</control>
 	</controls>
 </window>
-

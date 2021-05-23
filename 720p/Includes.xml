@@ -140,7 +140,7 @@
 		<aligny>center</aligny>
 		<include>Animation_HiddenByInfo</include>
 	</include>
-	
+
 	<include name="Global_Heading">
 		<control type="group">
 			<posx>30</posx>
@@ -186,7 +186,7 @@
 			</control>
 		</control>
 	</include>
-	
+
 	<!-- SortLetter popup when scrolling through lists quickly -->
 	<include name="Global_ScrollOffsetLabel">
 		<control type="group" id="9906">
@@ -1961,8 +1961,7 @@
 					</control>
 				</control>
 			</control>
-			
-	<!-- GameOSD controls -->
+            <!-- GameOSD controls -->
 			<control type="group">
 				<posx>225</posx>
 				<posy>6</posy>
@@ -1977,9 +1976,8 @@
                         <label>$LOCALIZE[35236] [CR]$LOCALIZE[35224] = Select + X      |      $LOCALIZE[13007] = Select + B [CR]$LOCALIZE[35222] = Select + Start      |      $LOCALIZE[13376] = Select + Right Stick</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
-				</control>	
-			</control>		
-			
+				</control>
+			</control>
 		</control>
 	</include>
 

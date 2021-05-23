@@ -228,7 +228,7 @@
 					<texturefocus>osd/osd_button_osdcmssettings_fo.png</texturefocus>
 					<texturenofocus>osd/osd_button_osdcmssettings_nf.png</texturenofocus>
 					<onclick>ActivateWindow(osdcmssettings)</onclick>
-					<visible>System.HasCMS</visible> 
+					<visible>System.HasCMS</visible>
 				</control>
 				<control type="button" id="13">
 					<description>Video Settings</description>

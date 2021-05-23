@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window> 
+<window>
 	<defaultcontrol always="true">60</defaultcontrol>
 	<controls>
 		<include>Global_Background</include>

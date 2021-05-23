@@ -740,7 +740,7 @@
 							<texture>frames/ClassicFrame_PosterMedium.png</texture>
 							<visible>!String.IsEmpty(ListItem.FileExtension) + Window.IsActive(games)</visible>
 						</control>
-						<!-- used for testing labels 
+						<!-- used for testing labels
 						<control type="label">
 							<posx>37</posx>
 							<posy>505</posy>
@@ -839,7 +839,7 @@
 				<height>24</height>
 				<onclick>ActivateWindow(10025,"videodb://movies/sets/$INFO[ListItem.SetId]/?setid=$INFO[ListItem.SetId]",return)</onclick>
 				<visible>Window.IsActive(videos) + !String.StartsWith(Container.FolderPath, videodb://movies/sets/) + !IsEmpty(ListItem.Set)</visible>
-			</control>	
+			</control>
 			<!-- Scroll Bar -->
 			<control type="scrollbar" id="998">
 				<include>Animation_OpenCloseFade</include>
@@ -858,7 +858,7 @@
 				<orientation>vertical</orientation>
 				<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(998) | Container.Scrolling">Conditional</animation>
 			</control>
-			
+
 			<control type="image">
 				<left>15</left>
 				<top>239</top>
@@ -867,8 +867,8 @@
 				<texture border="4">scrollbar-background.png</texture>
 				<animation effect="fade" start="100" end="0" time="150" condition="!Control.HasFocus(999)">Conditional</animation>
 				<visible>!Control.HasFocus(999)</visible>
-			</control>		
-	
+			</control>
+
 			<control type="panel" id="999">
 				<animation effect="fade" start="100" end="0" time="150" condition="!Control.HasFocus(999)">Conditional</animation>
 				<left>1260</left>
@@ -944,7 +944,6 @@
 						<onclick>JumpSMS2</onclick>
 						<onclick>JumpSMS2</onclick>
 					</item>
-					
 					<item id="4">
 						<label>D</label>
 						<onclick>SetFocus(55)</onclick>
@@ -966,7 +965,6 @@
 						<onclick>JumpSMS3</onclick>
 						<onclick>JumpSMS3</onclick>
 					</item>
-					
 					<item id="7">
 						<label>G</label>
 						<onclick>SetFocus(55)</onclick>
@@ -988,7 +986,6 @@
 						<onclick>JumpSMS4</onclick>
 						<onclick>JumpSMS4</onclick>
 					</item>
-					
 					<item id="10">
 						<label>J</label>
 						<onclick>SetFocus(55)</onclick>
@@ -1010,7 +1007,6 @@
 						<onclick>JumpSMS5</onclick>
 						<onclick>JumpSMS5</onclick>
 					</item>
-					
 					<item id="13">
 						<label>M</label>
 						<onclick>SetFocus(55)</onclick>
@@ -1032,7 +1028,6 @@
 						<onclick>JumpSMS6</onclick>
 						<onclick>JumpSMS6</onclick>
 					</item>
-					
 					<item id="16">
 						<label>P</label>
 						<onclick>SetFocus(55)</onclick>
@@ -1063,7 +1058,6 @@
 						<onclick>JumpSMS7</onclick>
 						<onclick>JumpSMS7</onclick>
 					</item>
-					
 					<item id="20">
 						<label>T</label>
 						<onclick>SetFocus(55)</onclick>
@@ -1085,7 +1079,6 @@
 						<onclick>JumpSMS8</onclick>
 						<onclick>JumpSMS8</onclick>
 					</item>
-					
 					<item id="23">
 						<label>W</label>
 						<onclick>SetFocus(55)</onclick>
@@ -1116,12 +1109,8 @@
 						<onclick>JumpSMS9</onclick>
 						<onclick>JumpSMS9</onclick>
 					</item>
-			
-			
 				</content>
-			</control>			
-			
-			
+			</control>
 		</control>
 	</include>
 </includes>

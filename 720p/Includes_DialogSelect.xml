@@ -222,7 +222,7 @@
 				<onup>5</onup>
 				<ondown>5</ondown>
 				<label></label>
-			</control>				
+			</control>
 		</control>
 	</include>
 
@@ -283,11 +283,11 @@
 						</control>
 					</control>
 				</focusedlayout>
-			</control>		
+			</control>
 		</control>
 	</include>
 
-			<!-- WIP ?x2 selector -->
+    <!-- WIP ?x2 selector -->
 	<include name="GameDialogSelectViewLayout">
 		<control type="group">
 			<include>Animation_CommonFade</include>
@@ -344,7 +344,7 @@
 						</control>
 					</control>
 				</focusedlayout>
-			</control>			
+			</control>
 		</control>
 	</include>
 </includes>

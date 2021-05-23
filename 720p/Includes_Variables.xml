@@ -47,11 +47,11 @@
 		<value>$INFO[Container(211).ListItem.Property(background)] + !String.StartsWith(Container(9000).ListItem.Property(background),home\)</value>
 	</variable>
 
-	<variable name="MusicDiscArt">	
+	<variable name="MusicDiscArt">
 		<value condition="!String.IsEmpty(Player.Art(album.discart))">$INFO[Player.Art(album.discart)]</value>
 		<value condition="!String.IsEmpty(Player.Art(discart))">$INFO[Player.Art(discart)]</value>
 		<value condition="!String.IsEmpty(SkinHelper.Player.Music.DiscArt)">$INFO[SkinHelper.Player.Music.DiscArt]</value>
-		<value>$INFO[ListItem.Art(discart)]</value>		
+		<value>$INFO[ListItem.Art(discart)]</value>
 	</variable>
 	<variable name="WidgetBackgroundOrderLabel">
 		<value condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))">Thumbnail-Fanart-Landscape</value>
@@ -522,13 +522,13 @@
 		<value condition="Window.IsActive(videos) + !String.IsEqual(Playlist.Length(video),0)">ActivateWindow(videoplaylist)</value>
 		<value condition="Window.IsActive(music) + !String.IsEqual(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</value>
 	</variable>
-	
+
 	<!-- Next Aired for Videoinfo -->
 	<variable name="TVShowStatus">
 		<value condition="!String.IsEmpty(Window(Home).Property(NextAired.Label))">$INFO[Window(Home).Property(NextAired.Status)]</value>
 		<value>$LOCALIZE[31472]</value>
 	</variable>
-	
+
 	<!-- Next Aired Center Sub-Heading -->
 	<variable name="GlobalSubHeadingCenter">
 		<value condition="[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !String.IsEmpty(Window(Home).Property(NextAired.NextDate)) + !String.IsEmpty(Window(Home).Property(NextAired.NextTitle))">Show Status: $INFO[Window(Home).Property(NextAired.Status)],  Next Episode: $INFO[Window(Home).Property(NextAired.NextDate),,: ]$INFO[Window(Home).Property(NextAired.NextNumber),, - ]$INFO[Window(Home).Property(NextAired.NextTitle)]</value>
@@ -539,8 +539,8 @@
 		<value condition="[Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] + !String.IsEmpty(Window(Home).Property(NextAired.Label)) + String.Contains(Window(Home).Property(NextAired.Status),New Series)">Show Status: $INFO[Window(Home).Property(NextAired.Status)], Last Episode: $INFO[Window(Home).Property(NextAired.LatestNumber),, - ]$INFO[Window(Home).Property(NextAired.LatestTitle)],  Next Episode: TBA</value>
 		<!--String.Contains(Window(Home).Property(NextAired.Status),Final Season) + -->
 		<value>$INFO[Window(Home).Property(NextAired.Status)]</value>
-		</variable>
-	
+    </variable>
+
 	<variable name="VideoHWDecoder">
 		<value condition="Player.Process(videohwdecoder)">HW</value>
 		<value>SW</value>
@@ -626,7 +626,7 @@
 		<value condition="String.EndsWith(Container.FolderPath, roleid=-1000) + !String.IsEmpty(Container.ListItem.Contributors)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38045] · $INFO[Container.ListItem.Contributors] · $INFO[Container.FolderName]</value>
 		<value condition="String.EndsWith(Container.FolderPath, roleid=-1000)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994] · $LOCALIZE[38045] · $INFO[Container.FolderName]</value>
 		<value condition="String.StartsWith(Container.FolderPath, library://music/musicroles/) + !String.EndsWith(Container.FolderPath, library://music/musicroles/)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[29994]$INFO[Container.FolderName, · ]</value>
-		
+
 		<!-- Left side music titles -->
 		<value condition="String.EndsWith(Container.FolderPath, musicdb://genres/) | String.EndsWith(Container.FolderPath, musicdb://artists/) | String.EndsWith(Container.FolderPath, musicdb://albums/) | String.EndsWith(Container.FolderPath, musicdb://songs/) | String.EndsWith(Container.FolderPath, musicdb://years/) | String.EndsWith(Container.FolderPath, library://music/top100/) | String.EndsWith(Container.FolderPath, musicdb://recentlyaddedalbums/) | String.EndsWith(Container.FolderPath, musicdb://recentlyplayedalbums/) | String.EndsWith(Container.FolderPath, musicdb://compilations/) | String.EndsWith(Container.FolderPath, special://musicplaylists/) | String.EndsWith(Container.FolderPath, library://music/musicroles/) | String.EndsWith(Container.FolderPath, sources://music/)">$INFO[System.CurrentWindow]$INFO[Container.FolderName, · ]</value>
 		<value condition="String.StartsWith(Container.FolderPath, musicdb://genres/) + !String.EndsWith(Container.FolderPath, musicdb://genres/) + !String.StartsWith(ListItem.DBType, album) + !String.StartsWith(ListItem.DBType,song)">$INFO[System.CurrentWindow,, · ]$LOCALIZE[135]$INFO[Container.FolderName, · ]</value>
