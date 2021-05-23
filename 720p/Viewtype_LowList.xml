@@ -371,7 +371,7 @@
 					<texture>frames/ClassicFrame_PosterMedium.png</texture>
 					<aspectratio>stretch</aspectratio>
 					<fadetime>300</fadetime>
-					<visible>Container.Content(seasons) + !String.IsEqual(ListItem.Icon,-) + !String.StartsWith(ListItem.Icon,default) + !String.IsEmpty(ListItem.Icon)</visible>
+					<visible>Container.Content(seasons) + !String.IsEmpty(ListItem.Art(Poster))</visible>
 				</control>
 			</control>
 			<!-- Info Details -->
