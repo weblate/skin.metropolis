@@ -28,11 +28,10 @@
 	<forcesettings>false</forcesettings>
 
 	<!-- Default widgets -->
-	<widgetdefaultnode defaultID="movies" group="mainmenu" type="movies" target="video" label="20386" path="plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=movies&amp;reload=$INFO[Window(home).Property(widgetreload-movies)]">RecentMovies</widgetdefaultnode>
-	<widgetdefaultnode defaultID="tvshows" group="mainmenu" type="episodes" target="video" label="20387" path="plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=episodes&amp;reload=$INFO[Window(home).Property(widgetreload-episodes)]">RecentEpisodes</widgetdefaultnode>
-	<widgetdefaultnode defaultID="music" group="mainmenu" type="albums" target="music" label="359" path="plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=music&amp;reload=$INFO[Window(home).Property(widgetreload-music)]">RecentAlbums</widgetdefaultnode>
-	<widgetdefaultnode defaultID="musicvideos" group="mainmenu" type="musicvideos" target="video" label="20390" path="plugin://script.skin.helper.widgets/?action=recent&amp;mediatype=musicvideos&amp;reload=$INFO[Window(home).Property(widgetreload-musicvideos)]">RecentMusicVideos</widgetdefaultnode>
-	<widgetdefaultnode defaultID="favourites" group="mainmenu" type="movies" target="videos" label="1036" path="plugin://script.skin.helper.widgets/?action=favourites&amp;mediatype=favourites&amp;reload=$INFO[Window(Home).Property(widgetreload)]$INFO[Window(Home).Property(widgetreload2)]">Favourites</widgetdefaultnode>
+	<widgetdefaultnode defaultID="movies" group="mainmenu" type="movies" target="video" label="20386" path="library://video/movies/recentlyaddedmovies.xml/">RecentMovies</widgetdefaultnode>
+	<widgetdefaultnode defaultID="tvshows" group="mainmenu" type="tvshows" target="video" label="20387" path="library://video/tvshows/recentlyaddedepisodes.xml/">RecentEpisodes</widgetdefaultnode>
+	<widgetdefaultnode defaultID="music" group="mainmenu" type="music" target="music" label="359" path="musicdb://recentlyaddedalbums/">RecentAlbums</widgetdefaultnode>
+	<widgetdefaultnode defaultID="musicvideos" group="mainmenu" type="musicvideos" target="video" label="20390" path="library://video/musicvideos/recentlyaddedmusicvideos.xml/">RecentMusicVideos</widgetdefaultnode>
 	<widgetdefault defaultID="livetv" group="mainmenu">PVRStatusWidget</widgetdefault>
 	<widgetdefault defaultID="weather" group="mainmenu">WeatherForecastWidget</widgetdefault>
 
