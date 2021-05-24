@@ -1,87 +1,31 @@
-3.5.0-beta10 (aka 3.4.30) - 20190510
--Added a "Zoomed" fontset for the visually impaired. It obviously looks a little funny in places because Metropolis was never meant to have it's fonts be 25% larger. It's there if you want to use it.
--Fixed the missing studio and codec icons in the music visualization screen.
--Fixed missing cdart support for Kodi 18.
--Added Clearlogos for music artists and a setting to turn it off and on.
--Added a larger CD case,discart and codec info tiles when you turn off the clock under music visualization settings. (per user suggestion)
-
-3.5.0-beta9 (aka 3.4.29) - 20190429
--Added the ability to sort the order in which widget main menu background is displayed.
--Fixed the widget label to work even if the widget's contents are not in the databade (folder list).
-
-3.5.0-beta8 (aka 3.4.28) - 20190427
--Added support for fanart and thumbs to background of main menu when widget is selected.
-
-3.5.0-beta7 (aka 3.4.27) - 20190324
--Added support for GameOSD poster and info
--Removed all artwork.downloader support and added artwork.beef
-
-3.5.0-beta6 (aka 3.4.26) - 20190324
--Removed random character on listview error
--Updated skinshortcuts features to include Enable and Disable ability
--Updated Next-Aired features to cover all show states
--Update Font.xml to not point to mising font
-
-3.5.0-beta5 (aka 3.4.25) - 20190308
-- Added Next-Aired back to the VideoNav Windows (I don't know when I lost it)
-
-3.5.0-beta4 (aka 3.4.24) - 20190301
-- Fixes to allow the sub-menus to work under the changes made back between Kodi 18 RC1 & RC2.
-- Added breadcrumbs for Roles
-- Added DTSHRA, DTSHD-HRA Media Flags
-- Skin support for Lyrics script
-
-3.5.0-beta3 (aka 3.4.22) - 20181205
-- New feature - Display sets icon if item is part of a set
-- New feature - Jump-to-letter.
-
-3.5.0-beta2 (aka 3.4.21) - 20181119
-- Added extra color profiles.
-- xbmc.gui bumped to 5.14.0.
-
-3.5.0-beta1 (aka 3.4.20) - 20181105
-- Fix for plot running into playback rate
-- Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3)
-
-3.5.0-alpha4 (aka 3.4.18) - 20181027
-- Fix for transparent Addon dialog
-- Add and fix missing Game menu items 
-- Fix for Favourites submenu after update
-- Fixed Home Furniture submenu transparent issue
-- 2018-07-29 New InfoBool: Player.FrameAdvance
-- 2018-10-03 DialogAddonInfo.xml - new dependencies button
-- Added support for included "Games" menu item
-- Fixed dialog order for various windows
-- 2018-01-16 MyPVRGuide.xml - channel group selection list
-- 2018-03-16 time formatting options
-- 2017-11-25 DialogTextViewer.xml - monofont option
-- 2018-02-19 new dialog - osdsubtitlesettings
-- 2017-12-28 new / renamed infolabels
-- Fixed some random errors in DialogAddonSettings.xml, DialogPictureInfo.xml, Includes_Animations.xml, MusicVisualisation.xml, MyGames.xml, Viewtype_LowList.xml, abd script_rating_update-main.xml
-- 2016-08-4 playspeed control
-- 2016-07-01 colormanagement support
-- Added 3d icon to list view
-- Added support to launch ExtendedInfo script from video info
-- Added missing icons per jingai#106
-- Fix for issue jingai#139
-- Removed old numbers for Music and Videos that had been removed from Kodi
-- Fix for the the deprecated "IsEmpty" in Leia
-- Fix for 2017-06-14 Changes to DialogAddonSettings.xml
-- 2017-12-01 renamed infolabels / builtin
-- 2017-11-21 removed infolabels
-- 2017-10-10 MyMusicPlaylistEditor.xml - add view definition
-- 2017-06-14 Changes to DialogAddonSettings.xml
-- 2017-03-20 DialogPVRGroupManager.xml - radio channel groups
-- 2017-03-21 new infolabels
-- 2017-03-17 onclick made optional for static listitems
-- 2017-03-13 DialogPVRChannelGuide.xml
-- 2017-02-24 drop support for using hyphen as none value
-- 2017-02-23 MyPVRRecordings.xml - watched toggle
-- 2016-12-17 changed infolabel
-- 2016-12-12 removed infobools
-- 2016-12-01 games support
-- New dialog GameOSD.xml
-- xbmc.gui bump to 5.13.0
+4.0.0 - 20210524
+- Add "Zoomed" fontset for the visually impaired.
+- Fix missing studio and codec icons in the music visualization screen.
+- Fix missing cdart in Kodi 18+.
+- Add clearlogos for music artists and a setting to toggle it.
+- Add a larger CD case, discart, and codec info tiles when clock is disabled.
+- Add the ability to sort the order in which the widget main menu background is displayed.
+- Remove all artwork.downloader and add artwork.beef.
+- Update skinshortcuts features to include Enable and Disable ability.
+- Update Next-Aired features to cover all show states.
+- Add breadcrumbs for Roles.
+- Add DTSHRA and DTSHD-HRA media flags.
+- Add support for lyrics script.
+- Display sets icon if item is part of a set.
+- Add jump-to-letter.
+- Add extra color profiles.
+- Fix for plot running into playback rate.
+- Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3).
+- Fix for transparent Addon dialog.
+- Fix Home Furniture submenu transparent issue.
+- Fixed dialog order for various windows.
+- Add time formatting options.
+- Add playspeed control.
+- Add color management support.
+- Add 3d icon to list view.
+- Add support to launch ExtendedInfo script from video info.
+- Add missing icons.
+- Add Games support.
 
 3.4.3 - 20170627
 - Show year/duration/etc in List Fanart view.

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.metropolis" version="3.5.7" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
+<addon id="skin.metropolis" version="4.0.0" name="Metropolis" provider-name="jingai, Stoli, Amra, MacGyver">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.skinshortcuts" version="1.0.6"/>
+		<import addon="script.skinshortcuts" version="1.0.17"/>
+		<!--<import addon="script.tv.show.next.aired" version="6.0.10"/>-->
+		<!--<import addon="script.skin.helper.service" version="1.1.3"/>-->
 		<import addon="script.image.resource.select" version="0.1.1"/>
 		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
 		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
@@ -88,6 +90,6 @@
 			<screenshot>resources/screenshot08.jpg</screenshot>
 			<screenshot>resources/screenshot09.jpg</screenshot>
 		</assets>
-		<news></news>
+		<news>[I]4.0.0[/I][CR]- Add "Zoomed" fontset for the visually impaired.[CR]- Fix missing studio and codec icons in the music visualization screen.[CR]- Fix missing cdart in Kodi 18+.[CR]- Add clearlogos for music artists and a setting to toggle it.[CR]- Add a larger CD case, discart, and codec info tiles when clock is disabled.[CR]- Add the ability to sort the order in which the widget main menu background is displayed.[CR]- Remove all artwork.downloader and add artwork.beef.[CR]- Update skinshortcuts features to include Enable and Disable ability.[CR]- Update Next-Aired features to cover all show states.[CR]- Add breadcrumbs for Roles.[CR]- Add DTSHRA and DTSHD-HRA media flags.[CR]- Add support for lyrics script.[CR]- Display sets icon if item is part of a set.[CR]- Add jump-to-letter.[CR]- Add extra color profiles.[CR]- Fix for plot running into playback rate.[CR]- Fix for mp3 audio codec icon until a real Kodi fix is submitted (returns mp3float instead of mp3).[CR]- Fix for transparent Addon dialog.[CR]- Fix Home Furniture submenu transparent issue.[CR]- Fixed dialog order for various windows.[CR]- Add time formatting options.[CR]- Add playspeed control.[CR]- Add color management support.[CR]- Add 3d icon to list view.[CR]- Add support to launch ExtendedInfo script from video info.[CR]- Add missing icons.[CR]- Add Games support.</news>
 	</extension>
 </addon>
