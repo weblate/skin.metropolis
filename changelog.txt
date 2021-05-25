@@ -1,4 +1,4 @@
-4.0.0 - 20210524
+4.0.1 - 20210525
 - Add "Zoomed" fontset for the visually impaired.
 - Fix missing studio and codec icons in the music visualization screen.
 - Fix missing cdart in Kodi 18+.
