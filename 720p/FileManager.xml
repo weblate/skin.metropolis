@@ -28,7 +28,7 @@
 				<scroll>true</scroll>
 			</control>
 			<control type="list" id="20">
-				<viewtype label="31752">list</viewtype>
+				<viewtype>list</viewtype>
 				<posx>0</posx>
 				<posy>174</posy>
 				<width>610</width>
@@ -121,7 +121,7 @@
 				<scroll>true</scroll>
 			</control>
 			<control type="list" id="21">
-				<viewtype label="31752">list</viewtype>
+				<viewtype>list</viewtype>
 				<posx>0</posx>
 				<posy>174</posy>
 				<width>610</width>

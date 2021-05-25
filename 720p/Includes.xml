@@ -1068,9 +1068,15 @@
 			</control>
 			<control type="label">
 				<description>Live TV Settings</description>
-				<label>$LOCALIZE[32022]</label>
+				<label>$LOCALIZE[31601]</label>
 				<include>Global_HeadingDetailVars</include>
 				<visible>Window.IsActive(pvrsettings)</visible>
+			</control>
+			<control type="label">
+				<description>Games Settings</description>
+				<label>$LOCALIZE[31460]</label>
+				<include>Global_HeadingDetailVars</include>
+				<visible>Window.IsActive(gamesettings)</visible>
 			</control>
 			<control type="label">
 				<description>Profiles</description>

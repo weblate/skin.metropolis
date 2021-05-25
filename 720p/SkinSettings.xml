@@ -276,7 +276,7 @@
 						<include>SettingsLabel</include>
 						<onfocus condition="String.IsEmpty(Skin.String(WidgetBackgroundOrder))">Skin.SetString(WidgetBackgroundOrder,thumb)</onfocus>
 						<label2>$VAR[WidgetBackgroundOrderLabel]</label2>
-						<label>Set Widget Background Display Order</label>
+						<label>$LOCALIZE[31323]</label>
 						<onclick condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),thumb) | String.IsEmpty(Skin.String(WidgetBackgroundOrder))">Skin.SetString(WidgetBackgroundOrder,fanart)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),fanart)">Skin.SetString(WidgetBackgroundOrder,landscape)</onclick>
 						<onclick condition="String.IsEqual(Skin.String(WidgetBackgroundOrder),landscape)">Skin.SetString(WidgetBackgroundOrder,thumb)</onclick>

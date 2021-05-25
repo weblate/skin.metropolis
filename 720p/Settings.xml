@@ -270,11 +270,11 @@
 				<include>Animation_CommonFadeNoHide</include>
 				<control type="label">
 					<include>SettingsHeadingVars</include>
-					<label>Game Settings</label>
+					<label>$LOCALIZE[31460]</label>
 				</control>
 				<control type="label">
 					<include>SettingsDetailVars</include>
-					<label>Setup rewind functions and controller settings</label>
+					<label>$LOCALIZE[31219]</label>
 				</control>
 			</control>
 		</control>
