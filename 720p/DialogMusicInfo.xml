@@ -112,7 +112,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Artist]</label>
+					<label>$INFO[ListItem.Artist]</label>
 				</control>
 				<!-- Album Studio -->
 				<control type="label">
@@ -132,7 +132,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Album_Label)]</label>
+					<label>$INFO[ListItem.Property(Album_Label)]</label>
 				</control>
 				<!-- Album Styles -->
 				<control type="label">
@@ -152,7 +152,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Album_Style)]</label>
+					<label>$INFO[ListItem.Property(Album_Style)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -174,7 +174,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Album_Mood)]</label>
+					<label>$INFO[ListItem.Property(Album_Mood)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -187,7 +187,7 @@
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
 					<align>justify</align>
-					<label fallback="161">$INFO[ListItem.Property(Album_Description)]</label>
+					<label>$INFO[ListItem.Property(Album_Description)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollLong</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollLongFast</include>
 					<visible>!Control.IsVisible(50)</visible>
@@ -240,7 +240,7 @@
 					<aligny>center</aligny>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Artist]</label>
+					<label>$INFO[ListItem.Artist]</label>
 				</control>
 				<!-- Song Path -->
 				<control type="textbox">
@@ -273,7 +273,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Year]</label>
+					<label>$INFO[ListItem.Year]</label>
 				</control>
 				<!-- Song Album -->
 				<control type="label">
@@ -293,7 +293,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Album]</label>
+					<label>$INFO[ListItem.Album]</label>
 				</control>
 				<!-- Song Genre -->
 				<control type="label">
@@ -313,7 +313,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Genre]</label>
+					<label>$INFO[ListItem.Genre]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -335,7 +335,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Mood]</label>
+					<label>$INFO[ListItem.Mood]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -348,7 +348,7 @@
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
 					<align>justify</align>
-					<label fallback="161">$INFO[ListItem.Comment]</label>
+					<label>$INFO[ListItem.Comment]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollLong</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollLongFast</include>
 					<visible>!Control.IsVisible(50)</visible>
@@ -401,7 +401,7 @@
 					<aligny>center</aligny>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label  fallback="161">$INFO[ListItem.Property(Artist_YearsActive)]</label>
+					<label>$INFO[ListItem.Property(Artist_YearsActive)]</label>
 				</control>
 				<!-- Artist Genre -->
 				<control type="label">
@@ -432,7 +432,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Artist_Formed)]</label>
+					<label>$INFO[ListItem.Property(Artist_Formed)]</label>
 				</control>
 				<!-- Artist Disbanded -->
 				<control type="label">
@@ -452,7 +452,7 @@
 					<align>center</align>
 					<font>METF_InfoText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Artist_Disbanded)]</label>
+					<label>$INFO[ListItem.Property(Artist_Disbanded)]</label>
 				</control>
 				<!-- Artist Styles -->
 				<control type="label">
@@ -472,7 +472,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Artist_Style)]</label>
+					<label>$INFO[ListItem.Property(Artist_Style)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -494,7 +494,7 @@
 					<align>center</align>
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
-					<label fallback="161">$INFO[ListItem.Property(Artist_Mood)]</label>
+					<label>$INFO[ListItem.Property(Artist_Mood)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollShort</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollShortFast</include>
 				</control>
@@ -507,7 +507,7 @@
 					<font>METF_PlotText</font>
 					<textcolor>TextNF</textcolor>
 					<align>justify</align>
-					<label fallback="161">$INFO[ListItem.Property(Artist_Description)]</label>
+					<label>$INFO[ListItem.Property(Artist_Description)]</label>
 					<include condition="!Skin.HasSetting(AutoScrollFast)">AutoScrollLong</include>
 					<include condition="Skin.HasSetting(AutoScrollFast)">AutoScrollLongFast</include>
 					<visible>!Control.IsVisible(50)</visible>

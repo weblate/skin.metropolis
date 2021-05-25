@@ -126,7 +126,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<include>SettingsLabel</include>
-				<label fallback="161">$INFO[ListItem.Genre]</label>
+				<label>$INFO[ListItem.Genre]</label>
 			</control>
 			<control type="textbox" id="400">
 				<description>TV Channel Plot</description>
