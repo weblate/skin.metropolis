@@ -32,7 +32,7 @@
 			<control type="grouplist" id="2001">
 				<posx>292</posx>
 				<posy>650</posy>
-				<width>775</width>
+				<width>780</width>
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<onleft>800</onleft>
