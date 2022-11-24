@@ -42,6 +42,18 @@
 						<texture>$INFO[ListItem.Icon]</texture>
 						<aspectratio>stretch</aspectratio>
 					</control>
+					<control type="label">
+						<posx>15</posx>
+						<posy>328</posy>
+						<width>150</width>
+						<height>30</height>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>METF_StarRating</font>
+						<textcolor>HelpText</textcolor>
+						<shadowcolor>Black</shadowcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
 					<control type="image">
 						<posx>5</posx>
 						<posy>59</posy>
@@ -130,7 +142,7 @@
 					</item>
 					<item id="10">
 						<description>Games</description>
-						<label>Game Settings</label>
+						<label>$LOCALIZE[31460]</label>
 						<icon>settings/settings_games.png</icon>
 						<onclick>ActivateWindow(GameSettings)</onclick>
 					</item>
