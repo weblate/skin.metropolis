@@ -1,3 +1,10 @@
+4.1.0 - 20230701
+- Update Steampunk theme Settings images.
+- Fix poster view while playing.
+- Add Favorites to overrides.
+- Update HEVC media flag.
+- Required changes for Kodi 20 (Nexus).
+
 4.0.1 - 20210525
 - Add "Zoomed" fontset for the visually impaired.
 - Fix missing studio and codec icons in the music visualization screen.

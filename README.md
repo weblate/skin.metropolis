@@ -2,4 +2,4 @@
 
 Metropolis skin for Kodi
 
-WIP for Kodi 19
+For Kodi 20 (Nexus)
