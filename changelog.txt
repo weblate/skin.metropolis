@@ -1,3 +1,8 @@
+4.2.0 - 20240824
+- Add Director to DialogVideoInfo.
+- Update media flags.
+- Required changes for Kodi 21 (Omega).
+
 4.1.0 - 20230701
 - Update Steampunk theme Settings images.
 - Fix poster view while playing.
